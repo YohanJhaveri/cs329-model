@@ -181,7 +181,7 @@ def convert_word_to_number(text):
             words.clear()
 
     return result
-  except e:
+  except:
     return text
 
 
@@ -195,9 +195,10 @@ def handle_unit_decimal_fraction(text):
     stripped = [token.strip() for token in tokens if token.strip()]
     text = " ".join(stripped)
     text = re.sub("P&O&I&N&T", ".", text)
-    text = re.sub("P&O&I&N&T", "", text)
+    text = re.sub("C&O&M&M&A", "", text)
     text = re.sub("F&R&A&C&T", "/", text)
-    text = re.sub(r"(\d+)\/(\d+)", r"\1C&O&M&M&A\2", text) #handles fractions
+
+    print(text)
 
     while True:
         m = re.search("(\d+)\/(\d+)", text)
@@ -210,12 +211,12 @@ def handle_unit_decimal_fraction(text):
 
 
 def clean(text):
+  text = re.sub(r"(\d+),(\d+)", r"\1\2", text)
   text = remove_accents(text)
   text = expand_contractions(text)
   text = convert_word_to_number(text)
   text = remove_punctuation(text)
   text = handle_unit_decimal_fraction(text)
-
   doc = nlp(text)
   text = perform_spell_check(doc)
 
