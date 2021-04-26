@@ -544,6 +544,7 @@ def match_item(food):
 
 
 def clean_unit(unit):
+  unit = unit.lower()
   if unit in ALIAS: return ALIAS[unit]
   elif unit[-1] == "s" and unit[:-1] in ALIAS: return ALIAS[unit[:-1]]
   elif unit[-1] == "." and unit[:-1] in ALIAS: return ALIAS[unit[:-1]]
