@@ -46,7 +46,7 @@ def remove_accents(text):
 
 def remove_punctuation(text):
   # removes all non-alphanumeric characters except ( % | & | $ )
-  tokens = re.split(r"[^a-zA-Z0-9'%&./]", text)
+  tokens = re.split(r"[^a-zA-Z0-9'%&./,]", text)
   stripped = [token.strip() for token in tokens if token.strip()]
   return " ".join(stripped)
 
@@ -110,87 +110,94 @@ def convert_word_to_number(text):
 
     if t: tokens.append(t)
     return tokens
-  # regular expression to find written number words and digits
-  r = re.compile(r'(\d)|\b(zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|fourty|fifty|sixty|seventy|eight|ninety|hundred|thousand|million|billion|point)\b')
-  r_digits = re.compile(r'(\d)')
 
-  tokens = tokenize_regex(text)
-  for t in tokens:
-      if r_digits.match(t) and re.search('[a-zA-Z]', t):
-          for index in range(len(t)):
-              if re.search('[a-zA-Z]', t[index]) :
-                  new_token = t[0:index] + " " + t[index:]
-                  text = text.replace(t, new_token)
-                  break
-  result = text
-  tokens = tokenize_regex(text)
+  try:
+    # regular expression to find written number words and digits
+    r = re.compile(r'(\d)|\b(zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|fourty|fifty|sixty|seventy|eight|ninety|hundred|thousand|million|billion|point)\b')
+    r_digits = re.compile(r'(\d)')
 
-  words = []
+    tokens = tokenize_regex(text)
+    for t in tokens:
+        if r_digits.match(t) and re.search('[a-zA-Z]', t):
+            for index in range(len(t)):
+                if re.search('[a-zA-Z]', t[index]) :
+                    new_token = t[0:index] + " " + t[index:]
+                    text = text.replace(t, new_token)
+                    break
+    result = text
+    tokens = tokenize_regex(text)
 
-  fraction = False
-  symbols_exist = False
-  mix = False
-  for index in range(len(tokens)):
+    words = []
 
-      # if we find a word that represents a number
-      if r.match(tokens[index].lower()):
-          words.append(tokens[index])
+    fraction = False
+    symbols_exist = False
+    mix = False
+    for index in range(len(tokens)):
 
-      # if we find a fraction
-      elif index+1 < len(tokens) and tokens[index].lower() == 'out' and tokens[index+1].lower() == 'of':
-          words.append(tokens[index])
-          words.append(tokens[index+1])
-          fraction = True
+        # if we find a word that represents a number
+        if r.match(tokens[index].lower()):
+            words.append(tokens[index])
 
-      # if we reach here, then tokens[index] is not a number word but our previous token(s) were number words
-      elif words:
-          old, replace = "", ""
-          for w in words:
-              if '/' in w or '%' in w: symbols_exist = True
-              elif r_digits.match(w):
-                  replace = old + num2words(w) + " "
-                  mix = True
-              elif mix: replace = replace + w + " "
-              old = old + w + " "
+        # if we find a fraction
+        elif index+1 < len(tokens) and tokens[index].lower() == 'out' and tokens[index+1].lower() == 'of':
+            words.append(tokens[index])
+            words.append(tokens[index+1])
+            fraction = True
 
-          old = old[:-1]
-          if replace: replace = replace[:-1]
-          if symbols_exist:
-              continue
-              symbols_exist = False
+        # if we reach here, then tokens[index] is not a number word but our previous token(s) were number words
+        elif words:
+            old, replace = "", ""
+            for w in words:
+                if '/' in w or '%' in w: symbols_exist = True
+                elif r_digits.match(w):
+                    replace = old + num2words(w) + " "
+                    mix = True
+                elif mix: replace = replace + w + " "
+                old = old + w + " "
 
-          # if old contains "out of", then we add a slash for the fraction
-          elif "out of" in old:
-              if r_digits.match(old): result = result.replace(" out of", "/")
-              else: result = result.replace(old, str(w2n.word_to_num(str(old))) + '/')
+            old = old[:-1]
+            if replace: replace = replace[:-1]
+            if symbols_exist:
+                continue
+                symbols_exist = False
 
-          # if we didn't have this "six out of ten" would be converted to "6/ 10" instead of "6/10"
-          elif fraction:
-              result = result.replace(" " + old, str(w2n.word_to_num(old)))
-              fraction = False
+            # if old contains "out of", then we add a slash for the fraction
+            elif "out of" in old:
+                if r_digits.match(old): result = result.replace(" out of", "/")
+                else: result = result.replace(old, str(w2n.word_to_num(str(old))) + '/')
 
-          # if the text we are converting has a mix of words and digits (eg. "fifty 4")
-          elif mix:
-              result = result.replace(old, str(w2n.word_to_num(replace)))
-              mix = False
+            # if we didn't have this "six out of ten" would be converted to "6/ 10" instead of "6/10"
+            elif fraction:
+                result = result.replace(" " + old, str(w2n.word_to_num(old)))
+                fraction = False
 
-          # w2n.word_to_num() handles the conversion of the number words to number form
-          else: result = result.replace(old, str(w2n.word_to_num(old)))
-          words.clear()
+            # if the text we are converting has a mix of words and digits (eg. "fifty 4")
+            elif mix:
+                result = result.replace(old, str(w2n.word_to_num(replace)))
+                mix = False
 
-  return result
+            # w2n.word_to_num() handles the conversion of the number words to number form
+            else: result = result.replace(old, str(w2n.word_to_num(old)))
+            words.clear()
+
+    return result
+  except e:
+    return text
 
 
 def handle_unit_decimal_fraction(text):
       # removes all non-alphanumeric characters except ( % | & | $ )
     text = re.sub(r"(\d+)([a-zA-Z]+)", r"\1 \2", text) # handles units
     text = re.sub(r"(\d+)\/(\d+)", r"\1F&R&A&C&T\2", text) #handles fractions
+    text = re.sub(r"(\d+)\,(\d+)", r"\1C&O&M&M&A\2", text) #handles commas
     text = re.sub(r"(\d+)\.(\d+)", r"\1P&O&I&N&T\2", text) #handles decimals
-    tokens = re.split(r"[^a-zA-Z0-9'%&.]", text)
+    tokens = re.split(r"[^a-zA-Z0-9'%&]", text)
     stripped = [token.strip() for token in tokens if token.strip()]
     text = " ".join(stripped)
     text = re.sub("P&O&I&N&T", ".", text)
+    text = re.sub("P&O&I&N&T", "", text)
     text = re.sub("F&R&A&C&T", "/", text)
+    text = re.sub(r"(\d+)\/(\d+)", r"\1C&O&M&M&A\2", text) #handles fractions
 
     while True:
         m = re.search("(\d+)\/(\d+)", text)
@@ -207,6 +214,7 @@ def clean(text):
   text = expand_contractions(text)
   text = convert_word_to_number(text)
   text = remove_punctuation(text)
+  text = handle_unit_decimal_fraction(text)
 
   doc = nlp(text)
   text = perform_spell_check(doc)
@@ -214,7 +222,6 @@ def clean(text):
   doc = nlp(text)
   text = convert_plural_to_singular(doc)
 
-  text = handle_unit_decimal_fraction(text)
 
   return text
 
