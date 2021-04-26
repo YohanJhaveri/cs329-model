@@ -195,7 +195,7 @@ def handle_unit_decimal_fraction(text):
     while True:
         m = re.search("(\d+)\/(\d+)", text)
         if m:
-            text = text[:m.span()[0]] + str(int(m.group(1)) // int(m.group(2))) + text[m.span()[1]:]
+            text = text[:m.span()[0]] + str(float(m.group(1)) / float(m.group(2))) + text[m.span()[1]:]
         else:
             break
 
