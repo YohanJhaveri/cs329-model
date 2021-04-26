@@ -256,7 +256,7 @@ def unit_extractor(tokens):
 
 
 def is_unit(token):
-  token = token.lemma_
+  token = token.lemma_.lower()
   if token in UNITS: return True
   elif token[-1] == "s" and token[:-1] in UNITS: return True
   elif token[-1] == "." and token[:-1] in UNITS: return True
@@ -302,7 +302,7 @@ def recognize_ngram(tokens, gazetteer):
     for j in range(i+1, len(tokens)+1):
       key = ' '.join(tokens[i:j])
 
-      val = gazetteer.get(key, None)
+      val = gazetteer.get(key.lower(), None)
       if val:
         entities.append((key, i, j, val))
         continue
@@ -315,7 +315,7 @@ def recognize_ngram(tokens, gazetteer):
 
 
       # checks if unit
-      unit = ((j - i) == 1) and is_unit(doc[i])
+      unit = ((j - i) == 1) and is_unit(doc[i].lower())
       if unit:
         entities.append((key, i, j, {"UNIT"}))
         continue
