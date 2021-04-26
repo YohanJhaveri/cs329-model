@@ -13,7 +13,8 @@
     "gallon": 3785.41,
     "jug": 1136.52,
     "keg": 117348,
-    "pitcher": 1892.71
+    "pitcher": 1892.71,
+    "milliliter": 1
   },
 
   "mass_to_gram": {
