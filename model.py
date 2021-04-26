@@ -315,7 +315,7 @@ def recognize_ngram(tokens, gazetteer):
 
 
       # checks if unit
-      unit = ((j - i) == 1) and is_unit(doc[i].lower())
+      unit = ((j - i) == 1) and is_unit(doc[i])
       if unit:
         entities.append((key, i, j, {"UNIT"}))
         continue
