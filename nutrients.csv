@@ -1,0 +1,2063 @@
+,Name,Protein,Carbohydrate,Fat,Mass(g),Volume
+0,abalone specie,17.1,6.01,0.36,85.0,3 oz
+1,abiyuch,1.5,17.6,0.014,114.0,.5 cup
+2,acerola juice,0.4,4.8,0.24000000000000002,242.0,1 cup
+3,acorn,6.15,40.75,22.807,28.35,1 oz
+4,acorn dry,8.1,53.66,30.032,28.35,1 oz
+5,adzuki bean sugar,3.29,60.72,0.07999999999999999,14.0,1 slice
+6,agutuk fish ice,9.0,10.5,41.5,,1 count
+7,agutuk meat ice,21.7,0.9,17.4,,1 count
+8,air pop,12.94,77.78,3.9050000000000002,8.0,1 cup
+9,alfalfa seed sprout,3.99,2.1,0.534,33.0,1 cup
+10,allspice ground,6.09,72.12,5.57,1.9,1 tsp
+11,almond,21.15,21.55,47.682,143.0,1 cup
+12,almond blanch,21.4,18.67,49.736000000000004,145.0,1 cup
+13,almond honey roast,18.17,27.9,47.604000000000006,144.0,1 cup
+14,almond oil salt,21.23,17.68,52.519999999999996,157.0,1 cup
+15,almond salt,20.96,21.01,50.123,138.0,1 cup
+16,anchovy raw,20.35,0.0,4.101,85.0,3 oz
+17,anise seed,17.6,50.02,13.516,2.1,1 tsp
+18,apple dry sulfur,0.93,65.89,0.158,86.0,1 cup
+19,apple freeze,0.28,12.31,0.161,173.0,1 cup
+20,apple freeze heat,0.29,12.0,0.161,206.0,1 cup
+21,apple fuji skin,0.2,15.22,0.0,109.0,1 cup
+22,apple gala skin,0.25,13.68,0.0,109.0,1 cup
+23,apple moist sulfur,1.32,93.53,0.29000000000000004,60.0,1 cup
+24,apple reduce skin,0.27,14.06,0.0,109.0,1 cup
+25,apple skin,0.28,13.6,0.0,109.0,1 cup
+26,applebee chili,12.56,4.57,9.603,136.0,1 cup
+27,applebee coleslaw,0.79,13.17,6.284,76.0,1 count
+28,applebee crunch shrimp,12.31,25.96,17.283,206.0,1 count
+29,applebee fr,3.31,39.5,11.445,164.0,1 count
+30,applebee onion ring,4.58,40.17,18.237000000000002,350.0,1 count
+31,apricot,0.7,64.4,0.01,20.0,1 tbsp
+32,apricot dry sulfur,3.39,62.64,0.16499999999999998,130.0,1 cup
+33,apricot freeze sweeten,0.7,25.1,0.071,242.0,1 cup
+34,apricot pack skin,0.71,6.39,0.111,243.0,1 cup
+35,area,0.63,8.08,0.051000000000000004,230.0,1 cup
+36,arrowhead,5.33,20.23,0.0,25.0,1 count
+37,arrowroot,4.24,13.39,0.135,120.0,1 cup
+38,arrowroot flour,0.3,88.15,0.066,128.0,1 cup
+39,arugula,2.58,3.65,0.454,2.0,1 count
+40,avocado california,1.96,8.64,13.741,230.0,1 cup
+41,avocado florida,2.23,7.82,9.149,230.0,1 cup
+42,avocado variety,2.0,8.53,13.741,150.0,1 cup
+43,babyfood,6.7,86.89,2.038,2.5,1 tbsp
+44,babyfood carrot toddler,0.6,5.23,0.212,28.35,1 oz
+45,babyfood cereal banana,10.7,77.1,3.803,2.5,1 tbsp
+46,babyfood cereal dry,6.66,78.21,3.672,2.5,1 tbsp
+47,babyfood cereal egg,2.5,6.2,4.4879999999999995,28.35,1 oz
+48,babyfood cereal honey,13.5,69.3,0.0,2.4,1 tbsp
+49,babyfood cereal milk,4.14,12.3,2.959,28.35,1 oz
+50,babyfood cherry cobbler,0.3,19.2,0.07,28.35,1 oz
+51,babyfood cookie,11.8,67.1,11.22,28.35,1 oz
+52,babyfood cookie arrowroot,7.6,75.4,9.560999999999998,28.35,1 oz
+53,babyfood cracker,8.4,66.85,18.767,0.7,1 count
+54,babyfood dessert fruit,0.2,16.4,0.0,28.35,1 oz
+55,babyfood dinner,1.6,9.2,0.7909999999999999,16.0,1 tbsp
+56,babyfood dinner strain,2.0,7.7,0.0,28.35,1 oz
+57,babyfood dinner toddler,5.0,8.8,0.0,28.35,1 oz
+58,babyfood dinner vegetable,1.01,7.88,0.0,99.0,1 count
+59,babyfood fruit,0.2,12.4,0.10899999999999999,16.0,1 tbsp
+60,babyfood fruit applesauce,0.0,10.3,0.0,16.0,1 tbsp
+61,babyfood fruit dessert,0.5,17.18,0.123,15.0,1 tbsp
+62,babyfood fruit medley,0.31,12.22,0.0,,1 count
+63,babyfood fruit peach,0.94,14.48,0.07,17.0,1 tbsp
+64,babyfood fruit pear,0.3,11.6,0.05,16.0,1 tbsp
+65,babyfood fruit strain,0.2,11.64,0.106,16.0,1 tbsp
+66,babyfood fruit tapioca,0.2,18.4,0.065,15.0,1 tbsp
+67,babyfood green,4.1,5.35,1.19,14.0,1 tbsp
+68,babyfood juice,0.2,10.5,0.051,31.2,1 fl oz
+69,babyfood juice apple,0.0,11.7,0.051,31.7,1 fl oz
+70,babyfood juice orange,0.6,10.2,0.14500000000000002,31.2,1 fl oz
+71,babyfood juice pear,0.0,11.86,0.0,31.2,1 fl oz
+72,babyfood meat beef,12.03,2.43,2.29,28.35,1 oz
+73,babyfood meat ham,11.3,3.7,3.591,28.35,1 oz
+74,babyfood meat lamb,15.2,0.0,4.84,28.35,1 oz
+75,babyfood meat turkey,11.5,1.4,5.766,19.0,1 tbsp
+76,babyfood meat veal,13.12,1.51,2.274,16.0,1 tbsp
+77,babyfood plum strain,1.1,12.7,0.25,28.35,1 oz
+78,babyfood potato toddler,1.0,11.73,0.042,163.0,1 cup
+79,babyfood pretzel,10.8,82.2,1.6920000000000002,28.35,1 oz
+80,babyfood rice,3.4,11.49,0.46,230.0,1 cup
+81,babyfood rice strain,1.9,12.1,1.43,230.0,1 cup
+82,babyfood teethe biscuit,10.7,76.4,3.9059999999999997,28.35,1 oz
+83,babyfood toddler,3.5,11.2,2.4,113.0,1 count
+84,babyfood turkey toddler,3.8,7.5,1.364,28.35,1 oz
+85,babyfood vegetable,2.2,9.0,1.7880000000000003,113.0,1 jar
+86,babyfood vegetable bean,1.2,5.8,0.079,240.0,1 cup
+87,babyfood vegetable butternut,2.0,9.26,0.541,113.0,1 jar
+88,babyfood vegetable carrot,0.8,7.2,0.138,224.0,1 cup
+89,babyfood vegetable potato,1.1,14.0,0.069,224.0,1 cup
+90,babyfood vegetable squash,0.81,5.73,0.08,16.0,1 tbsp
+91,bacon,20.31,1.34,2.4570000000000003,85.0,3 oz
+92,bacon beef stick,29.1,0.8,42.199999999999996,28.0,1 oz
+93,bacon bit meatless,32.0,28.6,23.828,7.0,1 tbsp
+94,bacon meatless,11.69,5.31,27.158,144.0,1 cup
+95,bacon turkey na,13.33,4.8,19.512999999999998,15.0,1 count
+96,bagel cinnamon raisin,9.8,55.2,1.12,26.0,1 count
+97,bagel egg,10.6,53.0,1.483,28.35,1 oz
+98,bagel grain,9.3,54.52,0.0,43.0,.5 piece
+99,bagel multigrain,9.9,47.47,1.014,81.0,1 piece
+100,bagel oat bran,10.7,53.3,0.9259999999999999,26.0,1 count
+101,bagel wheat,10.2,48.89,1.226,98.0,1 count
+102,bake chocolate liquid,12.1,36.2,45.22,28.35,1 oz
+103,bake chocolate square,3.64,77.41,14.811999999999998,20.0,1 count
+104,bakery item,6.81,53.16,0.0,42.0,1 piece
+105,balsam gourd tip,5.3,3.29,0.0,4.0,1 count
+106,balsam pod,1.0,3.7,0.0,93.0,1 cup
+107,bamboo shoot,2.6,5.2,0.21000000000000002,151.0,1 cup
+108,banana,1.09,22.84,0.21700000000000003,225.0,1 cup
+109,banana chip,2.3,58.4,31.549999999999997,28.35,1 oz
+110,barley flour meal,10.5,74.52,1.311,148.0,1 cup
+111,barley hull,12.48,73.48,1.885,184.0,1 cup
+112,barley malt flour,10.28,78.3,1.593,162.0,1 cup
+113,barley pearl,9.91,77.72,0.9530000000000001,200.0,1 cup
+114,barley pearl cook,2.26,28.22,0.364,157.0,1 cup
+115,basil,3.15,2.65,0.518,2.5,5 count
+116,bass sp,18.86,0.0,3.2730000000000006,79.0,1 count
+117,bass stripe,17.73,0.0,1.951,85.0,3 oz
+118,bean adzuki seed,19.87,62.9,0.354,197.0,1 cup
+119,bean bake beef,6.38,16.91,3.2670000000000003,266.0,1 cup
+120,bean bake frank,6.75,15.39,6.018000000000001,259.0,1 cup
+121,bean bake pork,5.19,19.99,1.471,253.0,1 cup
+122,bean bake sauce,4.52,21.57,0.853,249.0,1 cup
+123,bean can fat,5.34,13.5,0.424,231.0,1 cup
+124,bean can vegetarian,5.28,13.5,0.819,242.0,1 cup
+125,bean mature seed,23.03,60.05,0.9490000000000001,195.0,1 cup
+126,bean navy seed,22.33,60.75,1.171,208.0,1 cup
+127,bean pink seed,20.96,64.19,0.877,210.0,1 cup
+128,bean pinto seed,21.42,62.55,0.871,193.0,1 cup
+129,bean pod,7.92,17.63,0.5640000000000001,126.0,1 cup
+130,bean seed,21.6,62.36,1.099,194.0,1 cup
+131,bean seed can,7.26,21.2,0.222,262.0,1 cup
+132,bean snap,1.83,6.97,0.17300000000000001,100.0,1 cup
+133,bean snap microwave,2.31,6.41,0.0,116.0,1 cup
+134,bean snap raw,1.82,7.13,0.09,100.0,1 cup
+135,bean snap salt,0.8,3.5,0.079,120.0,.5 cup
+136,bean yellow seed,22.0,60.7,2.015,196.0,1 cup
+137,bear chocolate cookie,6.6,66.9,16.7,30.0,1 count
+138,bear meat,25.6,0.0,3.09,,1 count
+139,bear native,20.1,0.0,0.0,,1 count
+140,beechnut dry,6.2,33.5,47.7,28.35,1 oz
+141,beef brisket grade,20.72,0.0,6.28,28.35,1 oz
+142,beef carcass choice,17.32,0.0,21.14,28.35,1 oz
+143,beef carcass select,17.48,0.0,19.84,28.35,1 oz
+144,beef cure dry,31.1,2.76,1.86,28.0,10 count
+145,beef cure pastrami,21.8,0.36,4.943999999999999,71.0,1 count
+146,beef heat,11.69,2.66,25.122999999999998,48.0,1 count
+147,beef jerky,33.2,11.0,23.166,28.35,1 oz
+148,beef moisture import,11.51,0.0,21.012,113.0,4 oz
+149,beef pork smoke,12.2,2.0,15.66,66.0,1 count
+150,beef retail cut,8.21,0.0,62.95,28.35,1 oz
+151,beef rib,16.15,0.0,28.14,28.35,1 oz
+152,beef rib choice,16.34,0.0,24.540000000000003,28.35,1 oz
+153,beef rib fat,16.75,0.0,21.060000000000002,28.35,1 oz
+154,beef rib grade,16.53,0.0,22.94,28.35,1 oz
+155,beef sausage fresh,18.21,0.35,24.206999999999997,43.0,1 count
+156,beef sausage pre,15.5,0.03,32.51,48.0,1 count
+157,beef tallow,0.0,0.0,95.6,12.8,1 tbsp
+158,beef tenderloin fat,18.15,0.0,19.09,28.35,1 oz
+159,beef unheate,11.69,2.97,26.11,49.0,1 count
+160,beer salami pork,14.24,2.06,17.62,23.0,1 slice
+161,beet,1.61,9.56,0.119,136.0,1 cup
+162,beet can pack,0.73,7.14,0.049,246.0,1 cup
+163,beet can salt,0.8,6.57,0.049,246.0,1 cup
+164,beet green,2.2,4.33,0.092,38.0,1 cup
+165,beet harvard can,0.84,18.18,0.03899999999999999,246.0,1 cup
+166,beet pickle,0.8,16.28,0.057999999999999996,227.0,1 cup
+167,berry,0.81,8.68,0.361,,1 count
+168,beverage,0.5,5.0,0.0,29.1,1 fl oz
+169,beverage amber cider,0.0,5.92,0.0,355.0,12 fl oz
+170,beverage beer,0.46,3.55,0.0,29.7,1 fl oz
+171,beverage beer budweiser,0.36,2.97,0.0,29.8,1 fl oz
+172,beverage beer light,0.24,1.64,0.0,29.5,1 fl oz
+173,beverage bottle,0.0,0.0,0.0,29.6,1 fl oz
+174,beverage bottle calistoga,0.0,0.0,0.0,29.6,1 fl oz
+175,beverage bottle dannon,0.0,0.0,0.0,29.6,1 fl oz
+176,beverage bottle perrier,0.0,0.0,0.0,29.6,1 fl oz
+177,beverage carbonate cola,0.0,10.36,0.0,30.7,1 fl oz
+178,beverage carbonate orange,0.0,12.3,0.0,31.0,1 fl oz
+179,beverage carbonate tonic,0.0,8.8,0.0,30.5,1 fl oz
+180,beverage chocolate powder,0.0,92.96,0.0,11.0,2 tbsp
+181,beverage chocolate syrup,2.1,65.1,0.831,39.0,1 count
+182,beverage coconut drink,0.22,4.24,0.0,245.0,1 cup
+183,beverage cream soda,0.0,13.3,0.0,30.9,1 fl oz
+184,beverage daiquiri can,0.0,15.7,0.0,30.5,1 fl oz
+185,beverage instant decaffeinate,9.0,71.4,12.679,6.4,1 tsp
+186,beverage lemonade powder,0.0,97.57,0.7190000000000001,18.0,1 count
+187,beverage malt powder,0.0,93.33,0.0,21.0,1 count
+188,beverage mix chocolate,23.5,52.9,2.451,7.0,1 tbsp
+189,beverage punch drink,0.0,2.5,0.0,210.0,1 count
+190,beverage spring,0.0,0.0,0.0,100.0,1 count
+191,beverage tap,0.0,0.0,0.0,29.6,1 fl oz
+192,beverage tap drinking,0.0,0.0,0.0,29.6,1 fl oz
+193,beverage tea brew,0.22,0.0,0.0,245.0,1 cup
+194,beverage tea drink,0.0,0.0,0.0,473.0,16 fl oz
+195,beverage tea powder,20.21,58.66,0.0,0.7,1 count
+196,beverage whiskey sour,0.0,13.17,0.018000000000000002,30.4,1 fl oz
+197,beverage wine,0.5,1.1,0.0,29.0,1 fl oz
+198,beverage wine cooking,0.5,6.3,0.0,4.9,1 tsp
+199,beverage wine dessert,0.2,11.67,0.0,29.5,1 fl oz
+200,beverage wine light,0.07,1.17,0.0,29.5,1 fl oz
+201,beverage wine rise,0.36,3.8,0.0,30.3,1 fl oz
+202,beverage wine table,0.07,2.72,0.0,148.0,1 count
+203,beverage zevia cola,0.0,1.13,0.0,355.0,1 can
+204,biscuit buttermilk baked,6.2,53.87,10.501000000000001,28.35,1 oz
+205,biscuit buttermilk mix,8.0,63.4,14.559999999999999,120.0,1 cup
+206,blackberry,1.39,9.61,0.341,144.0,1 cup
+207,blackberry can syrup,1.31,23.1,0.099,256.0,1 cup
+208,blackberry freeze,1.18,15.67,0.301,151.0,1 cup
+209,blackberry juice can,0.3,7.8,0.42,250.0,1 cup
+210,blood sausage,14.6,1.29,32.76,100.0,4 count
+211,blueberry,0.74,14.49,0.22099999999999997,148.0,1 cup
+212,blueberry can syrup,0.65,22.06,0.21799999999999997,256.0,1 cup
+213,blueberry dry sweeten,2.5,80.0,1.905,40.0,.25 cup
+214,blueberry freeze,0.42,12.17,0.42300000000000004,155.0,1 cup
+215,blueberry freeze sweeten,0.4,21.95,0.086,230.0,1 cup
+216,blueberry muffin mix,4.7,77.45,7.2860000000000005,31.0,1 count
+217,blueberry waffle,5.7,34.6,6.3999999999999995,72.0,2 count
+218,bockwurst pork veal,14.03,2.95,25.721999999999998,91.0,1 count
+219,boil drain,2.4,4.11,0.153,90.0,.5 cup
+220,boil drain salt,2.4,4.11,0.153,90.0,.5 cup
+221,bologna beef,10.91,4.29,23.867,30.0,1 slice
+222,bologna beef fat,11.8,5.2,12.429,28.0,1 slice
+223,bologna beef pork,15.2,5.49,20.947,100.0,3.527 oz
+224,bologna chicken pork,10.31,4.19,27.383,28.0,1 count
+225,bologna fat,11.5,2.6,18.092,138.0,1 cup
+226,bologna meat poultry,10.34,6.31,22.248,33.0,1 slice
+227,bologna pork,15.3,0.73,18.677999999999997,28.0,1 slice
+228,bologna turkey,11.42,4.68,15.045000000000002,28.0,.99 oz
+229,borage,1.8,3.06,0.49,89.0,1 cup
+230,border bean,7.3,17.52,4.5009999999999994,135.0,1 cup
+231,border cheese enchilada,11.67,16.2,13.715,250.0,1 count
+232,border cheese quesadilla,16.87,24.25,21.646,203.0,1 count
+233,border rice,3.56,34.15,4.339,114.0,1 cup
+234,boysenberry can syrup,0.99,22.31,0.084,256.0,1 cup
+235,boysenberry freeze,1.1,12.19,0.182,132.0,1 cup
+236,bratwurst veal cook,13.99,0.0,29.554,84.0,1 count
+237,brazilnut dry unblanched,14.32,11.74,64.412,133.0,1 cup
+238,bread,8.8,50.1,2.202,28.35,1 oz
+239,bread cheese,10.42,44.83,19.792,48.0,1 slice
+240,bread cinnamon,7.05,44.38,3.527,28.0,1 slice
+241,bread corn,3.1,39.84,1.415,,1 count
+242,bread crack wheat,8.7,49.5,3.5,28.35,1 oz
+243,bread egg,9.5,47.8,5.001,28.35,1 oz
+244,bread egg toast,10.5,52.6,5.7540000000000004,28.35,1 oz
+245,bread freeze,8.36,41.72,15.387,43.0,1 slice
+246,bread gluten,12.1,43.8,1.524,28.35,1 oz
+247,bread gluten toast,13.2,48.1,1.674,28.35,1 oz
+248,bread grain,13.36,43.34,3.5040000000000004,28.35,1 oz
+249,bread grain grain,14.52,47.11,3.809,28.35,1 oz
+250,bread kneel,4.29,39.47,1.803,28.35,1 oz
+251,bread oat bran,10.4,39.8,3.981,28.35,1 oz
+252,bread oatmeal,8.4,48.5,3.983,28.35,1 oz
+253,bread oatmeal toast,9.2,52.7,4.329000000000001,28.35,1 oz
+254,bread pita enrich,9.1,55.7,0.806,60.0,1 count
+255,bread pita unenriched,9.1,55.7,0.806,28.35,1 oz
+256,bread pita wheat,9.8,55.89,1.141,64.0,1 count
+257,bread potato,12.5,47.07,0.0,32.0,1 slice
+258,bread pumpernickel,8.7,47.5,2.606,28.35,1 oz
+259,bread pumpernickel toast,9.5,52.2,2.864,28.35,1 oz
+260,bread raisin enrich,7.9,52.3,4.054,28.35,1 oz
+261,bread raisin unenriched,7.9,52.3,4.054,28.35,1 oz
+262,bread reduce calorie,8.7,44.3,2.185,28.35,1 oz
+263,bread rice bran,8.9,43.5,4.123,28.35,1 oz
+264,bread roll bollilo,10.65,55.77,5.081,98.0,1 piece
+265,bread rye,8.5,48.3,2.7359999999999998,28.35,1 oz
+266,bread rye toast,9.4,53.1,3.007,28.35,1 oz
+267,bread salvadoran salvadorena,7.12,47.84,15.834,55.0,1 count
+268,bread stick,12.0,68.4,8.606,46.0,1 cup
+269,bread vienna sourdough,13.0,61.93,1.718,28.35,1 oz
+270,bread vienna wheat,8.33,49.1,0.756,48.0,1 slice
+271,bread wheat,10.67,47.54,2.924,29.0,1 slice
+272,bread wheat bran,8.8,47.8,3.0460000000000003,28.35,1 oz
+273,bread wheat sprout,13.16,33.88,0.0,38.0,1 slice
+274,bread wheat toast,12.96,55.77,3.7279999999999998,28.35,1 oz
+275,breadfruit,1.07,27.12,0.14800000000000002,220.0,1 cup
+276,breadfruit seed,7.4,29.24,5.198,28.35,1 oz
+277,breadfruit seed boil,5.3,32.0,2.1390000000000002,28.35,1 oz
+278,breadfruit seed roast,6.2,40.1,2.511,28.35,1 oz
+279,breakfast item biscuit,11.13,21.05,19.400999999999996,162.0,1 item
+280,breakfast tart fat,3.99,76.8,5.609,52.0,1 count
+281,breast boneless,17.47,0.0,14.011999999999999,28.35,1 oz
+282,breast fat cook,9.4,0.0,50.682,28.35,1 oz
+283,breast meat,24.37,0.0,2.6900000000000004,85.0,3 oz
+284,broadbean seed,5.6,11.7,0.465,109.0,1 cup
+285,broccoli,1.2,4.67,0.516,,1 count
+286,broccoli cook,1.14,3.81,0.49,88.0,1 cup
+287,broccoli flower cluster,2.98,5.06,0.245,71.0,1 cup
+288,broccoli freeze chop,2.81,4.78,0.2,156.0,1 cup
+289,broccoli leave,2.98,5.06,0.245,,1 count
+290,broccoli raab,3.17,2.85,0.20600000000000002,40.0,1 cup
+291,broccoli raab cook,3.83,3.12,0.237,85.0,1 count
+292,broccoli stalk,2.98,5.24,0.245,114.0,1 stalk
+293,brussel sprout,3.38,8.95,0.238,88.0,1 cup
+294,brussel sprout freeze,3.78,7.86,0.322,95.0,.33 count
+295,bulgur,12.29,75.87,0.9460000000000001,140.0,1 cup
+296,bulgur cook,3.08,18.58,0.171,182.0,1 cup
+297,burbot,19.31,0.0,0.593,116.0,1 count
+298,burbot cook heat,24.76,0.0,0.76,90.0,1 count
+299,burdock root,1.53,17.34,0.121,118.0,1 cup
+300,burger king cheeseburger,16.83,17.43,14.216,162.0,1 count
+301,burger king chsbrgr,14.57,23.71,14.067,133.0,1 item
+302,burger king fr,3.23,38.7,11.353,74.0,1 count
+303,burger king hamburger,14.85,26.76,9.314,99.0,1 count
+304,bush lingenberry,0.4,12.2,0.0,,1 count
+305,butter oil,0.28,0.0,94.35000000000001,12.8,1 tbsp
+306,butter salt,20.96,18.82,50.21,16.0,1 tbsp
+307,butter whip salt,0.49,2.87,68.595,3.8,1 count
+308,butterbur can,0.11,0.38,0.0,124.0,1 cup
+309,butterfish,17.28,0.0,7.35,32.0,1 count
+310,butterfish cook heat,22.15,0.0,0.0,25.0,1 count
+311,butternut dry,24.9,12.05,54.472,120.0,1 cup
+312,cabbage,1.28,5.8,0.068,89.0,1 cup
+313,cabbage choi,1.5,2.18,0.138,70.0,1 cup
+314,cabbage kimchi,1.1,2.4,0.345,150.0,1 cup
+315,cabbage mustard salt,1.1,5.63,0.068,128.0,1 cup
+316,cabbage napa cook,1.1,2.23,0.0,109.0,1 cup
+317,cabbage reduce,1.43,7.37,0.113,89.0,1 cup
+318,cabbage savoy,2.0,6.1,0.069,70.0,1 cup
+319,cabbage style pickle,1.6,5.67,0.069,150.0,1 cup
+320,cabbage tsai,1.2,3.23,0.138,76.0,1 cup
+321,cake,9.7,80.1,2.75,10.0,1 count
+322,cake angelfood mix,6.4,86.13,0.179,38.0,1 count
+323,cake gingerbread mix,4.4,74.6,13.055000000000001,28.35,1 oz
+324,cake light mix,4.7,84.1,5.136,28.35,1 oz
+325,cake mix,3.7,81.92,2.545,43.0,1 count
+326,cake recipe frost,5.4,57.2,11.725999999999999,74.0,1 piece
+327,campbell pork bean,4.62,19.23,0.385,130.0,.5 cup
+328,campbell spaghettio easy,2.35,14.55,0.47,213.0,1 can
+329,campbell spaghettio meatball,4.37,11.65,2.428,206.0,1 can
+330,campbell spaghettio spaghettio,2.38,13.89,0.396,252.0,1 cup
+331,campbell tomato juice,0.82,4.12,0.0,243.0,8 fl oz
+332,campbell vegetable juice,0.82,4.12,0.0,243.0,8 fl oz
+333,can,3.28,8.57,0.28,120.0,1 cup
+334,can kernel corn,2.6,13.98,0.424,255.0,1 cup
+335,can pack,1.8,2.48,0.135,122.0,.5 cup
+336,candy almond,3.33,92.39,1.667,14.0,1 piece
+337,candy bite,11.34,55.18,26.88,39.0,16 count
+338,candy butterscotch,0.03,90.4,3.032,28.35,1 oz
+339,candy candy bar,11.28,52.8,29.580000000000002,54.0,1 bar
+340,candy caramel,4.6,77.0,7.496,71.0,1 count
+341,candy carob,8.15,56.29,29.796000000000003,28.35,1 oz
+342,candy chocolate,3.9,60.4,32.29,28.35,1 oz
+343,candy chocolate bar,5.54,60.49,5.58,41.0,1 bar
+344,candy fruit,0.34,82.74,0.038000000000000006,,1 count
+345,candy halavah plain,12.49,60.49,20.802,28.35,1 oz
+346,candy hard,0.0,98.0,0.0,28.35,1 oz
+347,candy heath bite,3.94,63.39,26.970000000000002,39.0,15 count
+348,candy hershey solitaire,11.97,46.85,15.23,41.0,13 count
+349,candy jellybean,0.0,93.55,0.0,11.0,10 count
+350,candy marshmallow,1.8,81.3,0.183,50.0,1 cup
+351,candy milk chocolate,7.65,59.4,27.071,7.0,1 bar
+352,candy nestle bar,2.5,70.97,19.326999999999998,43.0,1 bar
+353,candy nestle butterfinger,6.67,68.45,17.227,60.0,1 piece
+354,candy nestle mint,1.67,79.53,8.33,42.0,1 count
+355,candy peanut bar,15.5,47.4,32.049,28.35,1 oz
+356,candy peanut recipe,7.57,71.24,16.766,28.35,1 oz
+357,candy piece candy,12.46,59.86,22.76,47.0,.25 cup
+358,candy semisweet chocolate,4.2,63.9,28.682000000000002,14.5,1 count
+359,candy sesame crunch,11.6,50.3,31.823999999999998,28.35,1 oz
+360,candy tamarind,0.0,91.96,0.0,,1 count
+361,candy york bite,1.78,81.64,5.01,39.0,15 count
+362,caper can,2.36,4.89,0.6000000000000001,8.6,1 tbsp
+363,caramel coat peanut,6.4,80.7,7.04,28.35,1 oz
+364,caraway seed,19.77,49.9,11.017,2.1,1 tsp
+365,cardoon,0.7,4.07,0.07,178.0,1 cup
+366,caribou bone marrow,6.7,0.0,0.0,,1 count
+367,caribou eye,10.8,0.0,0.0,,1 count
+368,caribou liver,15.0,6.8,0.0,,1 count
+369,caribou shoulder meat,59.38,0.0,3.157,,1 count
+370,caribou tongue native,13.7,0.0,0.0,,1 count
+371,carob flour,4.62,88.88,0.503,103.0,1 cup
+372,carp,17.83,0.0,4.842,85.0,3 oz
+373,carp cook heat,22.86,0.0,6.207999999999999,85.0,3 oz
+374,carrot,0.93,9.58,0.168,128.0,1 cup
+375,carrot baby,0.64,8.24,0.095,15.0,1 count
+376,carrot can pack,0.58,5.37,0.096,123.0,.5 cup
+377,carrot can salt,0.59,5.36,0.099,123.0,.5 cup
+378,carrot dehydrate,8.1,79.57,1.062,74.0,1 cup
+379,carrot freeze,0.78,7.9,0.324,64.0,.5 cup
+380,carrot juice can,0.95,9.28,0.105,236.0,1 cup
+381,cashew,18.22,30.19,39.425000000000004,28.35,1 oz
+382,cashew butter salt,17.56,27.57,47.239,16.0,1 tbsp
+383,cashew oil salt,16.84,29.87,42.946999999999996,129.0,1 cup
+384,cashew salt,15.31,32.69,44.31,137.0,1 cup
+385,cassava,1.36,38.06,0.197,206.0,1 cup
+386,catfish channel,16.38,0.0,2.431,85.0,3 oz
+387,catfish channel cook,18.09,8.04,12.224,87.0,1 count
+388,catfish channel farm,15.23,0.0,5.002,85.0,3 oz
+389,catsup,1.04,27.4,0.07,17.0,1 tbsp
+390,cauliflower,2.01,4.68,0.188,66.0,.5 cup
+391,cauliflower salt,3.04,6.28,0.21500000000000002,62.0,.5 cup
+392,cauliflower salt add,3.04,6.28,0.21000000000000002,90.0,.2 count
+393,caviar granular,24.6,4.0,16.096,16.0,1 tbsp
+394,celeriac,1.5,9.2,0.28500000000000003,156.0,1 cup
+395,celery,0.69,2.97,0.15300000000000002,101.0,1 cup
+396,celery flake dry,11.3,63.7,1.995,,1 count
+397,celery seed,18.07,41.35,21.84,2.0,1 tsp
+398,celtuce,0.85,3.65,0.0,8.0,1 count
+399,cereal cream rice,6.3,82.4,0.42600000000000005,45.0,.25 cup
+400,cereal eat,11.2,75.7,2.748,55.0,.67 cup
+401,cereal eat familia,9.5,73.8,5.572,122.0,1 cup
+402,cereal eat kashi,24.89,67.19,1.39,52.0,1 cup
+403,cereal eat presweetene,7.1,76.2,5.0440000000000005,55.0,1 cup
+404,cereal farina unenriched,10.6,78.0,0.36,10.9,1 tbsp
+405,cereal wheatena,13.1,75.6,2.3,40.0,.33 cup
+406,cereal wheatena cook,2.0,11.8,0.398,243.0,1 cup
+407,chard,1.8,3.74,0.14,36.0,1 cup
+408,chayote fruit,0.82,4.51,0.095,132.0,1 cup
+409,cheese,7.0,44.3,14.165,28.35,1 oz
+410,cheese blend,23.54,1.75,25.762000000000004,28.0,.25 cup
+411,cheese blue,21.4,2.34,27.247,28.35,1 oz
+412,cheese brick,23.24,2.79,28.146,132.0,1 cup
+413,cheese brie,20.75,0.45,26.249000000000002,28.35,1 oz
+414,cheese camembert,19.8,0.46,23.006,28.35,1 oz
+415,cheese caraway,25.18,3.06,27.689,28.35,1 oz
+416,cheese cheddar,22.87,3.09,29.534,132.0,1 cup
+417,cheese cheddar colby,24.35,1.91,6.646,132.0,1 cup
+418,cheese cheddar imitation,16.7,11.6,13.301,21.0,1 slice
+419,cheese cheshire,23.37,4.78,29.016000000000002,28.35,1 oz
+420,cheese colby,23.76,2.57,30.450999999999997,132.0,1 cup
+421,cheese cottage vegetable,10.9,3.0,3.975,113.0,4 oz
+422,cheese cream,6.15,5.52,30.603,14.5,1 tbsp
+423,cheese cream fat,15.69,7.66,0.9510000000000001,18.0,1 tbsp
+424,cheese edam,24.99,1.43,26.362,28.35,1 oz
+425,cheese feta,14.21,4.09,20.16,150.0,1 cup
+426,cheese flavor,9.3,51.6,31.479999999999997,11.0,1 cup
+427,cheese fontina,25.6,1.55,29.537000000000003,132.0,1 cup
+428,cheese food imitation,4.08,16.18,18.64,28.35,1 oz
+429,cheese food pack,19.66,8.32,23.239,28.35,1 oz
+430,cheese gjetost,9.65,42.65,27.977,28.35,1 oz
+431,cheese goat type,30.52,2.17,33.571,28.35,1 oz
+432,cheese gouda,24.94,2.22,26.018,28.35,1 oz
+433,cheese gruyere,29.81,0.36,30.689,28.35,1 oz
+434,cheese limburger,20.05,0.49,25.846999999999998,134.0,1 cup
+435,cheese monterey,24.48,0.68,28.716,132.0,1 cup
+436,cheese monterey fat,28.2,0.7,20.52,132.0,1 cup
+437,cheese mozzarella,31.7,3.5,0.0,113.0,1 cup
+438,cheese mozzarella milk,22.17,2.19,20.490000000000002,112.0,1 cup
+439,cheese mozzarella na,27.5,3.1,16.220000000000002,132.0,1 cup
+440,cheese muenster,23.41,1.12,28.485,132.0,1 cup
+441,cheese muenster fat,24.7,3.5,16.689999999999998,113.0,1 cup
+442,cheese neufchatel,9.15,3.59,19.543999999999997,28.35,1 oz
+443,cheese nonfat fat,21.05,10.53,0.0,19.0,1 count
+444,cheese parmesan grate,28.42,13.91,23.887,100.0,1 cup
+445,cheese parmesan hard,35.75,3.22,24.494,28.35,1 oz
+446,cheese parmesan shred,37.86,3.41,26.765,5.0,1 tbsp
+447,cheese pasteurize process,24.73,2.1,23.713,140.0,1 cup
+448,cheese penne freeze,5.7,16.8,3.6999999999999997,269.0,1 count
+449,cheese provolone,25.58,2.14,25.24,132.0,1 cup
+450,cheese queso,21.44,4.63,28.462,132.0,1 cup
+451,cheese queso asadero,22.6,2.87,26.827,132.0,1 cup
+452,cheese queso blanco,20.38,2.53,21.269,118.0,1 cup
+453,cheese queso chihuahua,21.56,5.56,28.178,132.0,1 cup
+454,cheese queso cotija,20.0,3.97,27.02,5.0,2 tsp
+455,cheese queso fresco,18.09,2.98,20.012,122.0,1 cup
+456,cheese queso seco,24.51,2.04,21.38,97.0,1 cup
+457,cheese ricotta milk,11.26,3.04,12.307,124.0,.5 cup
+458,cheese romano,31.8,3.63,25.546,28.35,1 oz
+459,cheese roquefort,21.54,2.0,29.057000000000002,28.35,1 oz
+460,cheese sodium,28.4,3.4,25.968,28.0,1 slice
+461,cheese substitute mozzarella,11.47,23.67,11.692,113.0,1 cup
+462,cheese swis,26.96,1.44,27.614,132.0,1 cup
+463,cheese swiss fat,28.4,3.4,4.834999999999999,28.0,1 slice
+464,cheese tilsit,24.41,1.88,24.631999999999998,28.35,1 oz
+465,cheesecake commercially prepare,5.5,25.5,20.157,28.35,1 oz
+466,cherimoya,1.57,17.71,0.47600000000000003,160.0,1 cup
+467,cherry,1.06,16.01,0.13699999999999998,138.0,1 cup
+468,cherry juice pack,0.91,13.81,0.015000000000000001,250.0,1 cup
+469,cherry pack,0.77,11.76,0.1,248.0,1 cup
+470,cherry pack drain,0.69,10.45,0.0,168.0,1 cup
+471,cherry sour reduce,0.92,11.02,0.352,155.0,1 cup
+472,cherry sweeten,1.15,22.36,0.10600000000000001,259.0,1 cup
+473,chervil dry,23.2,49.1,3.3680000000000003,0.6,1 tsp
+474,chestnut,2.88,33.64,0.708,28.35,1 oz
+475,chestnut dry,6.82,79.76,1.6789999999999998,28.35,1 oz
+476,chestnut dry peel,5.01,78.43,3.6310000000000002,28.35,1 oz
+477,chestnut japanese dry,5.25,81.43,1.155,155.0,1 cup
+478,chestnut peel,1.63,44.17,1.158,28.35,1 oz
+479,chew gum,0.0,96.7,0.258,3.0,1 count
+480,chew gum sugarless,0.0,94.8,0.383,2.0,1 piece
+481,chicken,14.33,13.61,18.197,60.0,1 count
+482,chicken breast roll,14.59,1.79,6.751999999999999,56.0,1 count
+483,chicken broiler fryer,3.73,0.0,64.75,12.8,1 tbsp
+484,chicken can broth,25.3,0.9,7.507,28.0,1 oz
+485,chicken capon,18.51,0.08,15.65,85.0,3 oz
+486,chicken capon cook,28.35,0.04,10.51,85.0,3 oz
+487,chicken capon giblet,18.28,1.42,4.15,115.0,1 count
+488,chicken cook,19.44,0.0,0.0,84.0,1 count
+489,chicken foot boil,19.4,0.2,12.4,28.35,1 oz
+490,chicken game hen,17.15,0.0,12.82,85.0,3 oz
+491,chicken gizzard class,17.66,0.0,1.398,28.35,1 oz
+492,chicken ground,17.44,0.04,7.420000000000001,112.0,4 oz
+493,chicken heart class,15.55,0.71,7.74,6.1,1 count
+494,chicken liver can,13.45,6.55,11.740000000000002,13.0,1 tbsp
+495,chicken liver class,16.92,0.73,4.118,44.0,1 count
+496,chicken meatless,23.64,3.64,8.911000000000001,168.0,1 cup
+497,chicken roast,17.09,0.09,14.13,85.0,3 oz
+498,chicken roasting,23.96,0.05,11.729999999999999,85.0,3 oz
+499,chicken roasting giblet,18.14,1.14,4.08,25.0,1 count
+500,chicken roasting meat,20.33,0.0,2.17,85.0,3 oz
+501,chicken spread,18.01,4.05,10.379999999999999,56.0,1 count
+502,chicken stew,17.48,0.19,17.57,85.0,3 oz
+503,chicken stew giblet,17.89,2.13,7.48,28.0,1 count
+504,chicken stew meat,21.26,0.0,5.08,85.0,3 oz
+505,chicken stew stew,26.88,0.0,16.53,85.0,3 oz
+506,chicken tender platter,19.62,17.98,14.276,209.0,1 count
+507,chicken thigh,9.58,0.79,40.133,28.35,1 oz
+508,chicken thigh cook,16.57,0.0,40.118,28.35,1 oz
+509,chickpea,22.39,57.82,5.18,92.0,1 cup
+510,chili bean bowl,5.85,10.88,3.3680000000000003,244.0,1 cup
+511,chili bean can,6.12,13.24,2.983,256.0,1 cup
+512,chili powder,13.46,49.7,13.679,2.7,1 tsp
+513,chiton leathery,17.1,0.0,0.0,,1 count
+514,chive,3.27,4.35,0.508,3.0,1 tbsp
+515,chive freeze dry,21.2,64.29,2.45,0.2,1 tbsp
+516,chocolate cacao solid,4.88,61.17,29.150999999999996,28.35,1 oz
+517,chokecherrie bannock,2.89,33.88,0.0,,1 count
+518,chokecherry plain indian,3.04,33.62,0.0,154.0,1 cup
+519,chorizo pork beef,24.1,1.86,36.24,28.35,1 oz
+520,chum,20.14,0.0,3.279,85.0,3 oz
+521,chum cook heat,25.82,0.0,4.205,85.0,3 oz
+522,chunk sweeten,0.4,22.2,0.054000000000000006,245.0,1 cup
+523,cisco,18.99,0.0,1.503,79.0,1 count
+524,cisco smoke,16.36,0.0,9.498999999999999,28.35,1 oz
+525,clam sp cook,14.24,10.33,10.097999999999999,85.0,3 oz
+526,clam specie,14.67,3.57,0.499,85.0,3 oz
+527,clementine,0.85,12.02,0.0,74.0,1 count
+528,cloudberry,2.4,8.6,0.0,,1 count
+529,clove ground,5.97,65.53,8.951,2.1,1 tsp
+530,cockle,13.5,4.7,0.0,,1 count
+531,cocoa powder unsweetene,19.6,57.9,13.08,86.0,1 cup
+532,coconut,0.72,3.71,0.186,240.0,1 cup
+533,cod,62.82,0.0,1.608,28.35,1 oz
+534,cod can,22.76,0.0,0.5820000000000001,85.0,3 oz
+535,cod cook heat,22.83,0.0,0.5840000000000001,85.0,3 oz
+536,collard,3.02,5.42,0.28600000000000003,36.0,1 cup
+537,collard freeze chop,2.69,6.46,0.253,95.0,.33 count
+538,concentrate prepare,0.0,13.79,0.0,30.9,1 fl oz
+539,conch baked broil,26.3,1.7,0.978,127.0,1 cup
+540,cook,20.54,5.41,0.522,85.0,3 oz
+541,cook braise,36.71,0.0,4.17,85.0,3 oz
+542,cook heat,25.69,0.0,4.827,117.0,1 count
+543,cookie biscuit,7.05,70.54,9.655000000000001,28.0,5 count
+544,cookie brownie mix,4.0,76.6,14.05,28.35,1 oz
+545,cookie chocolate wafer,6.6,72.7,13.259,28.35,1 oz
+546,cookie coconut macaroon,3.02,61.22,22.519,36.0,2 count
+547,cookie fig bar,3.7,70.9,6.898,28.35,1 oz
+548,cookie fortune,4.2,84.0,2.4800000000000004,28.35,1 oz
+549,cookie gingersnap,5.6,76.9,9.188,28.35,1 oz
+550,cookie ladyfinger lemon,10.6,59.7,8.245000000000001,28.35,1 oz
+551,cookie molasse,5.6,73.8,12.071000000000002,28.35,1 oz
+552,cookie oatmeal mix,6.5,67.3,18.113999999999997,28.35,1 oz
+553,cookie raisin type,4.1,68.0,12.865,28.35,1 oz
+554,cookie shortbread fat,5.37,75.99,13.881,11.8,1 count
+555,coriander leaf dry,21.93,52.1,2.6750000000000003,0.6,1 tsp
+556,coriander seed,12.37,54.99,16.32,1.8,1 tsp
+557,corn,9.88,74.93,4.202999999999999,,1 count
+558,corn base cone,5.8,62.9,25.23,28.35,1 oz
+559,corn beef potato,7.91,29.35,7.575,,1 count
+560,corn bran crude,8.36,85.64,0.794,76.0,1 cup
+561,corn cake,8.1,83.4,2.11,9.0,1 count
+562,corn cake na,8.1,83.4,2.11,9.0,1 count
+563,corn flour degerme,5.59,82.75,1.1400000000000001,126.0,1 cup
+564,corn flour grain,6.93,76.85,3.32,117.0,1 cup
+565,corn grain,9.42,74.26,4.0809999999999995,166.0,1 cup
+566,corn pepper can,2.33,18.17,0.503,227.0,1 cup
+567,corn raw,3.27,18.7,1.244,145.0,1 cup
+568,corn salt,1.95,13.86,0.45499999999999996,256.0,1 cup
+569,cornmeal,10.4,76.93,5.029999999999999,,1 count
+570,cornmeal degerme,7.11,79.45,1.438,157.0,1 cup
+571,cornmeal degerme yellow,7.11,79.45,1.438,157.0,1 cup
+572,cornmeal grain,8.12,76.89,3.0909999999999997,122.0,1 cup
+573,cornnut,8.5,71.86,14.940000000000001,28.35,1 oz
+574,cornnut barbecue flavor,9.0,71.7,13.160000000000002,28.35,1 oz
+575,cornsalad,2.0,3.6,0.0,56.0,1 cup
+576,cornstarch,0.26,91.27,0.05,128.0,1 cup
+577,cottonseed flour,49.83,36.1,1.108,28.35,1 oz
+578,cottonseed kernel,32.59,21.9,34.686,149.0,1 cup
+579,cottonseed meal,49.1,38.43,4.316000000000001,28.35,1 oz
+580,cowpea leafy tip,4.1,4.82,0.194,36.0,1 cup
+581,cowpea pod seed,3.3,9.5,0.23299999999999998,94.0,1 cup
+582,crab,17.88,0.0,0.5880000000000001,135.0,1 cup
+583,crab alaska king,18.29,0.0,0.3,85.0,3 oz
+584,crab moist heat,17.88,0.0,0.5880000000000001,118.0,1 cup
+585,crab queen,18.5,0.0,0.821,85.0,3 oz
+586,crabapple,0.4,19.95,0.148,110.0,1 cup
+587,cracker,7.23,63.51,22.622,3.3,1 count
+588,cracker barrel coleslaw,0.89,13.01,12.249,167.0,1 count
+589,cracker biscuit,7.14,72.81,6.5,14.0,4 count
+590,cracker cheese,10.93,59.42,21.122,14.2,.5 oz
+591,cracker cheese grain,9.62,57.29,14.427,31.0,1 count
+592,cracker crispbread rye,7.9,82.2,0.867,14.2,.5 oz
+593,cracker matzo,10.0,77.1,2.924,14.2,.5 oz
+594,cracker matzo egg,12.3,78.6,1.633,14.2,.5 oz
+595,cracker matzo wheat,13.1,78.9,1.09,14.2,.5 oz
+596,cracker meal,9.3,80.9,1.145,28.35,1 oz
+597,cracker melba toast,12.1,76.6,2.5090000000000003,14.2,.5 oz
+598,cracker milk,7.6,71.73,13.264,14.2,.5 oz
+599,cracker multigrain,7.1,67.6,20.1,14.0,4 count
+600,cracker rye wafer,9.6,80.4,0.657,14.2,.5 oz
+601,cracker saltine grain,7.14,68.25,10.022,14.0,1 count
+602,cracker snack type,6.64,61.3,25.252000000000002,16.0,5 count
+603,cracker toast,13.5,72.3,6.441000000000001,14.2,.5 oz
+604,cracker wheat,10.58,69.55,12.256,28.0,1 count
+605,cracker wheat salt,8.6,64.9,19.422,14.2,.5 oz
+606,cranberry,0.46,11.97,0.081,110.0,1 cup
+607,cranberry bush,1.1,12.3,0.0,,1 count
+608,cranberry dry sweeten,0.17,82.8,0.5680000000000001,40.0,.25 cup
+609,cream fat,3.1,15.6,0.0,12.0,1 tablespoon
+610,cream fluid whipping,2.84,2.74,33.703,120.0,1 cup
+611,cream imitation culture,2.4,6.63,18.435000000000002,28.35,1 oz
+612,cream light,3.5,7.1,10.1,12.0,1 tablespoon
+613,cream reduce fat,7.0,7.0,13.299999999999999,12.0,1 tablespoon
+614,cream sour,2.44,4.63,15.534000000000002,12.0,1 tbsp
+615,cream substitute powder,2.48,59.29,29.35,94.0,1 cup
+616,cress garden,2.6,5.5,0.49,50.0,1 cup
+617,crispy chicken sandwich,11.72,26.36,12.468,126.0,1 count
+618,croaker atlantic cook,18.2,7.54,11.713,87.0,1 count
+619,croaker raw,17.78,0.0,2.701,79.0,1 count
+620,croissant apple,7.4,37.1,8.014999999999999,28.35,1 oz
+621,croissant butter,8.2,45.8,18.278000000000002,28.35,1 oz
+622,croissant cheese,9.2,47.0,19.521,28.35,1 oz
+623,crouton,11.9,73.5,5.842,14.2,.5 oz
+624,crouton season,10.8,63.5,17.113,14.2,.5 oz
+625,cubed,20.27,0.0,1.81,28.35,1 oz
+626,cubed cook braise,34.94,0.0,3.14,85.0,3 oz
+627,cucumber peel,0.65,3.63,0.074,52.0,.5 cup
+628,cumin seed,17.81,44.24,18.854,2.1,1 tsp
+629,currant,1.4,13.8,0.133,112.0,1 cup
+630,currant raw,1.4,15.38,0.271,112.0,1 cup
+631,currant zante dry,4.08,74.08,0.255,144.0,1 cup
+632,curry powder,14.29,55.83,13.486,2.0,1 tsp
+633,cusk,18.99,0.0,0.5,122.0,1 count
+634,cusk cook heat,24.35,0.0,0.0,95.0,1 count
+635,custard heart,1.7,25.2,0.231,,1 count
+636,cut,19.35,0.0,5.84,28.35,1 oz
+637,cut cook,30.1,0.0,9.48,85.0,3 oz
+638,dandelion green,2.7,9.2,0.49,55.0,1 cup
+639,date deglet noor,2.45,75.03,0.08700000000000001,147.0,1 cup
+640,date medjool,1.81,74.97,0.0,24.0,1 count
+641,denny chicken strip,19.17,22.03,12.908000000000001,194.0,1 count
+642,denny coleslaw,0.97,10.88,13.973,91.0,1 count
+643,denny french fr,3.41,35.2,12.49,165.0,1 count
+644,denny hash brown,2.49,26.59,8.753,124.0,1 count
+645,denny onion ring,5.29,41.05,18.9,166.0,1 count
+646,denny shrimp,13.88,20.93,17.803,16.0,1 piece
+647,denny sirloin steak,28.9,0.14,6.107,107.0,1 count
+648,denny spaghetti meatball,7.84,15.51,7.917000000000001,565.0,1 count
+649,dessert apple recipe,1.75,30.84,3.1630000000000003,141.0,.5 cup
+650,dessert mix,7.8,90.5,0.0,85.0,1 count
+651,dessert mix prepare,1.22,14.19,0.0,135.0,.5 cup
+652,dessert top pressurize,0.98,16.07,21.08,70.0,1 cup
+653,dessert top semi,1.25,23.05,23.922,75.0,1 cup
+654,dessert topping powder,4.9,52.54,37.77,43.0,1.5 oz
+655,dill seed,15.98,55.17,11.15,2.1,1 tsp
+656,dill weed dry,19.96,55.82,0.234,1.0,1 tsp
+657,dip bean flavor,5.44,15.89,3.3449999999999998,36.0,2 tbsp
+658,dish potato salad,1.53,13.53,5.74,95.0,.333 cup
+659,dock,2.0,3.2,0.0,133.0,1 cup
+660,doughnut cruller glaze,3.1,59.5,17.398,28.35,1 oz
+661,drain solid,2.14,2.46,0.45199999999999996,242.0,1 cup
+662,drum freshwater raw,17.54,0.0,4.463,85.0,3 oz
+663,drumstick leave,9.4,8.28,0.0,21.0,1 cup
+664,duck,17.42,0.0,13.86,85.0,3 oz
+665,duck breast meat,19.85,0.0,3.1100000000000003,73.0,1 count
+666,duck domesticate,18.99,0.0,26.22,140.0,1 cup
+667,duck domesticate liver,18.74,3.53,2.78,44.0,1 count
+668,duck domesticate meat,18.28,0.94,4.609999999999999,137.0,1 count
+669,duck scoter wing,20.2,0.0,0.0,,1 count
+670,dulce de leche,6.84,55.35,7.052,19.0,1 tbsp
+671,eel specie,18.44,0.0,10.495,85.0,3 oz
+672,egg,12.56,0.72,8.695,50.0,1 count
+673,egg cook fry,13.61,0.83,13.756,46.0,1 count
+674,egg cook poach,12.51,0.71,8.66,50.0,1 count
+675,egg cook scramble,9.99,1.61,10.201,61.0,1 count
+676,egg custard mix,6.9,82.8,5.279999999999999,85.0,1 count
+677,egg dry,48.05,1.13,40.109,85.0,1 cup
+678,egg duck,12.81,1.45,11.429,70.0,1 count
+679,egg frozen pasteurize,12.33,1.01,9.179,28.0,1 oz
+680,egg goose,13.87,1.35,11.014000000000001,144.0,1 count
+681,egg omelet,10.57,0.64,10.873999999999999,15.0,1 tbsp
+682,egg quail,13.05,0.41,9.205,9.0,1 count
+683,egg salt pasteurize,10.97,0.83,8.805,28.0,1 oz
+684,egg scramble mixture,13.1,7.5,5.1690000000000005,28.35,1 oz
+685,egg substitute powder,55.5,21.8,10.79,9.9,.35 oz
+686,egg turkey,13.68,1.15,9.860999999999999,79.0,1 count
+687,egg white dry,81.1,7.8,0.0,28.0,1 oz
+688,egg yolk,15.86,3.59,25.493000000000002,17.0,1 count
+689,egg yolk dry,33.63,0.66,54.031,67.0,1 cup
+690,eggnog,4.55,8.05,4.091,254.0,1 cup
+691,eggplant pickle,0.9,9.77,0.497,136.0,1 cup
+692,elderberry,0.66,18.4,0.35,145.0,1 cup
+693,emu fan fillet,22.5,0.0,0.629,85.0,1 count
+694,emu fillet,22.25,0.0,0.584,85.0,3 oz
+695,emu ground,22.77,0.0,3.186,117.0,1 count
+696,emu inside drum,22.22,0.0,1.174,85.0,3 oz
+697,emu outside drum,23.08,0.0,0.394,85.0,3 oz
+698,emu oyster,22.81,0.0,3.8390000000000004,85.0,3 oz
+699,emu rump,22.83,0.0,1.293,85.0,3 oz
+700,epazote,0.33,7.44,0.0,0.8,1 tbsp
+701,eppaw,4.6,31.68,0.0,100.0,1 cup
+702,falafel home prepare,13.31,31.84,16.714,17.0,1 count
+703,fat cook,15.28,0.0,43.327000000000005,,1 count
+704,feijoa,0.71,15.21,0.29600000000000004,243.0,1 cup
+705,fennel bulb,1.24,7.3,0.327,87.0,1 cup
+706,fennel seed,15.8,52.29,12.08,2.0,1 tsp
+707,fenugreek seed,23.0,58.35,1.46,3.7,1 tsp
+708,fern,4.31,5.74,0.0,,1 count
+709,fig,0.75,19.18,0.27,64.0,1 count
+710,fig can pack,0.4,13.99,0.09,248.0,1 cup
+711,fig dried stew,1.42,27.57,0.279,259.0,1 cup
+712,fig dry,3.3,63.87,0.6479999999999999,149.0,1 cup
+713,fil chicken sandwich,16.28,20.89,9.781,187.0,1 count
+714,fil hash brown,3.0,30.51,17.365,5.5,1 piece
+715,fillet,23.0,9.0,16.557000000000002,85.0,1 count
+716,fireweed leave,4.71,19.22,0.0,23.0,1 cup
+717,fish,15.5,0.0,0.0,,1 count
+718,fish broth,2.0,0.4,0.486,244.0,1 cup
+719,fish cod previously,15.27,0.0,0.322,116.0,1 count
+720,fish halibut,20.53,1.81,2.833,,1 count
+721,fish halibut cook,22.13,0.0,2.0709999999999997,,1 count
+722,fish hand batter,13.23,16.65,8.186,250.0,1 count
+723,fish herre egg,60.4,2.8,0.0,,1 count
+724,fish lingcod,5.6,6.0,0.0,,1 count
+725,fish lingcod meat,17.9,0.0,0.0,,1 count
+726,fish mahimahi,18.5,0.0,0.474,85.0,3 oz
+727,fish oil herre,0.0,0.0,93.458,13.6,1 tbsp
+728,fish oil menhaden,0.0,0.0,91.318,13.6,1 tbsp
+729,fish oil salmon,0.0,0.0,89.233,13.6,1 tbsp
+730,fish oil sardine,0.0,0.0,95.60000000000001,13.6,1 tbsp
+731,fish pike,16.6,4.3,0.0,,1 count
+732,fish salmon,22.56,0.0,5.104,,1 count
+733,fish salmon can,35.19,0.0,5.98,,1 count
+734,fish salmon chum,20.69,0.0,2.257,,1 count
+735,fish salmon sockeye,22.25,0.0,3.3,28.35,1 oz
+736,fish salmon tipnuk,15.9,0.0,0.0,,1 count
+737,fish sheefish,22.25,0.0,2.27,,1 count
+738,fish sp,18.9,0.0,5.75,,1 count
+739,fish tilapia,20.08,0.0,1.446,116.0,1 count
+740,fish whitefish,11.0,5.1,0.0,,1 count
+741,flavor,11.2,6.3,27.119999999999997,56.0,1 count
+742,flavor chocolate lowfat,8.0,21.0,2.263,,1 count
+743,flavor enhance,2.94,3.45,1.8079999999999998,243.0,1 cup
+744,flipper,19.0,0.0,0.0,,1 count
+745,flour,40.32,35.14,11.152000000000001,28.35,1 oz
+746,flour fat,7.49,54.65,28.846,28.35,1 oz
+747,flour grain,13.18,73.14,1.295,130.0,1 cup
+748,flour groat,12.62,70.59,2.5749999999999997,120.0,1 cup
+749,flower,1.03,3.28,0.049,33.0,1 cup
+750,focaccia flatbread plain,8.77,35.82,7.5409999999999995,57.0,1 piece
+751,food,10.07,22.45,18.089,127.0,1 count
+752,food biscuit,7.08,42.82,16.489,55.0,1 count
+753,food biscuit egg,8.53,23.46,14.854,136.0,1 count
+754,food biscuit ham,11.85,38.75,15.291,162.0,1 count
+755,food biscuit sausage,9.67,29.99,22.691,111.0,1 item
+756,food burrito,7.35,31.23,5.796,185.0,1 count
+757,food burrito bean,6.48,32.92,5.909000000000001,217.0,2 count
+758,food chicken tender,19.22,17.25,13.106000000000002,30.0,1 strip
+759,food cinnamon roll,7.02,53.38,16.337,25.0,1 count
+760,food coleslaw,0.95,14.89,9.617999999999999,191.0,1 cup
+761,food egg scramble,13.84,2.08,14.011,96.0,2 count
+762,food hotdog chili,11.85,27.45,11.084999999999999,114.0,1 count
+763,food hotdog plain,10.6,18.4,13.947,98.0,1 count
+764,food muffin,13.28,25.28,19.171999999999997,108.0,1 item
+765,food nachos cheese,4.32,34.91,21.232999999999997,80.0,1 count
+766,food onion ring,3.86,43.58,23.228,117.0,1 count
+767,food potato mash,1.65,14.65,2.6390000000000002,242.0,1 cup
+768,food puppy,6.16,40.21,12.189,22.0,1 piece
+769,food quesadilla chicken,15.05,24.04,14.013000000000002,180.0,1 count
+770,food shrimp,7.84,27.99,17.341,39.0,3 count
+771,food sundae caramel,4.71,31.81,5.52,155.0,1 count
+772,food sundae fudge,3.57,30.17,5.165,158.0,1 count
+773,food sundae strawberry,4.09,29.18,4.85,153.0,1 count
+774,food taco salad,6.68,11.91,6.935,198.0,1.5 cup
+775,food toast butter,7.66,26.7,12.790000000000001,135.0,2 count
+776,food toast stick,6.0,41.21,16.057,65.0,3 count
+777,frankfurter beef fat,12.0,1.6,5.5649999999999995,57.0,1 count
+778,frankfurter chicken,15.51,2.74,13.661000000000001,85.0,3 oz
+779,frankfurter meatless,19.61,7.7,9.608,140.0,1 cup
+780,frankfurter na,12.0,1.8,27.023,57.0,1 count
+781,frankfurter pork,12.81,0.28,21.842000000000002,76.0,1 count
+782,frankfurter turkey,12.23,3.81,13.713,28.35,1 oz
+783,friday chicken finger,18.68,16.84,19.366,225.0,1 count
+784,friday french fr,3.74,36.9,13.428999999999998,184.0,1 count
+785,friday fry mozzarella,15.82,25.33,16.913999999999998,35.0,1 piece
+786,friday sirloin oz,31.02,0.47,5.763,176.0,1 count
+787,frog leg,16.4,0.0,0.23099999999999998,45.0,1 count
+788,frosting chocolate eat,1.1,63.2,16.772,41.0,2 tbsp
+789,frosting mix,2.3,94.9,0.0,207.0,1 count
+790,frosting vanilla eat,0.0,67.89,15.785,38.0,.083 count
+791,frozen prepare,11.91,8.91,4.058,155.0,1 cup
+792,fruit,5.2,51.5,9.525,28.35,1 oz
+793,fruit butter apple,0.39,42.47,0.15300000000000002,17.0,1 tbsp
+794,fruit leather piece,1.0,82.82,2.6799999999999997,28.35,1 oz
+795,fruit leather roll,0.1,85.8,2.704,21.0,1 count
+796,fruit syrup,0.0,85.13,0.0,334.0,1 cup
+797,frybread,6.69,48.26,10.087,152.0,1 piece
+798,game meat antelope,22.38,0.0,1.66,28.35,1 oz
+799,game meat bear,20.1,0.0,0.0,28.35,1 oz
+800,game meat beaver,24.05,0.0,0.0,28.35,1 oz
+801,game meat bison,21.62,0.0,1.5999999999999999,28.35,1 oz
+802,game meat boar,21.51,0.0,2.77,28.35,1 oz
+803,game meat buffalo,20.39,0.0,1.15,28.35,1 oz
+804,game meat caribou,22.63,0.0,2.7699999999999996,28.35,1 oz
+805,game meat deer,30.21,0.0,2.75,85.0,3 oz
+806,game meat elk,30.19,0.0,1.58,85.0,3 oz
+807,game meat horse,21.39,0.0,3.6999999999999997,28.35,1 oz
+808,game meat moose,22.24,0.0,0.61,28.35,1 oz
+809,game meat muskrat,20.76,0.0,0.0,28.35,1 oz
+810,game meat rabbit,21.79,0.0,1.7699999999999998,28.35,1 oz
+811,game meat squirrel,21.23,0.0,2.5,28.35,1 oz
+812,garden lasagna classico,11.28,10.33,9.339,422.0,1 count
+813,garden spaghetti sauce,4.26,17.14,1.817,478.0,1 count
+814,garland,3.36,3.02,0.0,25.0,1 cup
+815,gefiltefish recipe,9.07,7.41,1.521,42.0,1 piece
+816,gelatin powder unsweetene,85.6,0.0,0.14,7.0,1 count
+817,ginger ground,8.98,71.62,4.007000000000001,1.8,1 tsp
+818,ginger root,1.82,17.77,0.511,2.0,1 tsp
+819,ginkgo,4.32,37.6,1.556,28.35,1 oz
+820,ginkgo can,2.29,22.1,1.505,155.0,1 cup
+821,ginkgo nut dry,10.35,72.45,1.8570000000000002,28.35,1 oz
+822,girl scout cookie,3.5,64.1,24.2,29.0,2 count
+823,goat,20.6,0.0,1.91,28.35,1 oz
+824,goji berry dry,14.26,77.06,0.0,28.0,5 tbsp
+825,goose,0.0,0.0,95.4,12.8,1 tbsp
+826,goose domesticate,25.16,0.0,19.64,140.0,1 cup
+827,goose domesticate meat,22.75,0.0,5.540000000000001,85.0,3 oz
+828,goose liver,16.37,6.32,2.66,94.0,1 count
+829,goose liver smoke,11.4,4.67,40.900000000000006,13.0,1 tbsp
+830,gooseberry,0.88,10.18,0.406,150.0,1 cup
+831,gooseberry poha,1.9,11.2,0.0,140.0,1 cup
+832,grain,13.56,65.25,5.922000000000001,193.0,1 cup
+833,grain cook,3.8,18.69,0.0,246.0,1 cup
+834,granola bar,8.0,63.6,19.279999999999998,28.0,1 bar
+835,granola bar hard,7.7,62.0,24.009999999999998,28.35,1 oz
+836,granola bar plain,7.4,67.3,16.39,28.0,1 bar
+837,granola bar raisin,7.6,66.4,15.620000000000001,43.0,1 bar
+838,grape leave,5.6,17.31,1.482,14.0,1 cup
+839,grape leave can,4.27,11.71,1.377,4.0,1 count
+840,grape muscadine,0.81,13.93,0.0,6.0,1 count
+841,grape skin,0.63,17.15,0.22999999999999998,92.0,1 cup
+842,grapefruit,0.5,9.69,0.051000000000000004,230.0,1 cup
+843,grapefruit area,0.69,8.41,0.051000000000000004,230.0,1 cup
+844,grapefruit california,0.88,9.09,0.051000000000000004,230.0,1 cup
+845,grapefruit florida,0.63,8.19,0.051000000000000004,230.0,1 cup
+846,grapefruit juice,0.5,9.2,0.051000000000000004,247.0,1 cup
+847,gravy au jus,9.2,47.49,6.939,3.0,1 tsp
+848,gravy beef,9.8,61.1,9.477,6.7,1 count
+849,gravy brown,10.74,59.38,8.176,6.0,1 tbsp
+850,gravy campbell beef,1.69,5.08,0.847,59.0,.25 cup
+851,gravy campbell chicken,0.79,5.87,1.8259999999999998,56.0,.25 cup
+852,gravy campbell mushroom,0.0,5.08,0.0,59.0,.25 cup
+853,gravy campbell onion,0.0,6.78,0.0,59.0,.25 cup
+854,gravy campbell pork,1.69,5.08,2.542,59.0,.25 cup
+855,gravy campbell turkey,1.69,5.08,0.847,59.0,.25 cup
+856,gravy chicken,11.27,62.09,9.445,8.0,1 tbsp
+857,gravy instant,8.53,59.78,11.853,6.7,1 count
+858,gravy instant turkey,11.72,57.56,14.659,6.7,1 count
+859,gravy mushroom can,1.26,5.47,2.59,238.0,1 cup
+860,gravy mushroom powder,10.0,64.66,3.81,21.0,1 cup
+861,gravy onion mix,9.0,67.64,2.9000000000000004,24.0,1 cup
+862,gravy pork powder,8.78,63.57,8.625,6.7,1 count
+863,gravy turkey,10.42,65.12,6.746,7.0,1 count
+864,green,1.7,4.7,0.21000000000000002,29.0,1 cup
+865,greenland cook heat,18.42,0.0,15.597000000000001,85.0,3 oz
+866,grill lasagne,10.48,12.36,8.658999999999999,437.0,1 count
+867,groat roast,11.73,74.95,2.247,164.0,1 cup
+868,groat roast cook,3.38,19.94,0.51,168.0,1 cup
+869,ground,3.99,80.59,0.659,2.6,1 tsp
+870,ground cook broil,24.38,0.0,6.43,85.0,3 oz
+871,ground turkey,18.73,0.0,7.55,28.35,1 oz
+872,ground turkey cook,27.37,0.0,9.044,82.0,1 count
+873,ground turkey fat,23.57,0.0,1.593,85.0,1 count
+874,grouper specie,19.38,0.0,0.756,85.0,3 oz
+875,guanabana nectar can,0.11,14.93,0.119,251.0,1 cup
+876,guava sauce cook,0.32,9.48,0.11199999999999999,238.0,1 cup
+877,guavas,2.55,14.32,0.76,165.0,1 cup
+878,guavas strawberry,0.58,17.36,0.48,244.0,1 cup
+879,guinea hen,23.4,0.0,5.61,85.0,3 oz
+880,guinea hen meat,20.64,0.0,1.9100000000000001,85.0,3 oz
+881,haddock,16.32,0.0,0.318,85.0,3 oz
+882,haddock cook heat,19.99,0.0,0.389,150.0,1 count
+883,haddock smoke,25.23,0.0,0.651,28.35,1 oz
+884,halibut,18.56,0.0,1.053,85.0,3 oz
+885,halibut cook heat,22.54,0.0,1.279,85.0,3 oz
+886,halibut greenland,14.37,0.0,12.164000000000001,85.0,3 oz
+887,ham cheese spread,16.18,2.28,17.08,15.0,1 tbsp
+888,ham chop can,16.06,0.26,17.512,28.35,1 oz
+889,ham mince,16.28,1.84,19.232,28.35,1 oz
+890,ham salad spread,8.68,10.64,14.909,15.0,1 tbsp
+891,ham slice fat,16.6,3.83,8.079,56.0,56 count
+892,hazelnut filbert,14.95,16.7,58.036,115.0,1 cup
+893,hazelnut filbert blanch,13.7,17.0,58.419,28.35,1 oz
+894,hazelnut plain indian,14.89,22.98,0.0,0.4,1 count
+895,heart palm,2.7,25.61,0.13999999999999999,,1 count
+896,heart palm can,2.52,4.62,0.435,146.0,1 cup
+897,heat,24.69,0.0,0.611,85.0,3 oz
+898,herre,17.96,0.0,7.909,28.35,1 oz
+899,herre cook heat,23.03,0.0,10.14,143.0,1 count
+900,herre kippered,24.58,0.0,10.822000000000001,28.35,1 oz
+901,herre pickle,14.19,9.64,16.006999999999998,140.0,1 cup
+902,hickorynut dry,12.72,18.25,61.535,120.0,1 cup
+903,hominy can,1.48,14.26,0.753,165.0,1 cup
+904,honey,0.3,82.4,0.0,339.0,1 cup
+905,hormel cure ham,18.43,0.21,3.29,84.0,1 count
+906,hormel style bacon,16.88,1.87,4.94,56.0,1 count
+907,horn,1.78,7.56,0.0,233.0,1 cup
+908,hotcake sausage,7.81,37.55,3.646,192.0,1 item
+909,house food tofu,6.38,2.19,2.7199999999999998,56.0,2 oz
+910,huckleberry,0.4,8.7,0.0,,1 count
+911,hummus,7.9,14.29,9.089,15.0,1 tbsp
+912,hummus home prepare,4.86,20.12,8.115,15.0,1 tablespoon
+913,hyacinth bean seed,2.1,9.19,0.191,80.0,1 cup
+914,ice cream chocolate,3.8,28.2,10.42,58.0,1 count
+915,ice cream creamsicle,1.54,32.75,2.7689999999999997,,1 count
+916,ice cream sandwich,4.29,37.14,7.25,70.0,1 count
+917,ice cream strawberry,3.2,27.6,5.19,58.0,1 count
+918,ice cream vanilla,3.5,23.6,10.211,66.0,1 count
+919,incaparina soy flour,21.75,60.53,0.0,8.9,1 tbsp
+920,jackfruit,1.72,23.25,0.44399999999999995,165.0,1 cup
+921,jackfruit syrup pack,0.36,23.94,0.0,178.0,1 cup
+922,jackson vanilla wafer,5.0,74.0,14.100000000000001,30.0,8 count
+923,jam preserve,0.37,68.86,0.048,20.0,1 tbsp
+924,java,0.72,15.56,0.0,135.0,1 cup
+925,jelly,0.15,69.95,0.01,21.0,1 count
+926,jellyfish dry salt,5.5,0.0,0.95,58.0,1 cup
+927,jerusalem artichoke,2.0,17.44,0.005,150.0,1 cup
+928,jew,0.48,6.75,0.0,99.0,1 cup
+929,juice,0.5,10.1,0.1,247.0,1 cup
+930,juice bottle,0.15,13.13,0.186,249.0,1 cup
+931,juice can sweeten,0.5,12.0,0.056,249.0,1 cup
+932,juice cocktail bottle,0.0,13.52,0.087,31.6,1 fl oz
+933,juice na,0.6,4.59,0.07200000000000001,242.0,1 cup
+934,juice unsweetene,0.39,12.2,0.10300000000000001,253.0,1 cup
+935,jujube,1.2,20.23,0.0,,1 count
+936,jujube fresh dry,4.72,72.52,0.0,,1 count
+937,jute potherb,4.65,5.8,0.175,28.0,1 cup
+938,kale,2.66,4.9,0.312,94.0,.333 count
+939,kale scotch,2.8,8.32,0.412,67.0,1 cup
+940,kashi grain,13.81,71.0,5.4,140.0,.5 cup
+941,keebler animal cookie,5.6,75.3,13.0,40.0,1 count
+942,keebler animal cracker,5.6,75.3,13.0,29.0,8 count
+943,keebler club cracker,5.5,66.2,21.9,14.0,4 count
+944,keebler cookie,7.1,67.7,18.7,29.0,2 count
+945,keebler creme cookie,4.5,71.0,14.3,38.0,2 count
+946,keebler graham cinnamon,5.9,76.3,11.3,30.0,8 count
+947,keebler ice cookie,6.5,69.5,17.1,29.0,2 count
+948,keebler saltine,8.2,76.1,9.0,15.0,5 count
+949,keebler saltine wheat,8.4,75.1,9.6,15.0,5 count
+950,keebler sandie cookie,5.0,59.0,29.299999999999997,31.0,2 count
+951,keebler sugar cone,7.3,78.0,3.5999999999999996,13.0,1 count
+952,keebler toast cookie,3.8,69.9,16.6,38.0,2 count
+953,keebler toast graham,7.3,73.9,12.1,37.0,1 count
+954,keebler toasted cracker,5.5,65.0,23.5,16.0,5 count
+955,keebler vanilla wafer,4.0,73.1,16.2,30.0,8 count
+956,keebler waffle bowl,6.5,87.7,4.07,12.0,1 count
+957,keebler waffle cone,6.5,87.7,4.07,12.0,1 count
+958,keebler wedding cookie,3.9,68.3,21.2,26.0,4 count
+959,kefir lowfat lifeway,3.79,4.48,1.021,,1 count
+960,kellogg bean chip,22.9,46.5,24.1,28.0,12 count
+961,kellogg bran cracker,8.6,65.7,19.3,30.0,18 count
+962,kellogg cinnabon pancake,5.0,43.1,6.9,105.0,3 count
+963,kellogg k cracker,9.0,75.4,8.5,30.0,24 count
+964,kellogg simply eggo,6.2,43.3,9.7,70.0,2 count
+965,kfc biscuit,7.5,43.55,14.511000000000001,49.0,1 count
+966,kfc coleslaw,0.91,15.65,8.154,112.0,1 count
+967,kfc popcorn chicken,17.67,21.18,19.707,6.4,1 piece
+968,kielbasa fully cook,10.84,3.72,27.169999999999998,85.0,3 oz
+969,kiwifruit,1.14,14.66,0.363,180.0,1 cup
+970,kiwifruit zespri sungold,1.02,15.79,0.199,81.0,1 count
+971,knockwurst pork beef,11.1,3.2,25.940000000000005,72.0,1 count
+972,kohlrabi,1.7,6.2,0.068,135.0,1 cup
+973,kumquat,1.88,15.9,0.42800000000000005,19.0,1 count
+974,lamb ground,16.56,0.0,21.64,28.35,1 oz
+975,lamb moisture import,11.0,0.0,2.958,113.0,4 oz
+976,lambsquarter,4.2,7.3,0.5599999999999999,,1 count
+977,lambsquarter plain indian,4.21,6.96,0.0,0.9,1 count
+978,lard,0.0,0.0,95.50000000000001,12.8,1 tbsp
+979,lasagna cheese,5.06,21.61,3.8049999999999997,237.0,1 cup
+980,lasagna vegetable baked,6.87,14.18,5.9239999999999995,227.0,1 count
+981,le,18.99,0.0,0.43,85.0,3 oz
+982,le heat,24.35,0.0,0.0,85.0,3 oz
+983,leaf,3.63,4.21,0.123,156.0,1 cup
+984,leaf portion,1.5,14.15,0.21000000000000002,89.0,1 cup
+985,leave,2.46,4.02,0.31399999999999995,28.0,1 cup
+986,lebanon bologna beef,19.03,0.44,7.488,57.0,1 count
+987,leg meat,22.2,0.0,3.57,99.0,1 count
+988,lemon,1.82,25.31,0.34299999999999997,67.0,1 cup
+989,lemon juice,0.35,6.9,0.067,244.0,1 cup
+990,lemon peel,1.5,16.0,0.139,6.0,1 tbsp
+991,lemonade concentrate,0.22,49.89,0.092,36.5,1 fl oz
+992,lemonade concentrate pink,0.22,48.86,0.093,36.4,1 fl oz
+993,lemonade concentrate prepare,0.07,10.42,0.020999999999999998,30.9,1 fl oz
+994,lemonade powder prepare,0.0,3.59,0.0,33.0,1 fl oz
+995,lentil,24.63,63.35,0.873,192.0,1 cup
+996,lentil pink reduce,23.91,63.1,2.016,192.0,1 cup
+997,lentil sprout,8.96,22.14,0.38,77.0,1 cup
+998,lettuce cos romaine,1.23,3.29,0.21100000000000002,47.0,1 cup
+999,lettuce crisphead type,0.9,2.97,0.098,72.0,1 cup
+1000,lettuce leaf raw,1.36,2.87,0.10800000000000001,36.0,1 cup
+1001,lettuce type,1.35,2.23,0.15400000000000003,55.0,1 cup
+1002,lima bean seed,6.84,20.17,0.667,156.0,1 cup
+1003,lime,0.7,10.54,0.096,67.0,1 count
+1004,lime juice,0.42,8.42,0.039,242.0,1 cup
+1005,lime juice can,0.25,6.69,0.112,246.0,1 cup
+1006,linda linketts can,21.3,4.4,11.5,35.0,1 count
+1007,lingcod,17.66,0.0,0.847,85.0,3 oz
+1008,lingcod cook heat,22.64,0.0,1.085,85.0,3 oz
+1009,litchis,0.83,16.53,0.351,190.0,1 cup
+1010,litchis dry,3.8,70.7,0.9590000000000001,2.5,1 count
+1011,liver,18.4,2.0,0.0,,1 count
+1012,liver cheese pork,15.2,2.1,24.64,28.35,1 oz
+1013,liver sausage pork,14.5,3.1,25.231,28.35,1 oz
+1014,liver specify can,14.2,1.5,25.09,13.0,1 tbsp
+1015,liverwurst spread,12.38,5.89,24.637999999999998,55.0,.25 cup
+1016,loaf pork,11.23,8.46,15.151,38.0,1 slice
+1017,loaf roll,13.6,4.0,17.578,28.0,1 slice
+1018,lobster,16.52,0.0,0.6970000000000001,150.0,1 count
+1019,lobster heat,19.0,0.0,0.8009999999999999,145.0,1 cup
+1020,lobster sp,20.6,2.43,1.1019999999999999,85.0,3 oz
+1021,loganberry freeze,1.52,13.02,0.21699999999999997,147.0,1 cup
+1022,loin,26.32,0.0,5.640000000000001,85.0,3 oz
+1023,loin cook,24.8,0.0,10.85,85.0,3 oz
+1024,loin cook braise,30.19,0.0,14.620000000000001,85.0,3 oz
+1025,longan,1.31,15.14,0.0,3.2,1 count
+1026,longan dry,4.9,74.0,0.0,1.7,1 count
+1027,loquat,0.43,12.14,0.139,149.0,1 cup
+1028,lotus root,2.6,17.23,0.07,81.0,10 count
+1029,lotus seed,4.13,17.28,0.504,28.35,1 oz
+1030,lotus seed dry,15.41,64.47,1.884,32.0,1 cup
+1031,luncheon sausage,15.38,1.58,19.6,23.0,1 slice
+1032,luncheon slice meatless,17.78,4.44,7.776,14.0,1 slice
+1033,lupin seed,36.17,40.37,7.535,180.0,1 cup
+1034,luxury loaf pork,18.4,4.9,4.42,28.0,1 slice
+1035,macadamia,7.91,13.82,72.44,134.0,1 cup
+1036,macadamia nut salt,7.79,13.38,72.72,132.0,1 cup
+1037,macaroni cheese can,5.98,13.96,5.869,213.0,7.5 oz
+1038,macaroni noodle cheese,11.48,70.75,6.426,61.0,1 count
+1039,macaroni vegetable enrich,13.14,74.88,0.696,84.0,1 cup
+1040,mace ground,6.71,50.5,25.07,1.7,1 tsp
+1041,mackerel,18.6,0.0,12.063,112.0,1 count
+1042,mackerel cook heat,23.85,0.0,15.482,88.0,1 count
+1043,mackerel king,20.28,0.0,1.587,85.0,3 oz
+1044,mackerel mix sp,20.07,0.0,6.815999999999999,85.0,3 oz
+1045,mackerel salt,18.5,0.0,21.678,80.0,1 piece
+1046,mango dried sweeten,2.45,78.58,0.948,,1 count
+1047,mango nectar can,0.11,13.12,0.047,251.0,1 cup
+1048,mangos,0.82,14.98,0.303,165.0,1 cup
+1049,mangosteen syrup pack,0.41,17.91,0.0,196.0,1 cup
+1050,margarine hard,0.9,0.9,76.9,4.7,1 tsp
+1051,marjoram dry,12.66,60.56,5.8740000000000006,0.6,1 tsp
+1052,marmalade orange,0.3,66.3,0.0,20.0,1 tbsp
+1053,mashu root,5.8,22.6,0.0,,1 count
+1054,mayer braunschweiger liver,14.25,2.6,30.150000000000002,85.0,3 oz
+1055,mayer chicken glaze,19.85,4.3,1.176,52.0,1 count
+1056,mayer frank,11.35,2.78,28.560000000000002,45.0,1 count
+1057,mayonnaise dress cholesterol,0.0,0.3,74.349,15.0,1 tbsp
+1058,mayonnaise tofu,5.95,3.06,24.756999999999998,15.0,1 tbsp
+1059,mcdonald,6.0,38.27,5.372,149.0,3 count
+1060,mcdonald barbeque sauce,1.55,36.93,0.915,28.0,1 count
+1061,mcdonald breakfast,10.16,17.5,16.972,269.0,1 item
+1062,mcdonald caramel sauce,1.89,71.53,2.6820000000000004,21.0,.8 oz
+1063,mcdonald caramel sundae,3.58,33.36,3.91,182.0,1 item
+1064,mcdonald cheeseburger,12.97,27.81,8.421,119.0,1 item
+1065,mcdonald chicken mcnugget,15.79,15.09,17.005,64.0,4 count
+1066,mcdonald egg mcmuffin,13.64,21.67,8.048,126.0,1 count
+1067,mcdonald french fr,3.41,42.58,14.376999999999999,71.0,1 count
+1068,mcdonald fudge sundae,4.14,30.05,4.857,179.0,1 item
+1069,mcdonald hamburger,12.92,30.28,8.692,95.0,1 count
+1070,mcdonald hash brown,2.48,28.56,15.447,53.0,1 count
+1071,mcdonald mac,11.82,20.08,7.583,219.0,1 item
+1072,mcdonald mac sauce,12.79,21.01,8.298,200.0,1 item
+1073,mcdonald mcchicken mayonnaise,11.08,30.95,7.921999999999999,138.0,1 item
+1074,mcdonald mcchicken sandwich,10.43,27.97,11.711,131.0,1 count
+1075,mcdonald mcflurry candy,4.02,26.82,5.354,348.0,1 count
+1076,mcdonald mustard sauce,2.6,29.08,6.117,28.0,1 count
+1077,mcdonald n sauce,0.66,39.38,0.903,28.0,1 count
+1078,mcdonald quarter pounder,14.1,22.17,8.493,171.0,1 item
+1079,mcdonald salad,1.03,4.3,0.10500000000000001,87.0,1 item
+1080,mcdonald sausage biscuit,9.62,27.2,22.911,117.0,1 item
+1081,mcdonald sausage burrito,11.1,22.97,14.843,109.0,1 count
+1082,mcdonald sausage mcgriddle,8.41,31.25,15.558,135.0,1 item
+1083,mcdonald sausage mcmuffin,12.66,24.52,18.235999999999997,115.0,1 item
+1084,mcdonald strawberry sundae,3.19,28.09,3.174,178.0,1 item
+1085,mcdonald sundaes,28.04,16.23,48.033,7.0,.3 oz
+1086,meat,3.33,15.23,31.489,80.0,1 cup
+1087,meat beef tallow,0.0,0.0,94.12,12.8,1 tablespoon
+1088,meat cream,5.3,21.52,64.952,28.35,1 oz
+1089,meat extender,41.71,34.71,2.729,88.0,1 cup
+1090,meat heat,9.77,4.9,21.926000000000002,52.0,1 count
+1091,meat skin,21.76,0.0,3.75,101.0,1 count
+1092,meat sweeten,6.88,23.65,60.669000000000004,28.35,1 oz
+1093,meat sweeten flake,3.35,40.91,29.796,77.0,1 cup
+1094,meat toast,5.3,44.4,44.191,28.35,1 oz
+1095,meatball meatless,21.0,8.0,8.279,144.0,1 cup
+1096,meatball style,14.4,8.06,20.161,85.0,3 oz
+1097,meatloaf patty,21.0,8.0,8.279,56.0,1 slice
+1098,melon,0.84,4.06,0.0,,1 count
+1099,melon ball freeze,0.84,7.94,0.168,173.0,1 cup
+1100,melon casaba,1.11,6.58,0.066,170.0,1 cup
+1101,melon honeydew,0.54,9.09,0.1,170.0,1 cup
+1102,microwave,12.6,73.39,9.072,28.35,1 oz
+1103,milk buffalo fluid,3.75,5.18,6.53,244.0,1 cup
+1104,milk buttermilk dry,34.3,49.0,5.481999999999999,30.0,.25 cup
+1105,milk buttermilk fluid,3.21,4.88,2.924,245.0,1 cup
+1106,milk cereal bar,6.47,72.05,10.539000000000001,25.0,1 bar
+1107,milk express,2.29,5.54,22.415,240.0,1 cup
+1108,milk fluid,1.03,6.89,4.164,30.8,1 fl oz
+1109,milk na,3.1,4.46,3.281,244.0,1 cup
+1110,milk shake chocolate,3.05,21.15,2.5610000000000004,28.4,1 fl oz
+1111,milk shake vanilla,3.86,17.75,2.874,28.4,1 fl oz
+1112,milk sheep fluid,5.98,5.36,6.635,245.0,1 cup
+1113,millet,11.02,72.85,3.63,200.0,1 cup
+1114,millet cook,3.51,23.67,0.864,174.0,1 cup
+1115,millet flour,10.75,75.12,4.077999999999999,119.0,1 cup
+1116,millet puff,13.0,80.0,3.367,21.0,1 cup
+1117,miso,12.79,25.37,5.026999999999999,17.0,1 tbsp
+1118,mix rice base,17.31,51.62,24.288,28.35,1 oz
+1119,moisture sulfur,4.9,82.89,0.432,119.0,1 cup
+1120,moisture sulfured stew,1.93,32.62,0.16899999999999998,249.0,1 cup
+1121,molasse,0.0,74.73,0.1,337.0,1 cup
+1122,moose liver,24.38,3.43,1.7200000000000002,,1 count
+1123,moose meat,22.3,0.0,1.5699999999999998,,1 count
+1124,mori nu tofu,4.8,2.9,2.4290000000000003,84.0,1 slice
+1125,morningstar farm nugget,14.4,21.8,9.5,86.0,4 count
+1126,mortadella beef pork,16.37,3.05,24.01,28.35,1 oz
+1127,mothbean mature seed,22.94,61.52,1.2429999999999999,196.0,1 cup
+1128,mother cookie,5.7,65.1,23.099999999999998,32.0,5 count
+1129,mother ice cookie,5.4,71.0,16.7,32.0,4 count
+1130,mother loaf pork,12.07,7.53,20.869999999999997,28.35,1 oz
+1131,mother macaroon cookie,6.1,55.7,31.6,31.0,2 count
+1132,mother sandwich cookie,3.8,69.9,16.6,38.0,2 count
+1133,mountain yam hawaii,1.34,16.3,0.071,68.0,.5 cup
+1134,mouse,3.9,16.1,0.0,,1 count
+1135,mozzarella stick,14.87,22.87,15.527,32.0,1 piece
+1136,muffin blueberry mix,3.48,61.0,3.1639999999999997,43.0,1 count
+1137,muffin calcium sourdough,8.87,44.17,1.614,28.35,1 oz
+1138,muffin grain,7.02,50.17,0.0,57.0,1 count
+1139,muffin mix granola,9.1,46.3,1.616,28.35,1 oz
+1140,muffin oat bran,7.0,48.3,6.911,28.35,1 oz
+1141,muffin wheat,8.7,44.8,1.4009999999999998,28.35,1 oz
+1142,muffin wheat toast,9.4,48.7,1.5230000000000001,28.35,1 oz
+1143,mulberry,1.44,9.8,0.275,140.0,1 cup
+1144,mullet stripe,19.35,0.0,2.909,28.35,1 oz
+1145,murray gingersnap cookie,5.1,73.9,15.1,30.0,5 count
+1146,murray honey graham,5.9,75.7,12.5,31.0,8 count
+1147,murray kitchen cookie,7.1,67.7,18.7,29.0,2 count
+1148,murray sugar bite,6.5,75.3,13.3,21.0,1 count
+1149,murray sugar cookie,6.7,66.6,20.700000000000003,32.0,3 count
+1150,murray vanilla wafer,4.0,72.9,16.2,30.0,8 count
+1151,mush corn,0.66,11.74,0.391,,1 count
+1152,mushroom,3.09,3.26,0.21000000000000002,70.0,1 cup
+1153,mushroom chanterelle,1.49,6.86,0.0,54.0,1 cup
+1154,mushroom crimini raw,2.5,4.3,0.058,87.0,1 cup
+1155,mushroom enoki,2.66,7.81,0.11,5.0,1 count
+1156,mushroom maitake,1.94,6.97,0.15,70.0,1 cup
+1157,mushroom microwave,3.91,6.04,0.36000000000000004,,1 count
+1158,mushroom morel,3.12,5.1,0.55,66.0,1 cup
+1159,mushroom oyster,3.31,6.09,0.216,148.0,1 count
+1160,mushroom portabella,2.11,3.87,0.197,86.0,1 cup
+1161,mushroom portabella grill,3.28,4.44,0.305,121.0,1 cup
+1162,mushroom shiitake,2.24,6.79,0.0,19.0,1 piece
+1163,mushroom shiitake dry,9.58,75.37,0.6930000000000001,3.6,1 count
+1164,mushroom shiitake salt,1.56,14.39,0.15400000000000003,145.0,1 cup
+1165,mushroom stir fry,3.58,4.04,0.2,108.0,1 cup
+1166,mussel,11.9,3.69,1.5379999999999998,150.0,1 cup
+1167,mussel heat,23.8,7.39,3.0759999999999996,85.0,3 oz
+1168,mustard,2.2,3.9,0.21000000000000002,150.0,1 cup
+1169,mustard green,2.86,4.67,0.13999999999999999,56.0,1 cup
+1170,mustard green freeze,2.49,3.41,0.189,146.0,1 cup
+1171,mustard prepare,3.74,5.83,3.17,5.0,1 tsp
+1172,mutton cook,33.43,0.08,10.415,28.35,1 oz
+1173,nabisco graham cracker,6.99,76.2,5.62,28.0,1 count
+1174,nance freeze,0.66,16.97,0.0,112.0,1 cup
+1175,natto,19.4,12.68,10.231,175.0,1 cup
+1176,nectar can,0.17,14.51,0.123,250.0,1 cup
+1177,nectarine,1.06,10.55,0.22599999999999998,143.0,1 cup
+1178,noodle chow mein,8.11,72.8,14.729000000000001,28.0,.5 cup
+1179,noodle egg dry,14.16,71.27,3.763,38.0,1 cup
+1180,noodle restaurant,10.33,51.9,29.497,45.0,1 cup
+1181,noodle soba cook,5.06,21.44,0.076,114.0,1 cup
+1182,noodle soba dry,14.38,74.62,0.541,57.0,2 oz
+1183,noodle soman,11.35,74.1,0.54,57.0,2 oz
+1184,noodle soman cook,4.0,27.54,0.119,176.0,1 cup
+1185,nopale,1.32,3.33,0.084,86.0,1 cup
+1186,nopale cook salt,1.35,3.28,0.034,149.0,1 cup
+1187,nut pilinut dry,10.8,3.98,76.018,120.0,1 cup
+1188,nutmeg ground,5.84,49.29,29.51,2.2,1 tsp
+1189,oat,16.89,66.27,5.93,156.0,1 cup
+1190,oat bran cook,3.21,11.44,0.7929999999999999,219.0,1 cup
+1191,oat bran raw,17.3,66.22,6.47,94.0,1 cup
+1192,ocean perch,15.31,0.0,1.052,28.35,1 oz
+1193,octopus,14.91,2.2,0.628,85.0,3 oz
+1194,octopus moist heat,29.82,4.4,1.254,85.0,3 oz
+1195,oheloberrie,0.38,6.84,0.0,140.0,1 cup
+1196,oil,0.56,0.0,91.007,,1 count
+1197,oil almond,0.0,0.0,95.5,13.6,1 tablespoon
+1198,oil apricot kernel,0.0,0.0,95.6,13.6,1 tablespoon
+1199,oil avocado,0.0,0.0,95.60000000000001,14.0,1 tbsp
+1200,oil babassu,0.0,0.0,94.2,13.6,1 tbsp
+1201,oil canola,0.0,0.0,98.783,14.0,1 tbsp
+1202,oil cocoa butter,0.0,0.0,95.6,13.6,1 tablespoon
+1203,oil coconut,0.0,0.0,90.50899999999999,13.6,1 tbsp
+1204,oil corn canola,0.0,0.0,95.676,14.0,1 tbsp
+1205,oil cupu assu,0.0,0.0,95.7,13.6,1 tablespoon
+1206,oil grapeseed,0.0,0.0,95.60000000000001,13.6,1 tablespoon
+1207,oil hazelnut,0.0,0.0,95.60000000000001,13.6,1 tablespoon
+1208,oil hydrogenate purpose,0.0,0.0,95.29299999999999,13.6,1 tbsp
+1209,oil mid sunflower,0.0,0.0,95.305,13.6,1 tablespoon
+1210,oil mustard,0.0,0.0,91.99900000000001,14.0,1 tbsp
+1211,oil nutmeg butter,0.0,0.0,94.8,13.6,1 tbsp
+1212,oil oat,0.0,0.0,95.6,13.6,1 tbsp
+1213,oil palm,0.0,0.0,95.6,13.6,1 tbsp
+1214,oil palm fill,0.0,0.0,93.914,13.6,1 tbsp
+1215,oil palm kernel,0.0,0.0,94.5,13.6,1 tablespoon
+1216,oil pop fat,10.72,76.04,6.167,28.35,1 oz
+1217,oil poppyseed,0.0,0.0,95.6,13.6,1 tablespoon
+1218,oil rice bran,0.0,0.0,94.0,13.6,1 tablespoon
+1219,oil sheanut,0.0,0.0,95.8,13.6,1 tablespoon
+1220,oil soy,0.0,0.0,95.45400000000001,14.0,1 tablespoon
+1221,oil soybean lecithin,0.0,0.0,71.3,13.6,1 tablespoon
+1222,oil spot,0.0,0.0,87.32000000000001,,1 count
+1223,oil sunflower,0.0,0.0,95.5,13.6,1 tbsp
+1224,oil sunflower hi,0.0,0.0,97.34599999999999,14.0,1 tbsp
+1225,oil sunflower hydrogenate,0.0,0.0,95.6,13.6,1 tbsp
+1226,oil sunflower linoleic,0.0,0.0,95.6,13.6,1 tbsp
+1227,oil teaseed,0.0,0.0,95.6,13.6,1 tablespoon
+1228,oil tomatoseed,0.0,0.0,95.6,13.6,1 tablespoon
+1229,oil topping whitener,0.0,0.0,93.803,13.6,1 tbsp
+1230,oil ucuhuba butter,0.0,0.0,94.80000000000001,13.6,1 tbsp
+1231,oil walnut,0.0,0.0,95.19999999999999,13.6,1 tbsp
+1232,oil whale native,0.0,0.0,0.0,,1 count
+1233,oil wheat germ,0.0,0.0,95.6,4.5,1 tsp
+1234,okara,3.52,12.23,1.2429999999999999,122.0,1 cup
+1235,okra,1.69,6.63,0.17200000000000001,95.0,.33 count
+1236,olive extra,0.84,6.26,10.214,8.4,1 tbsp
+1237,olive pickle,1.03,3.84,14.65,2.7,1 count
+1238,olive super colossal,0.97,5.61,6.566,15.0,1 count
+1239,onion,1.1,9.34,0.07200000000000001,160.0,1 cup
+1240,onion can,0.85,4.02,0.065,63.0,1 count
+1241,onion dehydrate flake,8.95,83.28,0.322,5.0,1 tbsp
+1242,onion freeze,0.89,8.45,0.045,95.0,.33 count
+1243,onion freeze chop,0.79,6.82,0.07,95.0,.33 count
+1244,onion powder,10.41,79.12,0.7310000000000001,2.4,1 tsp
+1245,onion saute,0.95,7.86,9.132,87.0,1 cup
+1246,onion spring,1.83,7.34,0.133,100.0,1 cup
+1247,onion top,0.97,5.74,0.173,6.0,1 tbsp
+1248,onion welsh,1.9,6.5,0.279,,1 count
+1249,orange,0.81,13.34,0.164,195.0,1 cup
+1250,orange california valencia,1.04,11.89,0.15,180.0,1 cup
+1251,orange florida,0.7,11.54,0.10600000000000001,185.0,1 cup
+1252,orange juice,0.7,10.4,0.1,248.0,1 cup
+1253,orange juice can,0.68,11.01,0.077,249.0,1 cup
+1254,orange navel,0.91,12.54,0.078,165.0,1 cup
+1255,orange peel,1.3,15.5,0.15,170.0,1 cup
+1256,orange relish can,0.3,46.2,0.012,275.0,1 cup
+1257,orange variety,0.94,11.75,0.063,180.0,1 cup
+1258,oscar mayer,11.05,2.45,29.17,28.0,1 count
+1259,oscar mayer juice,16.3,3.65,11.16,28.0,1 count
+1260,ostrich fan,21.81,0.0,2.4,85.0,1 count
+1261,ostrich ground,20.22,0.0,5.741,109.0,1 count
+1262,ostrich inside leg,22.39,0.0,1.58,85.0,1 count
+1263,ostrich inside strip,23.69,0.0,2.6930000000000005,85.0,1 count
+1264,ostrich loin,21.67,0.0,2.84,85.0,1 count
+1265,ostrich loin cook,28.12,0.0,2.9699999999999998,85.0,1 count
+1266,ostrich outside leg,22.86,0.0,1.63,85.0,1 count
+1267,ostrich outside strip,23.36,0.0,2.107,85.0,1 count
+1268,ostrich oyster,21.55,0.0,3.0799999999999996,85.0,1 count
+1269,ostrich oyster cook,28.81,0.0,3.6499999999999995,85.0,1 count
+1270,ostrich round,21.99,0.0,2.18,85.0,1 count
+1271,ostrich tenderloin raw,22.07,0.0,3.15,85.0,1 count
+1272,ostrich tip,21.85,0.0,2.1,85.0,1 count
+1273,ostrich tip cook,28.49,0.0,2.41,85.0,1 count
+1274,owl horn flesh,22.7,0.0,0.0,,1 count
+1275,oyster,5.22,5.53,1.186,85.0,3 oz
+1276,oyster can,7.06,3.91,1.62,85.0,3 oz
+1277,oyster cook,8.77,11.62,11.212,85.0,3 oz
+1278,oyster moist heat,18.9,9.9,3.584,25.0,1 count
+1279,oyster raw,5.71,2.72,1.255,84.0,6 count
+1280,pace bean,4.17,10.83,0.0,120.0,.5 cup
+1281,pace dice chilie,0.0,6.67,0.0,30.0,2 tbsp
+1282,pace enchilada sauce,1.67,8.33,0.0,60.0,.25 cup
+1283,pace jalapeno bean,4.17,11.67,0.0,120.0,.5 cup
+1284,pace pepper salsa,3.13,9.38,0.0,32.0,1 count
+1285,pace picante sauce,0.0,6.25,0.0,32.0,1 count
+1286,pace salsa,0.0,6.25,0.0,32.0,1 count
+1287,pace salsa verde,0.0,6.25,0.0,32.0,1 count
+1288,pace taco sauce,0.0,6.25,0.0,16.0,1 count
+1289,pancake buckwheat mix,10.9,71.3,2.02,28.35,1 oz
+1290,pancake mix,8.9,73.9,1.089,28.35,1 oz
+1291,pancake plain buttermilk,5.23,37.75,6.547000000000001,28.35,1 oz
+1292,pancake plain recipe,6.4,28.3,9.043,28.35,1 oz
+1293,pancake wheat mix,12.8,71.0,1.1280000000000001,28.35,1 oz
+1294,papad,25.56,59.87,2.7640000000000002,,1 count
+1295,papayas,0.47,10.82,0.211,145.0,1 cup
+1296,paprika,14.14,53.99,11.600999999999999,2.3,1 tsp
+1297,parsley,2.97,6.33,0.5509999999999999,60.0,1 cup
+1298,parsley dry,26.63,50.64,5.263,0.5,1 tsp
+1299,parsley freeze dry,31.3,42.38,0.0,0.4,1 tbsp
+1300,parsnip,1.2,17.99,0.20900000000000002,133.0,1 cup
+1301,passion,2.2,23.38,0.5559999999999999,236.0,1 cup
+1302,passion fruit juice,0.39,13.6,0.039,247.0,1 cup
+1303,pasta dry,13.04,74.67,1.012,91.0,1 cup
+1304,pasta egg cook,5.28,23.54,1.4369999999999998,57.0,2 oz
+1305,pasta enrich,13.04,74.67,1.012,91.0,1 cup
+1306,pasta gluten corn,7.46,79.26,1.7570000000000001,105.0,1 cup
+1307,pasta mix beef,12.32,72.2,1.748,122.0,1 count
+1308,pasta mix lasagna,10.9,73.77,1.281,141.0,1 count
+1309,pasta refrigerate plain,5.15,24.93,0.7030000000000001,128.0,2 oz
+1310,pasta wheat cook,5.99,30.07,0.9929999999999999,117.0,1 cup
+1311,pasta wheat dry,13.87,73.37,1.9249999999999998,91.0,1 cup
+1312,paste,9.0,47.81,26.462000000000003,28.35,1 oz
+1313,pastrami beef fat,19.6,1.54,0.6000000000000001,57.0,1 count
+1314,pastrami turkey,16.3,3.34,4.745,57.0,2 count
+1315,pastry cheese,8.0,37.2,20.682,28.35,1 oz
+1316,pastry cinnamon,7.0,44.6,21.129,28.35,1 oz
+1317,pastry cinnamon enrich,7.0,44.6,21.129,28.35,1 oz
+1318,pastry fruit enrich,5.4,47.8,17.25,28.35,1 oz
+1319,pastry lemon unenriched,5.4,47.8,10.271,28.35,1 oz
+1320,pastry raspberry unenriched,5.4,47.8,10.271,28.35,1 oz
+1321,pea,5.22,13.62,0.274,134.0,1 cup
+1322,pea can pack,3.01,10.6,0.355,124.0,.5 cup
+1323,pea can season,3.09,9.25,0.199,227.0,1 cup
+1324,pea pod,2.8,7.2,0.222,144.0,1 cup
+1325,pea salt,3.19,9.75,0.22299999999999998,124.0,.5 cup
+1326,peach can syrup,0.4,11.1,0.095,247.0,1 cup
+1327,peach dry sulfur,3.61,61.33,0.7270000000000001,160.0,1 cup
+1328,peach moisture sulfur,4.89,83.18,0.986,116.0,1 cup
+1329,peach pack,0.44,6.11,0.05500000000000001,244.0,1 cup
+1330,peach slice sweeten,0.63,23.98,0.126,250.0,1 cup
+1331,peach yellow,0.91,9.54,0.172,154.0,1 cup
+1332,peanut butter creamy,24.47,17.0,53.255,16.0,1 tbsp
+1333,peanut flour defatte,52.2,34.7,0.43100000000000005,60.0,1 cup
+1334,peanut flour fat,33.8,31.27,20.826999999999998,60.0,1 cup
+1335,peanut oil salt,28.01,17.45,46.635999999999996,147.0,1 cup
+1336,peanut spanish,26.15,15.83,46.661,146.0,1 cup
+1337,peanut type,25.8,16.13,46.263,28.35,1 oz
+1338,peanut valencia,25.09,20.91,45.243,146.0,1 cup
+1339,peanut virginia,25.19,16.54,46.891,146.0,1 cup
+1340,pear,0.5,10.65,0.11599999999999999,122.0,1 count
+1341,pear anjou,0.44,15.79,0.0,140.0,1 cup
+1342,pear bartlett,0.39,15.01,0.0,140.0,1 cup
+1343,pear bosc,0.36,16.1,0.0,140.0,1 cup
+1344,pear dry sulfur,1.87,69.7,0.315,180.0,1 cup
+1345,pear pack,0.19,7.81,0.015,244.0,1 cup
+1346,pear plain indian,0.12,10.17,0.0,19.0,1 count
+1347,pear reduce anjou,0.33,14.94,0.0,126.0,1 count
+1348,pecan,9.17,13.86,68.595,109.0,1 cup
+1349,pecan oil salt,9.2,13.01,71.792,110.0,1 cup
+1350,pecan salt,9.5,13.55,70.812,28.35,1 oz
+1351,pectin liquid,0.0,2.1,0.0,,1 fl oz
+1352,pectin mix,0.3,90.4,0.15,50.0,1 count
+1353,peel raw,1.5,25.0,0.1,6.0,1 tbsp
+1354,pepeao dry,4.82,81.03,0.0,24.0,1 cup
+1355,pepper,10.4,68.61,2.031,2.4,1 tsp
+1356,pepper ancho dry,11.86,51.42,5.823,17.0,1 count
+1357,pepper banana,1.66,5.35,0.318,124.0,1 cup
+1358,pepper black,10.39,63.95,3.1289999999999996,2.3,1 tsp
+1359,pepper can,0.8,3.9,0.226,140.0,1 cup
+1360,pepper chili,2.0,9.46,0.14100000000000001,45.0,1 count
+1361,pepper chili can,0.72,4.6,0.198,139.0,1 cup
+1362,pepper chili reduce,1.87,8.81,0.305,45.0,1 count
+1363,pepper freeze dry,17.9,68.7,2.2560000000000002,0.4,1 tbsp
+1364,pepper jalapeno can,0.92,4.74,0.664,136.0,1 cup
+1365,pepper jalapeno raw,0.91,6.5,0.23299999999999998,90.0,1 cup
+1366,pepper pasilla dry,12.35,51.13,0.0,7.0,1 count
+1367,pepper raw,1.0,6.32,0.031,186.0,1 count
+1368,pepper reduce,0.99,6.03,0.1,149.0,1 cup
+1369,pepper reduce cayenne,12.01,56.63,14.379999999999999,1.8,1 tsp
+1370,pepper sauteed,0.78,4.22,9.827000000000002,115.0,1 cup
+1371,pepper serrano,1.74,6.7,0.304,105.0,1 cup
+1372,pepper sun dry,10.58,69.86,4.36,37.0,1 cup
+1373,pepperidge farm bread,0.01,50.2,3.9000000000000004,45.0,1 count
+1374,pepperidge farm rye,0.01,45.0,2.7,32.0,1 count
+1375,peppermint,3.75,14.89,0.787,0.1,2 count
+1376,perch specie,19.39,0.0,0.705,60.0,1 count
+1377,persimmon,0.58,18.59,0.09999999999999999,168.0,1 count
+1378,persimmon dry,1.38,73.43,0.0,34.0,1 count
+1379,pheasant cook total,32.4,0.0,10.72,140.0,1 cup
+1380,phyllo dough,7.1,52.6,5.542,28.35,1 oz
+1381,pickle cucumber na,0.33,2.26,0.136,143.0,1 cup
+1382,pickle cucumber sour,0.33,2.26,0.136,155.0,1 cup
+1383,pickle relish,0.37,35.06,0.385,15.0,1 tbsp
+1384,pickle relish dog,1.5,23.35,0.381,15.0,1 tbsp
+1385,pickle relish hamburger,0.63,34.48,0.452,15.0,1 tbsp
+1386,pie crust refrigerate,2.97,51.11,23.094,229.0,1 count
+1387,pie mix can,1.09,26.39,0.08800000000000001,270.0,1 cup
+1388,pie peach,1.9,32.9,9.498,28.35,1 oz
+1389,pie spice,5.76,69.28,8.412,1.7,1 tsp
+1390,pigeon gram seed,21.7,62.78,1.156,205.0,1 cup
+1391,pike,19.26,0.0,0.47700000000000004,85.0,3 oz
+1392,pimento can,1.1,5.1,0.226,12.0,1 tbsp
+1393,pine nut dry,13.69,13.08,57.733999999999995,135.0,1 cup
+1394,pineapple juice blend,0.41,12.2,0.044,246.0,8 fl oz
+1395,pineapple pack,0.43,8.3,0.048,246.0,1 cup
+1396,pineapple variety,0.53,13.5,0.0,165.0,1 cup
+1397,pinon nut,7.41,51.06,33.2,,1 count
+1398,pinto bean hominy,1.42,5.38,0.28700000000000003,227.0,8 oz
+1399,pinyon dry,11.57,19.3,57.987,28.35,1 oz
+1400,pistachio,20.16,27.17,43.544000000000004,123.0,1 cup
+1401,pistachio cook,14.8,1.4,7.9,56.0,1 count
+1402,pistachio salt,21.05,28.28,43.525,123.0,1 cup
+1403,pizza margherita,12.8,25.7,7.4,113.0,.33 count
+1404,pizza mediterranean,12.7,31.0,7.300000000000001,120.0,.33 count
+1405,pizza roll freeze,8.73,50.72,9.196,80.0,1 count
+1406,plantain,1.3,31.89,0.244,148.0,1 cup
+1407,plantain cook,0.79,31.15,0.117,200.0,1 cup
+1408,plantain fry,1.5,49.17,10.739999999999998,118.0,1 cup
+1409,plum,0.5,13.63,0.0,150.0,1 cup
+1410,plum can pack,0.39,11.03,0.008,249.0,1 cup
+1411,plum plain indian,0.43,21.95,0.0,161.0,1 cup
+1412,pocket meatball mozzarella,10.49,32.28,6.537,128.0,1 count
+1413,pod,2.1,8.53,0.138,100.0,1 cup
+1414,poi,0.38,27.23,0.098,240.0,1 cup
+1415,pokeberry,2.6,3.7,0.0,160.0,1 cup
+1416,pollock,19.44,0.0,0.73,85.0,3 oz
+1417,pollock cook heat,24.92,0.0,0.935,85.0,3 oz
+1418,pomegranate,1.67,18.7,0.292,87.0,.5 cup
+1419,pompano florida,18.48,0.0,7.231999999999999,28.35,1 oz
+1420,popeye coleslaw,0.98,14.12,11.078,120.0,1 count
+1421,popeyes biscuit,6.0,40.95,21.58,60.0,1 count
+1422,popover mix,10.4,71.0,3.79,28.35,1 oz
+1423,popover mix enrich,10.4,71.0,3.79,28.35,1 oz
+1424,pork,13.83,0.0,10.137,28.0,1 slice
+1425,pork backfat,2.92,0.0,84.50999999999999,28.35,1 oz
+1426,pork backrib,19.07,0.0,15.32,85.0,3 oz
+1427,pork backrib cook,23.01,0.0,20.619,85.0,3 oz
+1428,pork beef,14.0,4.27,20.622999999999998,56.0,1 count
+1429,pork beef link,14.3,2.98,26.1,70.0,1 count
+1430,pork belly,9.34,0.0,49.68,28.35,1 oz
+1431,pork butt,18.73,0.0,5.102,85.0,3 oz
+1432,pork carcass,13.91,0.0,32.169999999999995,28.35,1 oz
+1433,pork cook,13.72,2.85,27.322,85.0,1 count
+1434,pork cure bacon,12.62,1.28,37.189,28.0,1 slice
+1435,pork cure ham,22.32,0.05,5.2,140.0,1 cup
+1436,pork cure picnic,5.68,0.09,58.519999999999996,28.35,1 oz
+1437,pork fat cook,7.06,0.0,64.381,28.35,1 oz
+1438,pork ground,16.88,0.0,19.22,28.35,1 oz
+1439,pork ground cook,25.69,0.0,18.84,85.0,3 oz
+1440,pork loin,21.43,0.0,5.12,85.0,3 oz
+1441,pork loin boneless,21.34,0.0,4.11,85.0,3 oz
+1442,pork loin cook,27.09,0.0,13.09,85.0,3 oz
+1443,pork loin tenderloin,20.65,0.0,3.098,85.0,3 oz
+1444,pork raw,20.48,0.0,4.890000000000001,28.35,1 oz
+1445,pork rump half,20.27,0.0,10.127,28.35,1 oz
+1446,pork sausage link,15.39,0.93,21.846000000000004,25.0,1 count
+1447,pork shoulder,17.18,0.0,16.17,28.35,1 oz
+1448,pork shoulder cook,23.28,0.0,19.380000000000003,135.0,1 cup
+1449,pork shoulder raw,19.55,0.0,6.470000000000001,28.35,1 oz
+1450,pork skin plain,61.3,0.0,29.79,28.35,1 oz
+1451,pork sparerib,15.47,0.0,20.023999999999997,85.0,3 oz
+1452,pork style dehydrate,11.8,1.4,58.931000000000004,22.0,1 cup
+1453,potato,1.71,22.22,0.126,176.0,1 cup
+1454,potato can,1.2,9.89,0.079,300.0,1 cup
+1455,potato can mashed,1.98,23.19,0.133,255.0,1 cup
+1456,potato chip plain,7.0,52.9,32.97,28.35,1 oz
+1457,potato flesh skin,2.05,17.49,0.069,75.0,.5 cup
+1458,potato flour,6.9,83.1,0.248,160.0,1 cup
+1459,potato freeze,1.83,17.47,0.099,,1 count
+1460,potato freeze prepare,2.22,21.86,12.611,,1 count
+1461,potato home prepare,2.35,15.47,1.199,194.0,1 cup
+1462,potato leave,2.49,8.82,0.359,35.0,1 cup
+1463,potato mash eat,1.97,13.29,4.5520000000000005,229.0,1 cup
+1464,potato pancake,6.08,27.81,13.742,22.0,1 count
+1465,potato puff,1.93,24.8,7.933999999999999,120.0,1 cup
+1466,potato salad egg,1.96,16.18,8.42,125.0,.5 cup
+1467,potato scallop mix,7.77,73.93,3.285,26.0,.167 count
+1468,potato skin,2.57,12.44,0.071,38.0,1 count
+1469,poultry seasoning,9.59,65.59,6.432,1.5,1 tsp
+1470,pout ocean,16.64,0.0,0.681,85.0,3 oz
+1471,powder,16.55,72.73,0.542,3.1,1 tsp
+1472,prepare,1.18,11.29,0.559,5.0,1 tsp
+1473,preserve melon,0.4,3.0,0.13999999999999999,132.0,1 cup
+1474,pretzel,8.2,69.39,2.714,143.0,1 count
+1475,prune juice can,0.61,17.45,0.031,256.0,1 cup
+1476,prune moisture,3.7,89.07,0.7010000000000001,132.0,1 cup
+1477,prune moisture stew,1.23,29.7,0.23399999999999999,280.0,1 cup
+1478,prune puree,2.1,65.1,0.016,36.0,2 tbsp
+1479,pudding banana mix,0.0,93.0,0.28,88.0,1 count
+1480,pudding chocolate eat,2.09,23.01,4.099,28.35,1 oz
+1481,pudding lemon mix,0.1,91.8,0.0,85.0,1 count
+1482,pudding rice eat,3.23,18.39,1.893,113.0,1 count
+1483,pudding rice mix,2.7,91.2,0.0,106.0,1 count
+1484,pudding tapioca eat,1.95,21.69,3.572,28.35,1 oz
+1485,pudding tapioca mix,0.1,94.3,0.0,92.0,1 count
+1486,pudding vanilla eat,1.45,22.6,3.3890000000000002,28.35,1 oz
+1487,pudding vanilla mix,0.3,93.5,0.29000000000000004,88.0,1 count
+1488,pulp,0.44,5.9,0.0,120.0,1 cup
+1489,pummelo,0.76,9.62,0.0,190.0,1 cup
+1490,pumpkin leave,3.15,2.33,0.281,39.0,1 cup
+1491,pumpkin seed,19.4,0.0,0.502,48.0,1 count
+1492,puppy prepare recipe,7.7,46.0,12.59,28.35,1 oz
+1493,purslane,2.03,3.39,0.0,43.0,1 cup
+1494,quail breast meat,22.59,0.0,2.48,85.0,3 oz
+1495,quail cook total,25.1,0.0,12.333,28.35,1 oz
+1496,quail meat,21.76,0.0,3.77,92.0,1 count
+1497,quail meat skin,19.63,0.0,10.54,109.0,1 count
+1498,quince,0.4,15.3,0.096,92.0,1 count
+1499,quinoa,14.12,64.16,5.611,170.0,1 cup
+1500,quinoa cook,4.4,21.3,1.8370000000000002,185.0,1 cup
+1501,radicchio,1.43,4.48,0.18,40.0,1 cup
+1502,radishe,0.6,4.1,0.092,116.0,1 cup
+1503,radishe dry,7.9,63.37,0.6619999999999999,116.0,1 cup
+1504,radishe icicle,1.1,2.63,0.091,50.0,.5 cup
+1505,radishe style pickle,1.1,5.2,0.277,150.0,1 cup
+1506,raisin seed,2.52,78.47,0.359,165.0,1 cup
+1507,raisin seedless,3.39,79.52,0.305,165.0,1 cup
+1508,rambutan syrup pack,0.65,20.87,0.0,150.0,1 cup
+1509,ranch sauce,1.11,3.49,47.166,43.0,1.5 oz
+1510,raspberry,1.2,11.94,0.458,123.0,1 cup
+1511,raspberry freeze,1.2,11.94,0.0,140.0,1 cup
+1512,raspberry plain indian,1.12,13.85,0.0,130.0,1 cup
+1513,raw,0.98,5.88,0.126,82.0,1 cup
+1514,replacement pedialyte,0.0,2.45,0.0,31.2,1 fl oz
+1515,request tomato juice,0.82,4.53,0.0,243.0,8 fl oz
+1516,restaurant bean,6.91,16.79,6.018000000000001,148.0,1 cup
+1517,restaurant bean soup,5.1,14.79,2.3569999999999998,246.0,1 cup
+1518,restaurant beef vegetable,7.08,7.29,4.325,574.0,1 count
+1519,restaurant cheese enchilada,11.24,15.45,15.797,244.0,1 count
+1520,restaurant cheese quesadilla,15.93,24.11,19.892,205.0,1 count
+1521,restaurant cheese tamale,8.99,17.97,10.772,302.0,1 count
+1522,restaurant chicken,10.1,23.86,11.068999999999999,706.0,1 count
+1523,restaurant chicken vegetable,8.18,5.38,3.9370000000000003,693.0,1 count
+1524,restaurant con pigeonpeas,3.5,30.75,4.087999999999999,653.0,1 count
+1525,restaurant cornmeal bread,5.48,37.14,5.405,98.0,1 piece
+1526,restaurant lasagna meat,10.83,11.36,9.042,457.0,1 count
+1527,restaurant lemon chicken,11.87,20.61,10.868,623.0,1 count
+1528,restaurant orange chicken,14.46,22.46,11.982000000000001,648.0,1 count
+1529,restaurant pork,8.91,23.34,13.323,609.0,1 count
+1530,restaurant rice,3.28,31.16,4.833,116.0,1 cup
+1531,restaurant sesame chicken,14.33,26.88,12.841,547.0,1 count
+1532,restaurant shrimp vegetable,5.9,4.52,3.434,601.0,1 count
+1533,restaurant spaghetti meat,3.9,17.77,1.82,510.0,1 count
+1534,restaurant tso chicken,12.9,23.99,14.14,535.0,1 count
+1535,restaurant yeast bread,8.02,48.57,23.339,70.0,1 piece
+1536,rhubarb,0.9,4.54,0.191,122.0,1 cup
+1537,rhubarb freeze,0.55,5.1,0.10400000000000001,137.0,1 cup
+1538,rhubarb sugar,0.39,31.2,0.049,240.0,1 cup
+1539,rib,25.76,0.0,5.41,85.0,3 oz
+1540,rib cook,23.96,0.0,11.8,85.0,3 oz
+1541,rib cook braise,32.43,0.0,10.540000000000001,85.0,3 oz
+1542,rice,6.81,81.68,0.509,185.0,1 cup
+1543,rice bar almond,7.0,64.6,19.0,28.0,1 bar
+1544,rice bran crude,13.35,49.69,19.179000000000002,118.0,1 cup
+1545,rice cook,3.99,21.34,0.312,164.0,1 cup
+1546,rice cracker,10.0,82.64,4.662,,1 count
+1547,rice flour,5.95,80.13,1.207,158.0,1 cup
+1548,rice flour brown,7.23,76.48,2.561,158.0,1 cup
+1549,rice grain,7.54,76.25,2.645,185.0,1 cup
+1550,rice grain cook,2.74,25.58,0.995,202.0,1 cup
+1551,rice medium grain,7.5,76.17,2.466,190.0,1 cup
+1552,rice noodle cook,1.79,24.01,0.07200000000000001,176.0,1 cup
+1553,rice noodle dry,5.95,80.18,0.478,57.0,2 oz
+1554,rice restaurant,3.2,33.88,0.0,132.0,1 cup
+1555,rice unenriched,2.02,21.09,0.17800000000000002,174.0,1 cup
+1556,rise apple,0.6,5.7,0.0,,1 count
+1557,roast beef spread,15.27,3.73,12.414,57.0,1 count
+1558,rockfish sp,18.36,0.0,1.133,85.0,3 oz
+1559,roe specie,22.32,1.5,5.773,14.0,1 tbsp
+1560,roll,8.6,50.2,3.757,28.35,1 oz
+1561,roll cheese,7.1,43.7,17.148,28.35,1 oz
+1562,roll dinner,10.04,53.58,6.2219999999999995,30.0,1 count
+1563,roll dinner egg,9.5,52.0,5.635,28.35,1 oz
+1564,roll dinner rye,10.3,53.1,2.549,43.0,1 count
+1565,roll dinner wheat,8.6,46.0,5.713,28.0,1 count
+1566,roll kaiser,9.9,52.7,3.458,28.35,1 oz
+1567,roll pumpernickel,10.8,51.87,2.2880000000000003,36.0,1 count
+1568,root,1.4,17.51,0.139,60.0,1 count
+1569,roselle,0.96,11.31,0.0,57.0,1 cup
+1570,rosemary dry,4.88,64.06,12.724,1.2,1 tsp
+1571,roughy,16.41,0.0,0.363,85.0,3 oz
+1572,round cook,27.7,0.0,3.9200000000000004,85.0,3 oz
+1573,round cook braise,36.16,0.0,5.359999999999999,85.0,3 oz
+1574,rowal,2.3,23.9,0.245,114.0,.5 cup
+1575,rutabaga,1.08,8.62,0.14,140.0,1 cup
+1576,rye flour,15.91,68.63,1.599,128.0,1 cup
+1577,rye flour light,9.82,76.68,0.8919999999999999,102.0,1 cup
+1578,rye flour medium,10.88,75.43,1.064,102.0,1 cup
+1579,rye grain,10.34,75.86,1.1720000000000002,169.0,1 cup
+1580,safflow seed meal,35.62,48.73,2.063,28.35,1 oz
+1581,saffron,11.43,65.37,4.082000000000001,0.7,1 tsp
+1582,sage ground,10.63,60.73,10.66,0.7,1 tsp
+1583,salad dress,0.1,3.7,0.0,16.0,1 tbsp
+1584,salad dress calorie,0.3,18.6,4.195,15.0,1 tbsp
+1585,salad dress dressing,0.69,31.9,23.148,15.0,1 tbsp
+1586,salad dress fat,1.47,30.73,0.15100000000000002,34.0,2 tbsp
+1587,salad dress goddess,1.9,7.36,38.566,15.0,1 tbsp
+1588,salad dress mayonnaise,0.96,0.57,73.23599999999999,13.8,1 tbsp
+1589,salad dressing,0.92,23.73,31.594,33.0,2 tbsp
+1590,salad dressing coleslaw,0.9,23.8,31.9,16.0,1 tbsp
+1591,salami cook,21.85,2.4,22.972,12.3,1 slice
+1592,salami cook beef,12.6,1.9,21.549,26.0,1 slice
+1593,salami cook turkey,19.2,1.55,8.421,28.0,1 count
+1594,salami pork,22.58,1.6,31.630000000000003,113.0,1 count
+1595,salami pork beef,21.07,0.72,31.029999999999998,9.8,1 slice
+1596,salmon,20.5,0.0,2.9690000000000003,85.0,3 oz
+1597,salmon chinook,19.93,0.0,10.298,85.0,3 oz
+1598,salmon chinook smoke,18.28,0.0,3.947,28.35,1 oz
+1599,salmon coho,21.62,0.0,5.386,85.0,3 oz
+1600,salmon coho farm,21.27,0.0,7.007,85.0,3 oz
+1601,salmon farm,20.42,0.0,10.706,85.0,3 oz
+1602,salmon filet skin,60.62,0.0,10.087,108.0,1 count
+1603,salmonberry,0.85,10.05,0.0,,1 count
+1604,salt,1.8,2.48,0.126,122.0,.5 cup
+1605,salt table,0.0,0.0,0.0,6.0,1 tsp
+1606,sandwich spread meatless,8.0,9.0,8.279,15.0,1 tbsp
+1607,sapodilla,0.44,19.96,0.7260000000000001,241.0,1 cup
+1608,sapote mamey,1.45,32.1,0.368,175.0,1 cup
+1609,sauce,3.99,11.61,13.181,250.0,1 cup
+1610,sauce alfredo mix,15.32,36.52,35.459,,1 count
+1611,sauce barbecue,0.82,40.77,0.228,17.0,1 tbsp
+1612,sauce barbecue kraft,0.74,40.77,0.21200000000000002,16.0,1 tbsp
+1613,sauce barbecue pit,0.44,29.45,0.0,17.0,1 tbsp
+1614,sauce cheese serve,6.71,6.83,12.432,63.0,.25 cup
+1615,sauce cocktail serve,1.36,28.22,0.0,60.0,.25 cup
+1616,sauce duck serve,0.36,60.61,0.09599999999999999,33.0,2 count
+1617,sauce eye,0.91,39.95,0.6659999999999999,16.0,1 tbsp
+1618,sauce fish serve,5.06,3.64,0.008,18.0,1 tbsp
+1619,sauce hoisin serve,3.31,44.08,3.229,16.0,1 tbsp
+1620,sauce horseradish,1.09,10.05,50.489000000000004,5.6,1 tsp
+1621,sauce medium,3.84,9.17,10.136,250.0,1 cup
+1622,sauce oyster serve,1.35,10.92,0.182,18.0,1 tbsp
+1623,sauce plum serve,0.89,42.81,0.981,19.0,1 tbsp
+1624,sauce recipe,1.84,16.72,0.514,,1 count
+1625,sauce salsa serve,1.52,6.64,0.11699999999999999,36.0,2 tbsp
+1626,sauce serve,0.27,38.22,0.0,35.0,2 count
+1627,sauce serve pepper,0.51,1.75,0.278,4.7,1 tsp
+1628,sauce sriracha,1.93,19.16,0.0,6.5,1 tsp
+1629,sauce tartar serve,1.0,13.3,15.982000000000001,30.0,2 count
+1630,sauce worcestershire,0.0,19.46,0.0,17.0,1 tbsp
+1631,sauerkraut can,0.91,4.28,0.114,142.0,1 cup
+1632,sausage beef chicken,17.6,3.6,18.5,55.0,1 count
+1633,sausage fresh,13.8,2.7,34.04,13.0,1 count
+1634,sausage link,16.13,2.1,7.3790000000000004,84.0,1 count
+1635,sausage meatless,20.28,8.09,16.703,25.0,1 count
+1636,sausage pork,14.1,1.63,26.93,85.0,3 oz
+1637,sausage pork cook,19.12,4.27,30.821,83.0,1 count
+1638,sausage turkey smoke,15.05,4.65,7.353,56.0,1 count
+1639,scallop sp cook,18.07,10.13,10.023,31.0,2 count
+1640,scallop specie,12.06,3.18,0.306,30.0,1 count
+1641,scup cook heat,24.21,0.0,0.0,50.0,1 count
+1642,sea bass sp,18.43,0.0,1.678,129.0,1 count
+1643,sea cucumber,13.0,0.0,0.0,,1 count
+1644,sea lion steller,22.9,0.0,2.4000000000000004,,1 count
+1645,seal meat,82.6,0.0,2.3000000000000003,,1 count
+1646,seal meat dry,35.31,0.0,16.26,,1 count
+1647,seal meat quadrant,23.63,0.0,0.0,,1 count
+1648,seal ring,28.4,0.0,2.6,,1 count
+1649,seam fat cook,11.16,2.11,39.877,,1 count
+1650,season mix chili,10.82,56.56,5.556,9.0,1.33 tbsp
+1651,season mix taco,4.5,58.0,0.0,5.7,2 tsp
+1652,seatrout sp,16.74,0.0,2.618,85.0,3 oz
+1653,seaweed,1.51,12.29,0.10300000000000001,10.0,2 tbsp
+1654,seaweed agar,0.54,6.75,0.019000000000000003,10.0,2 tbsp
+1655,seaweed agar dry,6.21,80.88,0.19,,1 count
+1656,seaweed kelp,1.68,9.57,0.39199999999999996,10.0,2 tbsp
+1657,seaweed spirulina,5.92,2.42,0.275,,1 count
+1658,seaweed spirulina dry,57.47,23.9,5.405,112.0,1 cup
+1659,seaweed wakame,3.03,9.14,0.406,10.0,2 tbsp
+1660,seed,2.95,18.83,0.272,145.0,1 cup
+1661,seed dry,16.54,42.12,29.304,28.35,1 oz
+1662,seed flaxseed,18.29,28.88,39.92,10.3,1 tbsp
+1663,seed freeze,8.98,25.13,0.5449999999999999,160.0,1 cup
+1664,seed kernel dry,30.23,10.71,45.877,129.0,1 cup
+1665,seed kernel salt,29.84,14.71,44.134,118.0,1 cup
+1666,seed salt,18.55,53.75,18.546,64.0,1 cup
+1667,seed seed hull,31.56,8.67,48.1,30.0,3 tbsp
+1668,seed sprout,3.81,3.6,2.327,38.0,1 cup
+1669,semolina enrich,12.68,72.83,0.704,167.0,1 cup
+1670,semolina unenriched,12.68,72.83,0.704,167.0,1 cup
+1671,sesame butter paste,18.08,24.05,48.629,16.0,1 tbsp
+1672,sesame meal partial,16.96,26.04,45.888000000000005,28.35,1 oz
+1673,sesame seed,16.96,25.74,45.888000000000005,28.35,1 oz
+1674,sesame seed dry,17.73,23.45,47.489000000000004,144.0,1 cup
+1675,sesame seed kernel,20.45,11.73,58.47,150.0,1 cup
+1676,sesbania flower,1.28,6.73,0.0,3.0,1 count
+1677,shad cook heat,21.71,0.0,0.0,144.0,1 count
+1678,shad raw,16.93,0.0,12.117999999999999,85.0,3 oz
+1679,shake food vanilla,3.37,19.59,6.063,20.8,1 fl oz
+1680,shallot,2.5,16.8,0.07,10.0,1 tbsp
+1681,shallot freeze dry,12.3,80.7,0.35000000000000003,0.9,1 tbsp
+1682,shark specie,20.98,0.0,3.928,85.0,3 oz
+1683,sheepshead,20.21,0.0,1.855,85.0,3 oz
+1684,sheepshead cook heat,26.02,0.0,1.092,85.0,3 oz
+1685,sherbet orange,1.1,30.4,1.77,74.0,.5 cup
+1686,shorten bread cttnsd,0.0,0.0,95.6,12.8,1 tablespoon
+1687,shorten confectionery palm,0.0,0.0,94.5,12.8,1 tbsp
+1688,shorten cttnsd,0.0,0.0,95.6,12.8,1 tbsp
+1689,shorten duty,0.0,0.0,95.6,12.8,1 tbsp
+1690,shorten duty beef,0.0,0.0,92.2,12.8,1 tbsp
+1691,shorten household composite,0.0,0.0,94.263,12.8,1 tbsp
+1692,shorten household oil,0.0,0.0,95.6,12.8,1 tablespoon
+1693,shorten household palm,0.0,0.0,94.17,12.8,1 tbsp
+1694,shorten multipurpose,0.0,0.0,95.6,12.8,1 tbsp
+1695,shorten oil,0.0,0.0,95.60000000000001,12.8,1 tbsp
+1696,shorten purpose,0.0,0.0,94.547,12.8,1 tbsp
+1697,shorten purpose bake,0.0,0.0,95.6,12.8,1 tbsp
+1698,shortening cake mix,0.0,0.0,95.5,12.8,1 tbsp
+1699,shoulder,25.81,0.0,5.430000000000001,85.0,3 oz
+1700,shoulder arm,19.34,0.0,4.72,28.35,1 oz
+1701,shoulder arm cook,25.46,0.0,7.25,85.0,3 oz
+1702,shoulder arm lean,20.04,0.0,1.5599999999999998,28.35,1 oz
+1703,shoulder blade cook,25.15,0.0,7.34,85.0,3 oz
+1704,shoulder cook,25.32,0.0,7.170000000000001,85.0,3 oz
+1705,shoulder cook braise,32.06,0.0,8.38,85.0,3 oz
+1706,shrimp sp can,20.42,0.0,0.98,128.0,1 cup
+1707,shrimp sp cook,21.39,11.47,10.984,85.0,3 oz
+1708,silk chai soymilk,2.47,7.82,0.206,243.0,1 cup
+1709,silk chocolate soymilk,2.06,9.47,0.206,243.0,1 cup
+1710,silk coffee soymilk,2.06,10.29,0.206,243.0,1 cup
+1711,silk creamer,0.0,6.67,0.0,15.0,1 tbsp
+1712,silk hazelnut creamer,0.0,20.0,0.0,15.0,1 tbsp
+1713,silk light soymilk,2.47,3.29,0.0,243.0,1 cup
+1714,silk mocha soymilk,2.06,9.05,0.206,243.0,1 cup
+1715,silk nog soymilk,2.46,12.3,0.0,122.0,.5 cup
+1716,silk plain soymilk,2.88,3.29,0.206,243.0,1 cup
+1717,silk soy yogurt,2.64,9.69,0.22,227.0,1 count
+1718,silk soymilk,2.88,1.65,0.206,243.0,1 cup
+1719,silk vanilla creamer,0.0,20.0,0.0,15.0,1 tbsp
+1720,silk vanilla soymilk,2.47,4.12,0.206,243.0,1 cup
+1721,sirloin,19.07,0.0,6.9,28.35,1 oz
+1722,sirloin braise,33.96,0.0,4.73,85.0,3 oz
+1723,sirloin cook,25.14,0.0,9.27,85.0,3 oz
+1724,sirloin cook braise,31.26,0.0,11.2,85.0,3 oz
+1725,sirloin lean,26.32,0.0,5.17,85.0,3 oz
+1726,sisymbrium seed dry,12.14,58.26,4.411,74.0,1 cup
+1727,sitka,21.5,0.0,1.3199999999999998,,1 count
+1728,smell,56.19,0.0,13.334,,1 count
+1729,smell rainbow,17.63,0.0,1.978,85.0,3 oz
+1730,smoke,17.65,0.0,17.506,28.35,1 oz
+1731,snack balance bar,28.0,48.73,11.232999999999999,,1 count
+1732,snack bar flavor,14.71,65.44,4.746,68.0,1 bar
+1733,snack berry bar,13.16,58.84,8.801,38.0,1 bar
+1734,snack chip,12.34,66.36,14.969999999999999,28.35,1 oz
+1735,snack chip salt,1.34,69.23,23.043999999999997,28.35,1 oz
+1736,snack chocolate coat,7.05,70.07,14.724,28.0,1 count
+1737,snack popcorn air,12.0,77.9,3.57,8.0,1 cup
+1738,snack potato chip,2.94,56.82,24.32,28.35,1 oz
+1739,snack potato stick,6.7,53.3,32.94,28.35,1 oz
+1740,snack rice chip,8.2,81.5,2.652,9.0,1 count
+1741,snack shrimp cracker,7.14,59.09,17.325,,1 count
+1742,snail,16.1,2.0,0.872,85.0,3 oz
+1743,snapper specie,20.51,0.0,0.9950000000000001,85.0,3 oz
+1744,snicker marathonprotperfbar carmelnutrush,25.0,50.5,11.786999999999999,80.0,1 bar
+1745,sodium,1.04,27.4,0.07,17.0,1 tbsp
+1746,sorghum flour grain,8.43,76.64,2.874,121.0,1 cup
+1747,sorghum flour refine,9.53,76.85,1.1629999999999998,161.0,1 cup
+1748,sorghum grain,10.62,72.09,3.2990000000000004,192.0,1 cup
+1749,soup,3.8,4.8,0.03,,1 count
+1750,soup bean masala,3.3,10.5,0.18,283.0,10 oz
+1751,soup bouillon na,16.7,64.88,13.283000000000001,2.6,1 tsp
+1752,soup fish,7.4,5.6,0.5,,1 count
+1753,soup french lentil,2.9,9.5,0.0,283.0,10 oz
+1754,soup greek minestrone,1.7,8.4,0.0,283.0,10 oz
+1755,soup onion mix,7.48,65.07,0.32,7.5,1 count
+1756,soup restaurant,2.58,4.35,0.8280000000000001,233.0,1 cup
+1757,soup tomato na,0.79,6.57,0.257,248.0,1 count
+1758,soup wonton restaurant,2.08,5.25,0.21000000000000002,223.0,1 cup
+1759,sourdock,2.3,6.5,0.0,,1 count
+1760,soursop,1.0,16.84,0.21,225.0,1 cup
+1761,soy flour defatte,51.46,33.92,0.877,105.0,1 cup
+1762,soy flour fat,37.81,31.92,19.205,84.0,1 cup
+1763,soy meal defatte,49.2,35.89,1.722,122.0,1 cup
+1764,soy protein isolate,88.32,0.0,2.715,28.35,1 oz
+1765,soy sauce,8.14,4.93,0.424,16.0,1 tbsp
+1766,soybean,12.95,11.05,5.2700000000000005,256.0,1 cup
+1767,soybean curd cheese,12.5,6.9,7.5329999999999995,225.0,1 cup
+1768,soybean mature seed,43.32,28.98,20.11,93.0,1 cup
+1769,soymilk chocolate unfortifie,2.26,9.95,1.455,243.0,1 cup
+1770,soymilk vanilla unfortifie,3.27,6.28,1.567,243.0,1 cup
+1771,sp,15.97,0.0,0.6259999999999999,85.0,3 oz
+1772,sp cook heat,15.24,0.0,1.6580000000000001,127.0,1 count
+1773,sp farm,14.85,0.0,0.6539999999999999,85.0,3 oz
+1774,sp smoke,23.4,0.0,0.7989999999999999,136.0,1 cup
+1775,spaghetti spinach,13.35,74.81,1.048,57.0,2 oz
+1776,spaghetti spinach cook,4.58,26.15,0.42,140.0,1 cup
+1777,spaghettio spaghettio meatball,4.37,12.7,2.5789999999999997,252.0,1 cup
+1778,spear,3.06,5.35,0.238,95.0,.33 count
+1779,spearmint,3.29,8.41,0.61,0.3,2 count
+1780,spearmint dry,19.93,52.04,5.0440000000000005,0.5,1 tsp
+1781,specie,15.58,3.08,0.989,28.35,1 oz
+1782,spell,14.57,70.19,2.109,174.0,1 cup
+1783,spell cook,5.5,26.44,0.0,194.0,1 cup
+1784,spice basil dry,22.98,47.75,3.893,0.7,1 tsp
+1785,spice bay leaf,7.61,74.97,6.21,0.6,1 tsp
+1786,spice cardamom,10.76,68.47,1.98,2.0,1 tsp
+1787,spice oregano dry,9.0,68.92,3.636,1.0,1 tsp
+1788,spice tarragon dry,22.77,50.22,6.053,0.6,1 tsp
+1789,spice thyme dry,9.11,63.94,4.390000000000001,1.0,1 tsp
+1790,spinach,2.86,3.63,0.238,30.0,1 cup
+1791,spinach can pack,2.11,2.92,0.22499999999999998,234.0,1 cup
+1792,spinach can salt,2.11,2.92,0.22499999999999998,234.0,1 cup
+1793,spinach cook,2.98,2.71,0.0,44.0,1 cup
+1794,spinach souffle,7.89,5.9,9.722,136.0,1 cup
+1795,spot,18.51,0.0,3.87,64.0,1 count
+1796,spot cook heat,23.73,0.0,4.963,50.0,1 count
+1797,squab,23.9,0.0,11.934000000000001,140.0,1 cup
+1798,squash,0.52,5.64,0.0,,1 count
+1799,squash cook,0.31,3.22,0.0,28.35,1 oz
+1800,squash summer,0.83,4.8,0.1,130.0,1 cup
+1801,squash summer scallop,1.2,3.84,0.14,130.0,1 cup
+1802,squash summer variety,1.21,3.35,0.149,113.0,1 cup
+1803,squash winter,0.8,10.42,0.07,140.0,1 cup
+1804,squash winter butternut,1.0,11.69,0.07,140.0,1 cup
+1805,squash winter hubbard,2.0,8.7,0.35,116.0,1 cup
+1806,squash winter spaghetti,0.64,6.91,0.398,101.0,1 cup
+1807,squash winter variety,0.95,8.59,0.093,116.0,1 cup
+1808,squash zucchini baby,2.71,3.11,0.28300000000000003,16.0,1 count
+1809,squirrel ground,19.3,0.0,0.0,,1 count
+1810,steelhead trout boil,21.11,0.0,4.978,,1 count
+1811,stew,6.6,6.0,0.04,,1 count
+1812,stew dumple,8.71,8.03,3.516,308.0,1 count
+1813,stew steam,8.82,10.8,3.492,,1 count
+1814,strawberry,0.67,7.68,0.213,152.0,1 cup
+1815,strawberry freeze,0.43,9.13,0.075,221.0,1 cup
+1816,strawberry freeze sweeten,0.52,21.0,0.094,255.0,1 cup
+1817,strawberry sweeten slice,0.53,25.92,0.089,255.0,1 cup
+1818,strip,8.58,65.03,0.392,6.3,1 strip
+1819,strudel apple,3.3,41.1,10.626000000000001,28.35,1 oz
+1820,sturgeon sp,16.14,0.0,3.544,85.0,3 oz
+1821,sturgeon sp smoke,31.2,0.0,3.8289999999999997,28.35,1 oz
+1822,style chicken biscuit,11.93,30.56,14.475,132.0,1 count
+1823,sucker,16.76,0.0,1.9649999999999999,85.0,3 oz
+1824,sucker cook heat,21.49,0.0,2.519,124.0,1 count
+1825,sugar,2.06,23.64,0.202,250.0,1 cup
+1826,sugar granulate,0.0,99.98,0.0,2.8,1 count
+1827,sugar maple,0.1,90.9,0.2,3.0,1 tsp
+1828,sugar powder,0.0,99.77,0.0,120.0,1 cup
+1829,sugar turbinado,0.0,99.8,0.0,4.6,1 tsp
+1830,sunflower seed flour,48.06,35.83,1.26,64.0,1 cup
+1831,sunshine cheez cracker,8.7,62.6,23.4,30.0,25 count
+1832,sunshine cheez grain,10.7,58.2,26.0,30.0,27 count
+1833,sunshine cracker,11.4,57.4,25.9,30.0,27 count
+1834,supplement people diabetes,4.4,11.88,2.9450000000000003,227.0,1 can
+1835,surimi,15.18,6.85,0.7829999999999999,28.35,1 oz
+1836,swamp cabbage raw,2.6,3.14,0.0,56.0,1 cup
+1837,swanson chicken dumpling,4.45,9.72,1.822,247.0,1 cup
+1838,sweetener aspartame packet,2.17,89.08,0.0,3.5,1 tsp
+1839,sweetener fructose powder,0.0,100.0,0.0,196.0,1 cup
+1840,sweetener liquid,0.0,76.1,0.0,0.1,1 count
+1841,sweetener saccharin,0.94,89.11,0.0,1.0,1 count
+1842,sweetener splenda packet,0.0,91.17,0.0,1.0,1 count
+1843,sweetener syrup,0.09,76.37,0.0,6.9,1 tsp
+1844,swordfish cook heat,23.45,0.0,6.823,85.0,3 oz
+1845,syrup cane,0.0,73.14,0.0,21.0,1 count
+1846,syrup corn,0.0,77.59,0.0,328.0,1 cup
+1847,syrup corn fructose,0.0,76.0,0.0,310.0,1 cup
+1848,syrup corn light,0.0,76.79,0.0,341.0,1 cup
+1849,syrup fruit flavor,0.0,65.1,0.0,20.0,1 count
+1850,syrup grenadine,0.0,66.91,0.0,20.0,1 tbsp
+1851,syrup malt,6.2,71.3,0.0,332.0,1 cup
+1852,syrup maple,0.04,67.04,0.035,20.0,1 tbsp
+1853,syrup maple canadian,0.0,67.38,0.0,80.0,60 count
+1854,syrup nestle chocolate,0.0,67.21,0.0,20.0,1 tablespoon
+1855,syrup sorghum,0.0,74.9,0.0,330.0,1 cup
+1856,syrup sugar,0.8,12.13,0.0,240.0,1 cup
+1857,taco bell nachos,4.32,34.91,21.232999999999997,80.0,1 count
+1858,taco shell bake,6.41,63.49,19.535,12.9,1 count
+1859,tallow,0.0,0.0,95.7,12.8,1 tbsp
+1860,tamale masa pork,13.19,18.28,4.041,113.0,4 oz
+1861,tamarind,2.8,62.5,0.512,120.0,1 cup
+1862,tamarind nectar can,0.09,14.73,0.0,251.0,1 cup
+1863,tapioca pearl,0.19,88.69,0.013000000000000001,152.0,1 cup
+1864,taro,1.5,26.46,0.14,104.0,1 cup
+1865,taro chip,2.3,68.1,23.740000000000002,28.35,1 oz
+1866,taro cook salt,0.52,34.6,0.078,132.0,1 cup
+1867,taro leave,4.98,6.7,0.518,28.0,1 cup
+1868,taro salt,4.16,6.85,0.476,137.0,1 cup
+1869,taro shoot,0.92,2.32,0.062,43.0,.5 cup
+1870,tea brew,0.12,0.0,0.0,,1 count
+1871,teff cook,3.87,19.86,0.0,252.0,1 cup
+1872,teff uncooke,13.3,73.13,2.109,193.0,1 cup
+1873,tempeh,20.29,7.64,10.044,166.0,1 cup
+1874,tempeh cook,19.91,7.62,9.783,,1 count
+1875,tennis bread,9.0,53.26,0.98,,1 count
+1876,thyme,5.56,24.45,1.08,0.8,1 tsp
+1877,tlc toast cracker,12.7,66.4,12.000000000000002,31.0,15 count
+1878,toast heat,7.4,32.1,4.8,28.35,1 oz
+1879,toaster pastry fruit,4.2,70.32,9.573,28.35,1 oz
+1880,tofu,8.92,4.38,7.4399999999999995,11.0,1 count
+1881,tofu calcium,7.17,1.18,3.428,120.0,1 piece
+1882,tofu dry,52.47,10.03,28.217,17.0,1 piece
+1883,tofu fry,18.82,8.86,18.764000000000003,28.35,1 oz
+1884,tofu hard nigari,12.68,4.39,9.288,122.0,.25 count
+1885,tofu yogurt,3.5,15.96,1.676,262.0,1 cup
+1886,tomatillo,0.96,5.84,0.7110000000000001,34.0,1 count
+1887,tomato crush can,1.64,7.29,0.196,121.0,.5 cup
+1888,tomato orange,1.16,3.18,0.129,158.0,1 cup
+1889,tomato powder,12.91,74.68,0.307,,1 count
+1890,tomato reduce cook,0.95,4.01,0.075,240.0,1 cup
+1891,tomato reduce salt,0.95,4.01,0.075,240.0,1 cup
+1892,tomato reduce stew,0.91,6.19,0.132,255.0,1 cup
+1893,tomato sun dry,14.11,55.76,2.028,54.0,1 cup
+1894,tomato yellow,0.98,2.98,0.184,139.0,1 cup
+1895,tomatoe,1.2,5.1,0.139,180.0,1 cup
+1896,topping butterscotch caramel,1.21,57.01,0.0,41.0,2 tbsp
+1897,topping marshmallow cream,0.8,79.0,0.183,28.35,1 oz
+1898,topping pineapple,0.1,66.4,0.1,340.0,1 cup
+1899,topping strawberry,0.2,66.3,0.069,42.0,2 tbsp
+1900,topping syrup,4.5,58.08,20.66,328.0,1 cup
+1901,tortilla bake corn,5.7,44.64,2.564,28.35,1 oz
+1902,tortilla bake wheat,9.76,45.89,8.931999999999999,41.0,1 count
+1903,tortilla chip,7.1,67.78,19.244,28.35,1 oz
+1904,tortilla chip fat,11.0,80.1,5.38,28.35,1 oz
+1905,tortilla corn,7.83,58.12,1.205,57.0,1 piece
+1906,tortilla include mutton,7.28,49.94,0.872,197.0,1 count
+1907,tostada shell corn,6.15,64.43,22.512999999999998,12.3,1 piece
+1908,trail mix,13.8,44.9,27.729999999999997,150.0,1 cup
+1909,triticale,13.05,72.13,1.49,192.0,1 cup
+1910,trout rainbow,19.94,0.0,4.869,79.0,1 count
+1911,trout specie,20.77,0.0,5.902000000000001,79.0,1 count
+1912,tuna,24.4,0.0,0.43499999999999994,28.35,1 oz
+1913,tuna bluefin,23.33,0.0,4.29,85.0,3 oz
+1914,tuna drain solid,23.62,0.0,2.685,85.0,3 oz
+1915,tuna salad,16.04,9.41,8.553,85.0,3 oz
+1916,tuna skipjack,22.0,0.0,0.833,85.0,3 oz
+1917,turkey,0.0,0.0,95.4,12.8,1 tbsp
+1918,turkey bacon,15.94,1.89,15.441999999999998,14.0,1 count
+1919,turkey bacon microwave,29.5,4.24,23.186,8.1,1 slice
+1920,turkey bird meat,21.28,0.15,0.0,114.0,4 oz
+1921,turkey class breast,21.89,0.0,6.23,146.0,1 count
+1922,turkey class cook,26.59,0.16,12.879999999999999,140.0,1 cup
+1923,turkey class leg,19.54,0.0,5.95,105.0,1 count
+1924,turkey class we,20.22,0.0,11.11,33.0,1 count
+1925,turkey class wing,27.38,0.0,10.99,24.0,1 count
+1926,turkey giblet,18.18,0.07,3.893,85.0,3 oz
+1927,turkey gizzard class,18.8,0.0,2.4320000000000004,63.0,1 count
+1928,turkey gravy freeze,5.88,4.61,2.29,85.0,3 oz
+1929,turkey heart class,16.7,0.4,6.121,24.0,1 piece
+1930,turkey liver class,18.26,0.0,4.165,78.0,1 count
+1931,turkey meat,23.66,0.14,0.8109999999999999,85.0,1 count
+1932,turkey meat broth,23.68,1.47,6.01,135.0,1 cup
+1933,turkey meat cook,27.71,0.0,5.529999999999999,85.0,1 count
+1934,turkey meat meat,21.28,0.15,2.052,85.0,1 count
+1935,turkey meat season,18.7,1.0,5.26,28.35,1 oz
+1936,turkey meat skin,21.64,0.13,4.753,85.0,3 oz
+1937,turkey neck meat,16.51,0.0,4.949,28.35,1 oz
+1938,turkey sausage,18.79,0.47,6.973,57.0,1 count
+1939,turkey sausage fresh,23.89,0.0,7.962,57.0,1 count
+1940,turkey skin,12.96,0.16,35.260000000000005,28.35,1 oz
+1941,turkey skin dark,23.94,0.57,38.353,85.0,1 count
+1942,turnip,2.46,3.39,0.132,95.0,.33 count
+1943,turnip green,2.47,3.67,0.218,82.0,.5 cup
+1944,turnip green can,1.36,2.42,0.21000000000000002,117.0,.5 cup
+1945,turnip green salt,1.36,2.81,0.21000000000000002,144.0,1 cup
+1946,turnip plain indian,2.62,35.67,0.0,12.7,1 count
+1947,turtle,19.8,0.0,0.385,85.0,3 oz
+1948,type dry,13.0,58.0,7.63,25.0,1 cup
+1949,usa azumaya tofu,4.82,0.58,1.9000000000000001,91.0,.2 count
+1950,usda commodity salsa,1.5,7.0,0.152,,1 count
+1951,vanilla extract,0.06,12.65,0.024,4.2,1 tsp
+1952,variety product brain,10.32,0.0,4.5,28.35,1 oz
+1953,variety product heart,17.18,0.08,2.96,28.35,1 oz
+1954,variety product kidney,15.76,0.85,2.2600000000000002,28.35,1 oz
+1955,variety product liver,19.93,2.91,3.357,28.35,1 oz
+1956,variety product lung,16.3,0.0,1.69,28.35,1 oz
+1957,variety product pancrea,15.0,0.0,11.49,28.35,1 oz
+1958,variety product spleen,18.3,0.0,1.4799999999999998,28.35,1 oz
+1959,variety product thymus,17.21,0.0,1.81,28.35,1 oz
+1960,variety product tongue,17.18,1.91,5.169999999999999,28.35,1 oz
+1961,veal,9.91,0.0,45.993,28.0,1 oz
+1962,veal braise,31.54,0.0,4.958,85.0,3 oz
+1963,veal cook braise,32.22,0.0,3.144,85.0,3 oz
+1964,veal seam fat,12.53,0.0,36.705,,1 count
+1965,vegetable,1.42,7.13,0.187,245.0,1 cup
+1966,vegetable drain solid,2.59,9.26,0.186,163.0,1 cup
+1967,vegetable juice,0.41,4.53,0.0,243.0,8 fl oz
+1968,vegetable juice antioxidant,0.82,4.53,0.0,243.0,8 oz
+1969,vegetable juice na,0.82,4.12,0.0,243.0,8 fl oz
+1970,vegetable juice spicy,0.82,4.12,0.0,243.0,8 fl oz
+1971,veggie burger soyburger,15.7,14.27,5.241,70.0,1 count
+1972,vermicelli soy,0.1,82.32,0.068,140.0,1 cup
+1973,vinegar balsamic,0.49,17.03,0.0,16.0,1 tbsp
+1974,vinegar cider,0.0,0.93,0.0,14.9,1 tbsp
+1975,vinegar distil,0.0,0.04,0.0,14.9,1 tbsp
+1976,vinegar reduce wine,0.04,0.27,0.0,14.9,1 tbsp
+1977,waffle,6.0,35.4,6.6,72.0,2 count
+1978,waffle buttermilk heat,6.58,41.05,7.873,39.0,1 count
+1979,waffle plain heat,6.47,42.98,8.825,28.35,1 oz
+1980,waffle plain recipe,7.9,32.9,13.172,28.35,1 oz
+1981,walleye,19.14,0.0,0.99,85.0,3 oz
+1982,walleye cook heat,24.54,0.0,1.269,124.0,1 count
+1983,walnut glaze,8.28,47.59,33.928,28.0,1 oz
+1984,walnuts,15.23,13.71,62.233000000000004,117.0,1 cup
+1985,walnuts black dry,24.06,9.58,55.361999999999995,125.0,1 cup
+1986,walrus liver,21.0,3.5,0.0,,1 count
+1987,walrus meat,57.0,0.0,0.0,,1 count
+1988,walrus meat fat,16.3,0.0,0.0,,1 count
+1989,wasabi,2.23,46.13,10.068000000000001,20.0,1 tablespoon
+1990,wasabi root,4.8,23.54,0.0,130.0,1 cup
+1991,water bottle,0.0,0.0,0.0,29.6,1 fl oz
+1992,water bottle naya,0.0,0.0,0.0,29.6,1 fl oz
+1993,waterchestnut,1.4,23.94,0.071,62.0,.5 cup
+1994,waterchestnut can,0.88,12.3,0.043,70.0,.5 cup
+1995,watermelon raw,0.61,7.55,0.10300000000000001,154.0,1 cup
+1996,weed,3.46,7.02,0.9570000000000001,1.0,5 count
+1997,wendy chicken nugget,16.46,14.31,21.042,68.0,5 count
+1998,wendy classic cheese,16.52,11.71,12.93,310.0,1 item
+1999,wendy dairy dessert,3.49,23.62,2.444,113.0,1 count
+2000,wendy french fr,3.73,39.73,13.440999999999999,71.0,1 count
+2001,wendy hamburger cheese,12.63,16.82,9.316,218.0,1 item
+2002,wendy stack cheese,18.53,15.35,15.383,146.0,1 count
+2003,whale native,0.4,0.0,0.0,,1 count
+2004,wheat,10.69,75.36,1.432,168.0,1 cup
+2005,wheat base salt,13.82,23.68,54.96,28.35,1 oz
+2006,wheat bran crude,15.55,64.51,3.479,58.0,1 cup
+2007,wheat durum,13.68,71.13,1.776,192.0,1 cup
+2008,wheat flour bread,11.98,72.53,1.111,137.0,1 cup
+2009,wheat flour grain,13.21,71.97,1.88,120.0,1 cup
+2010,wheat flour purpose,10.33,76.31,0.655,125.0,1 cup
+2011,wheat germ crude,23.15,51.8,9.04,115.0,1 cup
+2012,wheat gluten,75.16,13.79,1.238,,1 count
+2013,wheat hard,11.31,75.9,1.23,192.0,1 cup
+2014,wheat kamut khorasan,14.54,70.58,1.03,186.0,1 cup
+2015,wheat sprout,7.49,42.53,0.914,108.0,1 cup
+2016,wheat winter,10.35,74.24,1.123,168.0,1 cup
+2017,whelk,23.84,7.76,0.08199999999999999,85.0,3 oz
+2018,whelk moist heat,47.68,15.52,0.16399999999999998,85.0,3 oz
+2019,whey acid dry,11.73,73.45,0.512,57.0,1 cup
+2020,whey acid fluid,0.76,5.12,0.08600000000000001,246.0,1 cup
+2021,whey dry,12.93,74.46,1.0150000000000001,145.0,1 cup
+2022,whey fluid,0.85,5.14,0.341,246.0,1 cup
+2023,whip top fat,3.0,23.6,12.379999999999999,75.0,1 cup
+2024,whiskey mix bottle,0.1,21.4,0.03,32.3,1 fl oz
+2025,white specie,18.31,0.0,0.948,92.0,1 count
+2026,willow leave,2.6,8.1,0.0,,1 count
+2027,wing bean leave,5.85,14.1,0.7699999999999999,,1 count
+2028,wing bean seed,6.95,4.31,0.6739999999999999,44.0,1 cup
+2029,wing bean tuber,11.6,28.1,0.63,,1 count
+2030,witloof,0.9,4.0,0.07,53.0,1 count
+2031,wolffish,17.5,0.0,2.0469999999999997,85.0,3 oz
+2032,wolffish cook heat,22.44,0.0,2.623,119.0,.5 count
+2033,worthington burger can,18.6,6.2,2.7,55.0,.25 cup
+2034,worthington chili can,10.4,10.9,4.5,230.0,1 cup
+2035,worthington choplet can,19.4,4.1,0.7,92.0,2 count
+2036,worthington dinner roast,16.0,6.9,13.4,85.0,1 slice
+2037,worthington freeze,17.8,5.7,9.899999999999999,55.0,1 slice
+2038,worthington frichik can,13.4,3.4,9.3,90.0,2 count
+2039,worthington fripat freeze,23.7,8.0,8.8,64.0,1 count
+2040,worthington kett freeze,23.6,5.1,9.5,55.0,2 count
+2041,worthington leanie freeze,19.5,6.1,16.3,40.0,1 count
+2042,worthington link can,14.5,5.5,13.600000000000001,48.0,1 count
+2043,worthington saucette can,15.0,5.6,0.0,38.0,1 count
+2044,worthington stake can,10.2,7.5,6.300000000000001,92.0,1 piece
+2045,worthington stakelet freeze,19.7,9.6,10.399999999999999,71.0,1 piece
+2046,worthington stripple freeze,12.4,14.3,26.6,16.0,2 strip
+2047,yam,1.53,27.88,0.119,150.0,1 cup
+2048,yardlong bean,2.8,8.35,0.31,91.0,1 cup
+2049,yeast extract spread,23.88,20.42,0.0,6.0,1 tsp
+2050,yellowtail sp,23.14,0.0,4.6899999999999995,85.0,3 oz
+2051,yogurt chocolate,3.0,21.6,3.3349999999999995,174.0,1 cup
+2052,yogurt chocolate serve,4.0,24.9,5.6,72.0,.5 cup
+2053,yogurt flavor chocolate,3.0,21.6,3.4120000000000004,174.0,1 cup
+2054,yogurt greek lowfat,9.95,3.94,1.792,200.0,1 count
+2055,yogurt greek milk,9.0,3.98,5.000000000000001,,1 count
+2056,yogurt greek nonfat,10.19,3.6,0.18200000000000002,170.0,1 count
+2057,yogurt vanilla,2.94,17.04,0.0,245.0,1 cup
+2058,yogurt vanilla serve,4.0,24.2,5.22,72.0,.5 cup
+2059,z bar,5.55,74.72,8.487,,1 count
+2060,zealand spinach,1.5,2.5,0.121,56.0,1 cup
+2061,zwieback,10.1,74.2,8.842,28.35,1 oz

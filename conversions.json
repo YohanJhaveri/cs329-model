@@ -1,0 +1,65 @@
+{
+  "volume_to_milliliter": {
+    "bottle": 500,
+    "glass": 236.59,
+    "cup": 236.59,
+    "liter": 1000,
+    "fluid ounce": 29.57,
+    "teaspoon": 4.93,
+    "tablespoon": 14.7868,
+    "quart": 946.35,
+    "pint": 473.18,
+    "scoop": 118.30,
+    "gallon": 3785.41,
+    "jug": 1136.52,
+    "keg": 117348,
+    "pitcher": 1892.71
+  },
+
+  "mass_to_gram": {
+    "milligram": 0.001,
+    "kilogram": 1000,
+    "ounce": 28.35,
+    "pound": 453.59,
+    "ton": 907185
+  },
+
+  "alias": {
+    "ml": "milliliter",
+    "g": "gram",
+
+    "btl": "bottle",
+    "c": "cup",
+
+    "l": "liter",
+    "ltr": "liter",
+
+    "fl oz": "fluid ounce",
+    "fluid oz": "fluid ounce",
+
+    "tsp": "teaspoon",
+    "ts": "teaspoon",
+    "t": "teaspoon",
+
+    "spoon": "tablespoon",
+    "tbsp": "tablespoon",
+    "tbls": "tablespoon",
+    "tb": "tablespoon",
+
+    "qt": "quart",
+    "qrt": "quart",
+
+    "pt": "pint",
+    "pnt": "pint",
+
+    "scp": "scoop",
+    "gal": "gallon",
+
+    "mg": "milligram",
+    "kg": "kilogram",
+    "oz": "ounce",
+    "lb": "pound"
+  },
+
+  "extra": ["box", "packet", "item", "bag", "can", "bar", "jar", "bowl", "piece", "plate", "slice", "spoonful", "stalk", "pinch", "tad", "dash", "smidgen", "drop", "strip", "tin"]
+}

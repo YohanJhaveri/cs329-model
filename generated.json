@@ -1,0 +1,2886 @@
+[
+  {
+    "input": "Today, I ate seventeen grapes and a fine wine.",
+    "entities": [
+      {
+        "quantity": 17,
+        "unit": "count",
+        "food": "grape"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "wine"
+      }
+    ]
+  },
+  {
+    "input": "For lunch, I had 2.5 bananas, two glasses of milk, and three oranges.",
+    "entities": [
+      {
+        "quantity": 2.5,
+        "unit": "count",
+        "food": "banana"
+      },
+      {
+        "quantity": 2,
+        "unit": "glass",
+        "food": "milk"
+      },
+      {
+        "quantity": 3,
+        "unit": "count",
+        "food": "orange"
+      }
+    ]
+  },
+  {
+    "input": "I had a chicken sandwich and a large coke from McDonald's.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chicken sandwich"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "coke"
+      }
+    ]
+  },
+  {
+    "input": "For breakfast, I ate four pancakes with butter and syrup.",
+    "entities": [
+      {
+        "quantity": 4,
+        "unit": "count",
+        "food": "pancake"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "butter"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "syrup"
+      }
+    ]
+  },
+  {
+    "input": "I just drank a couple glasses of wine.",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "glass",
+        "food": "wine"
+      }
+    ]
+  },
+  {
+    "input": "I ate five or so apples, seven pomegranates, a couple slices of ham, and an entire chicken ",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "count",
+        "food": "apple"
+      },
+      {
+        "quantity": 7,
+        "unit": "count",
+        "food": "pomegranate"
+      },
+      {
+        "quantity": 2,
+        "unit": "slice",
+        "food": "ham"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chicken"
+      }
+    ]
+  },
+  {
+    "input": "I ate a lot today. Most of it was just 10 blueberry pies.",
+    "entities": [
+      {
+        "quantity": 10,
+        "unit": "count",
+        "food": "blueberry pie"
+      }
+    ]
+  },
+  {
+    "input": "I had a coconut and 10 cups of coconut water.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "coconut"
+      },
+      {
+        "quantity": 10,
+        "unit": "cup",
+        "food": "coconut water"
+      }
+    ]
+  },
+  {
+    "input": "I ate two slices of pizza and a bag of popcorn",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slice",
+        "food": "pizza"
+      },
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "popcorn"
+      }
+    ]
+  },
+  {
+    "input": "At the gala, I ate a plethora of food. I had six slices of cake.",
+    "entities": [
+      {
+        "quantity": 6,
+        "unit": "slice",
+        "food": "cake"
+      }
+    ]
+  },
+  {
+    "input": "I ate 2 packs of ramen with an egg",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "ramen"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "egg"
+      }
+    ]
+  },
+  {
+    "input": "I ate an egg, yogurt, and cake today. I also had a couple muffins and water for lunch.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "egg"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "yogurt"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "cake"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "muffin"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "I ate fourteen slices of pineapple pizza.",
+    "entities": [
+      {
+        "quantity": 14,
+        "unit": "slice",
+        "food": "pineapple pizza"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of oatmeal.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "oatmeal"
+      }
+    ]
+  },
+  {
+    "input": "Today, I ate an omelette with cheese.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "omelette"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "cheese"
+      }
+    ]
+  },
+  {
+    "input": "I had a chipotle burrito today.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "burrito"
+      }
+    ]
+  },
+  {
+    "input": "I ate an eggplant with a bottle of sprite",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "eggplant"
+      },
+      {
+        "quantity": 1,
+        "unit": "bottle",
+        "food": "sprite"
+      }
+    ]
+  },
+  {
+    "input": "i ate a couple of slices of bread with yogurt",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slice",
+        "food": "bread"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "yogurt"
+      }
+    ]
+  },
+  {
+    "input": "i ate a couple slices of bread with yogurt",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slice",
+        "food": "bread"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "yogurt"
+      }
+    ]
+  },
+  {
+    "input": "I had zucchini and asparagus",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "zucchini"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "asparagus"
+      }
+    ]
+  },
+  {
+    "input": "Last night I ate a bag of potato chips",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "potato chip"
+      }
+    ]
+  },
+  {
+    "input": "I am eating seven slices of avocado toast",
+    "entities": [
+      {
+        "quantity": 7,
+        "unit": "slice",
+        "food": "avocado toast"
+      }
+    ]
+  },
+  {
+    "input": "I ate a hundred calories of oranges",
+    "entities": [
+      {
+        "quantity": 100,
+        "unit": "calorie",
+        "food": "orange"
+      }
+    ]
+  },
+  {
+    "input": "I will eat about 2 pears and 3 onions",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "pear"
+      },
+      {
+        "quantity": 3,
+        "unit": "count",
+        "food": "onion"
+      }
+    ]
+  },
+  {
+    "input": "I a single kiwi",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "kiwi"
+      }
+    ]
+  },
+  {
+    "input": "I ate chicken and fries from Popeye's",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chicken"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "fry"
+      }
+    ]
+  },
+  {
+    "input": "I had a slice of candy bacon",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "candy bacon"
+      }
+    ]
+  },
+  {
+    "input": "I drank 2 gallons of whole milk and 3 liters of orange juice",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "gallon",
+        "food": "whole milk"
+      },
+      {
+        "quantity": 3,
+        "unit": "liter",
+        "food": "orange juice"
+      }
+    ]
+  },
+  {
+    "input": "My favorite food today was the brussel sprouts and mashed potatos",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "brussels sprout"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "mashed potato"
+      }
+    ]
+  },
+  {
+    "input": "i devoured a stalk of celery",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "celery"
+      }
+    ]
+  },
+  {
+    "input": "i munched on a bag of skittles",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "skittle"
+      }
+    ]
+  },
+  {
+    "input": "i ate 32 spoonfuls of jam and a spoon of peanut butter.",
+    "entities": [
+      {
+        "quantity": 32,
+        "unit": "spoon",
+        "food": "jam"
+      },
+      {
+        "quantity": 1,
+        "unit": "spoon",
+        "food": "peanut butter"
+      }
+    ]
+  },
+  {
+    "input": "I had a beer",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "beer"
+      }
+    ]
+  },
+  {
+    "input": "just a couple chicken sandwiches",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "chicken sandwich"
+      }
+    ]
+  },
+  {
+    "input": "i had a delicious, scrumptous, delectible salad",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "salad"
+      }
+    ]
+  },
+  {
+    "input": "seven hundred eighty seven calories of yogurt",
+    "entities": [
+      {
+        "quantity": 787,
+        "unit": "calorie",
+        "food": "yogurt"
+      }
+    ]
+  },
+  {
+    "input": "I ate a can of spinach",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "can",
+        "food": "spinach"
+      }
+    ]
+  },
+  {
+    "input": "I ate a can of spinich",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "can",
+        "food": "spinach"
+      }
+    ]
+  },
+  {
+    "input": "My mom made me a bowl of cereal",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "cereal"
+      }
+    ]
+  },
+  {
+    "input": "2 burritos",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "burrito"
+      }
+    ]
+  },
+  {
+    "input": "I drank a liter of coconut water and an apple",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "liter",
+        "food": "coconut water"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "apple"
+      }
+    ]
+  },
+  {
+    "input": "i had two slices of bacon and eggs",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "bacon"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "egg"
+      }
+    ]
+  },
+  {
+    "input": "i had a cup of yogurt",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "yogurt"
+      }
+    ]
+  },
+  {
+    "input": "I had 3 slices of avocado toast and an apple",
+    "entities": [
+      {
+        "quantity": 3,
+        "unit": "slices",
+        "food": "avocado toast"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "apple"
+      }
+    ]
+  },
+  {
+    "input": "I ate one cup of Noosa blueberry yogurt",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "Noosa blueberry yogurt"
+      }
+    ]
+  },
+  {
+    "input": "i ate one bowl of paneer tikka masala with basmati rice",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "paneer tikka masala with basmati rice"
+      }
+    ]
+  },
+  {
+    "input": "i had two chocolate chip cookies with a glass of whole milk",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "chocolate chip cookie"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "whole milk"
+      }
+    ]
+  },
+  {
+    "input": "i had one ferrero rocher hazelnut chocolate",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "ferrero rocher hazelnut chocolate"
+      }
+    ]
+  },
+  {
+    "input": "I ate a sandwich with two slices of brioche, two scrambled eggs, two slices of honey-glazed bacon, and a slice of cheddar cheese",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "brioche"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "scrambled egg"
+      },
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "honey-glazed bacon"
+      },
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "cheddar cheese"
+      }
+    ]
+  },
+  {
+    "input": "I had 5 pieces of chicken 65",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "piece",
+        "food": "chicken 65"
+      }
+    ]
+  },
+  {
+    "input": "i had a bowl of pad thai with a cup of water",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "pad thai"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "I drank a cup of lemon water and ate a clementine",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "lemon water"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "clementine"
+      }
+    ]
+  },
+  {
+    "input": "I had one scoop of cappuccino ice cream",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "scoop",
+        "food": "cappuccino ice cream"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of dal chawal and a chocolate nestle drumstick sundae cone.",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "dal chawal"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chocolate nestle drumstick sundae cone"
+      }
+    ]
+  },
+  {
+    "input": "I had one grilled corn on the cob, one chicken wing, one Taiwanese sausage, one eggplant, three pieces of okra, and three pieces of Chinese cauliflower",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "corn on the cob"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chicken wing"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "Taiwanese sausage"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "eggplant"
+      },
+      {
+        "quantity": 3,
+        "unit": "pieces",
+        "food": "okra"
+      },
+      {
+        "quantity": 3,
+        "unit": "pieces",
+        "food": "Chinese cauliflower"
+      }
+    ]
+  },
+  {
+    "input": "i ate one slice of chicken and bacon pizza and two slices of italian sausage and pineapple pizza",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "chicken and bacon pizza"
+      },
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "italian sausage and pineapple pizza"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of strawberries and a cup of pomegranates",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "strawberry"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "pomegranate"
+      }
+    ]
+  },
+  {
+    "input": "I had two eggs with one spoon of garlic and chive boursin cheese",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "egg"
+      },
+      {
+        "quantity": 1,
+        "unit": "spoon",
+        "food": "garlic and chive boursin cheese"
+      }
+    ]
+  },
+  {
+    "input": "i had a sofritas burrito from chipotle and a glass of water",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "sofritas burrito"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of Honey Bunches of Oats with Almonds with whole milk",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "Honey Bunches of Oats with Almonds"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "whole milk"
+      }
+    ]
+  },
+  {
+    "input": "i ate one fried egg with a cup of cherry tomatoes",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "fried egg"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "cherry tomato"
+      }
+    ]
+  },
+  {
+    "input": "i had 4 slices of potato bread, 4 slices of honey ham, and 4 slices of provolone cheese",
+    "entities": [
+      {
+        "quantity": 4,
+        "unit": "slices",
+        "food": "potato bread"
+      },
+      {
+        "quantity": 4,
+        "unit": "slices",
+        "food": "honey ham"
+      },
+      {
+        "quantity": 4,
+        "unit": "slices",
+        "food": "provolone cheese"
+      }
+    ]
+  },
+  {
+    "input": "i had a falafel pita sandwich and a bottle of water",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "falafel pita sandwich"
+      },
+      {
+        "quantity": 1,
+        "unit": "bottle",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "I had a piece of pork chop, 1/2 cup of broccoli, and 1 cup of potatoes",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "pork chop"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "food": "broccoli"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "potato"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of Maggi ramen and a cup of Strawberry Fanta",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "Maggi ramen"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "Strawberry Fanta"
+      }
+    ]
+  },
+  {
+    "input": "I consumed a bowl of cheerios with 2% milk and an orange",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "cheerio"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "2% milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "orange"
+      }
+    ]
+  },
+  {
+    "input": "I had a pork bbq bun with a golden kiwi",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "pork bbq bun"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "golden kiwi"
+      }
+    ]
+  },
+  {
+    "input": "I had two lamb racks with 6 cherry tomatoes and 3 stalks of asparagus",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "lamb rack"
+      },
+      {
+        "quantity": 6,
+        "unit": "count",
+        "food": "cherry tomato"
+      },
+      {
+        "quantity": 3,
+        "unit": "stalk",
+        "food": "asparagus"
+      }
+    ]
+  },
+  {
+    "input": "I had a large bowl of pho with a glass of diet coke",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "large bowl",
+        "food": "pho"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "diet coke"
+      }
+    ]
+  },
+  {
+    "input": "i had a piece of baked salmon with a bowl of jasmine rice and 3 stalks of broccoli",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "baked salmon"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "jasmine rice"
+      },
+      {
+        "quantity": 3,
+        "unit": "stalk",
+        "food": "broccoli"
+      }
+    ]
+  },
+  {
+    "input": "I had an omelette with a cup of mixed greens and 1/2 cup of whole milk",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "omelette"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "mixed green"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "food": "whole milk"
+      }
+    ]
+  },
+  {
+    "input": "i ingested one piece of chicken breast with 1 cup of mashed potatoes",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "chicken breast"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "mashed potato"
+      }
+    ]
+  },
+  {
+    "input": "i devoured a bowl of vegetable ramen and drank 1 cup of oolong milk tea",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "vegetable ramen"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "oolong milk tea"
+      }
+    ]
+  },
+  {
+    "input": "i munched on one bowl of white cheddar popcorn and a cup of skittles",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "white cheddar popcorn"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "skittle"
+      }
+    ]
+  },
+  {
+    "input": "i ate one bowl of pistachios and drank 2 glasses of water",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "pistachio"
+      },
+      {
+        "quantity": 2,
+        "unit": "glass",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "i drank 1 liter of coconut water, ate 1 cup of plantain chips, and had a chocolate truffle",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "liter",
+        "food": "coconut water"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "plantain chip"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chocolate truffle"
+      }
+    ]
+  },
+  {
+    "input": "2 hot dogs with a bag of kettle chips and a cup of sprite",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "hot dog"
+      },
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "kettle chip"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "sprite"
+      }
+    ]
+  },
+  {
+    "input": "i had a bag of twizzlers",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "twizzler"
+      }
+    ]
+  },
+  {
+    "input": "1 bowl of takis",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "taki"
+      }
+    ]
+  },
+  {
+    "input": "i had a piece of corn beef with 1 cup of mashed potatoes and a slice of apple pie",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "corn beef"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "mashed potato"
+      },
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "apple pie"
+      }
+    ]
+  },
+  {
+    "input": "i had 1/2 of a M&M cookie and 1/2 of a double chocolate cookie and a glass of milk",
+    "entities": [
+      {
+        "quantity": 0.5,
+        "unit": "count",
+        "food": "M&M cookie"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "count",
+        "food": "double chocolate cookie"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "milk"
+      }
+    ]
+  },
+  {
+    "input": "i had a bowl of laksa noodle soup",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "laksa noodle soup"
+      }
+    ]
+  },
+  {
+    "input": "1 krispy kreme glazed doughnut",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "krispy kreme glazed doughnut"
+      }
+    ]
+  },
+  {
+    "input": "i had a chocolate molten lava cake with two raspberries",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chocolate molten lava cake"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "raspberry"
+      }
+    ]
+  },
+  {
+    "input": "i had two slices of whole wheat bread with 1/2 avocado and 2 eggs",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "whole wheat bread"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "count",
+        "food": "avocado"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "egg"
+      }
+    ]
+  },
+  {
+    "input": "i had a banana with a cup of black coffee",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "banana"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "black coffee"
+      }
+    ]
+  },
+  {
+    "input": "1 slice of banana bread and an 8 oz latte",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "banana bread"
+      },
+      {
+        "quantity": 8,
+        "unit": "ounce",
+        "food": "latte"
+      }
+    ]
+  },
+  {
+    "input": "I had a cup of butternut squash soup with 1 slice of french bread and 1/2 of an orange",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "butternut squash soup"
+      },
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "french bread"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "count",
+        "food": "orange"
+      }
+    ]
+  },
+  {
+    "input": "I had a bread bowl with 1 cup of chicken noodle soup",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "bread bowl"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "chicken noodle soup"
+      }
+    ]
+  },
+  {
+    "input": "I had a cup of hot chocolate with 1 spoon of Bailey's irish cream",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "hot chocolate"
+      },
+      {
+        "quantity": 1,
+        "unit": "spoon",
+        "food": "Bailey's irish cream"
+      }
+    ]
+  },
+  {
+    "input": "i munched on a small McDonald's french fries with a McDonald's filet-o-fish",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "small french fry"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "filet-o-fish"
+      }
+    ]
+  },
+  {
+    "input": "i ate a bowl of potato salad with an egg sandwich",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "potato salad"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "egg sandwich"
+      }
+    ]
+  },
+  {
+    "input": "I ate a bowl of kimchi fried rice and one slice of seafood pancake",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "kimchi fried rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "seafood pancake"
+      }
+    ]
+  },
+  {
+    "input": "one whole sweet potato with five stalks of cauliflower",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "whole sweet potato"
+      },
+      {
+        "quantity": 5,
+        "unit": "stalk",
+        "food": "cauliflower"
+      }
+    ]
+  },
+  {
+    "input": "I ate a bowl of kale chips with two boiled eggs",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "kale chip"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "boiled egg"
+      }
+    ]
+  },
+  {
+    "input": "I had two slices of beef lasagna",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slice",
+        "food": "beef lasagna"
+      }
+    ]
+  },
+  {
+    "input": "I ate 5 pieces of a California roll and a bowl of clam chowder",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "piece",
+        "food": "California roll"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "clam chowder"
+      }
+    ]
+  },
+  {
+    "input": "I had one slice of cornbread, 1 cup of mac and cheese, and 1 piece of fried chicken",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "cornbread"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "mac and cheese"
+      },
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "fried chicken"
+      }
+    ]
+  },
+  {
+    "input": "Twelve tator tots and a cheeseburger",
+    "entities": [
+      {
+        "quantity": 12,
+        "unit": "count",
+        "food": "tator tot"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "cheeseburger"
+      }
+    ]
+  },
+  {
+    "input": "I had 5 slices of meatloaf with a cup of rigatoni",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "slice",
+        "food": "meatloaf"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "rigatoni"
+      }
+    ]
+  },
+  {
+    "input": "I ate two chicken fajitas, a cup of baked beans, and a glass of mango lassi",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "chicken fajita"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "baked bean"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "mango lassi"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of shrimp and grits!",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "shrimp and grit"
+      }
+    ]
+  },
+  {
+    "input": "I had two slices of tuna casserole and a cup of chocolate milk",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "tuna casserole"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "chocolate milk"
+      }
+    ]
+  },
+  {
+    "input": "I ate a bowl of gnocchi and had a slice of tiramisu",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "gnocchi"
+      },
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "tiramisu"
+      }
+    ]
+  },
+  {
+    "input": "I had a plate of spaghetti with two slices of garlic bread",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "plate",
+        "food": "spaghetti"
+      },
+      {
+        "quantity": 2,
+        "unit": "slice",
+        "food": "garlic bread"
+      }
+    ]
+  },
+  {
+    "input": "I munched on a bowl of caramel popcorn and drank a 100ml strawberry milkshake",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "caramel popcorn"
+      },
+      {
+        "quantity": 100,
+        "unit": "milliliter",
+        "food": "strawberry milkshake"
+      }
+    ]
+  },
+  {
+    "input": "I had five slices of a margherita pizza and two bread sticks",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "slice",
+        "food": "margherita pizza"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "bread stick"
+      }
+    ]
+  },
+  {
+    "input": "I had a grapefruit with two white eggs and a cup of hash browns",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "grapefruit"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "white egg"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "hash brown"
+      }
+    ]
+  },
+  {
+    "input": "I had 1/4 of a papaya, and a glass of oat milk",
+    "entities": [
+      {
+        "quantity": 0.25,
+        "unit": "count",
+        "food": "papaya"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "oat milk"
+      }
+    ]
+  },
+  {
+    "input": "i consumed two strawberry pop tarts and 16oz. of pepsi",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "strawberry pop tart"
+      },
+      {
+        "quantity": 16,
+        "unit": "ounce",
+        "food": "pepsi"
+      }
+    ]
+  },
+  {
+    "input": "I ate a peanut butter and jelly sandwich, 1 cup of apples, and a glass of strawberry milk",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "peanut butter and jelly sandwich"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "apple"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "strawberry milk"
+      }
+    ]
+  },
+  {
+    "input": "I had a bowl of turmeric rice with a cup of lentils",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "turmeric rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "lentil"
+      }
+    ]
+  },
+  {
+    "input": "I ate a slice of spinach quiche with a cup of Americano",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "spinach quiche"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "Americano"
+      }
+    ]
+  },
+  {
+    "input": "I ate 1 grilled cheese with a 1 tbsp of hummus and 1 cup of baby carrots",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "grilled cheese"
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "food": "hummus"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "baby carrot"
+      }
+    ]
+  },
+  {
+    "input": "I consumed a bowl of Lay's potato chips with a glass of water",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "potato chip"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "I had a 1 piece of steak with a cup of french fries and 5 pieces of brussel sprouts",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "steak"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "french fry"
+      },
+      {
+        "quantity": 5,
+        "unit": "piece",
+        "food": "brussel sprout"
+      }
+    ]
+  },
+  {
+    "input": "I had two eggs with 1 cup of soy bean sprouts",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "egg"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "soy bean sprout"
+      }
+    ]
+  },
+  {
+    "input": "I had three pancakes with a 1/2 cup of syrup and a cup of coffee",
+    "entities": [
+      {
+        "quantity": 3,
+        "unit": "count",
+        "food": "pancake"
+      },
+      {
+        "quantity": 0.5,
+        "unit": "cup",
+        "food": "syrup"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "coffee"
+      }
+    ]
+  },
+  {
+    "input": "I had 1 waffle with 1 spoonful of whipped cream and 5 strawberries",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "waffle"
+      },
+      {
+        "quantity": 1,
+        "unit": "spoonful",
+        "food": "whipped cream"
+      },
+      {
+        "quantity": 5,
+        "unit": "count",
+        "food": "strawberry"
+      }
+    ]
+  },
+  {
+    "input": "I ate a slice of chicken pot pie and had a glass of banana strawberry smoothie",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "chicken pot pie"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "banana strawberry smoothie"
+      }
+    ]
+  },
+  {
+    "input": "I ate 5 meatballs with a plate of angel hair pasta",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "count",
+        "food": "meatball"
+      },
+      {
+        "quantity": 1,
+        "unit": "plate",
+        "food": "angel hair pasta"
+      }
+    ]
+  },
+  {
+    "input": "I had two cheese quesadillas with 1 bowl of tortilla chips and 1 cup of guac",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "cheese quesadilla"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "tortilla chip"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "guacamole"
+      }
+    ]
+  },
+  {
+    "input": "I had a handful of almonds with a cranberry orange scone",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "handful",
+        "food": "almond"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "cranberry orange scone"
+      }
+    ]
+  },
+  {
+    "input": "I had a whole baked potato with 1 tbsp of salted butter",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "whole baked potato"
+      },
+      {
+        "quantity": 1,
+        "unit": "tablespoon",
+        "food": "salted butter"
+      }
+    ]
+  },
+  {
+    "input": "i ate a bowl of teriyaki chicken and pineapple fried rice",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "teriyaki chicken and pineapple fried rice"
+      }
+    ]
+  },
+  {
+    "input": "1 chicken thigh with a bowl of brown rice and an apple ",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chicken thigh"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "brown rice"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "apple"
+      }
+    ]
+  },
+  {
+    "input": "I ate a slice of chocolate cake",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "chocolate cake"
+      }
+    ]
+  },
+  {
+    "input": "1 Hershey's chocolate bar",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "Hershey's chocolate bar"
+      }
+    ]
+  },
+  {
+    "input": "I ate a bowl of beef lo mein with six pieces of orange chicken",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "beef lo mein"
+      },
+      {
+        "quantity": 6,
+        "unit": "pieces",
+        "food": "orange chicken"
+      }
+    ]
+  },
+  {
+    "input": "I had 1 lobster tail with a glass of red wine and a piece of dark chocolate truffle",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "lobster tail"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "red wine"
+      },
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "dark chocolate truffle"
+      }
+    ]
+  },
+  {
+    "input": "1 slice of sourdough with 1 tsp of blackberry preserve",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "sourdough"
+      },
+      {
+        "quantity": 1,
+        "unit": "teaspoon",
+        "food": "blackberry preserve"
+      }
+    ]
+  },
+  {
+    "input": "I had a slice of strawberry shortcake",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "strawberry shortcake"
+      }
+    ]
+  },
+  {
+    "input": "I ate 1 sea bass fillet with 1 spoon of tartar sauce and a bowl of rice",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "fillet",
+        "food": "sea bass"
+      },
+      {
+        "quantity": 1,
+        "unit": "spoon",
+        "food": "tartar sauce"
+      },
+      {
+       "quantity": 1,
+        "unit": "bowl",
+        "food": "rice"
+      }
+    ]
+  },
+  {
+    "input": "I had 10 pork and vegetable dumplings",
+    "entities": [
+      {
+        "quantity": 10,
+        "unit": "count",
+        "food": "pork and vegetable dumpling"
+      }
+    ]
+  },
+  {
+    "input": "I ate five slices of manchego cheese with five wheat thins",
+    "entities": [
+      {
+        "quantity": 5,
+        "unit": "slices",
+        "food": "manchego cheese"
+      },
+      {
+        "quantity": 5,
+        "unit": "count",
+        "food": "wheat thin"
+      }
+    ]
+  },
+  {
+    "input": "Ate a vegetarian sub with a bag of popcorn",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "vegetarian sub"
+      },
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "popcorn"
+      }
+    ]
+  },
+  {
+    "input": "I had two s'mores and four graham crackers",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "s'more"
+      },
+      {
+        "quantity": 4,
+        "unit": "count",
+        "food": "graham cracker"
+      }
+    ]
+  },
+  {
+    "input": "I ate a two pieces of french toast with a hot chocolate",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "pieces",
+        "food": "french toast"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "hot chocolate"
+      }
+    ]
+  },
+  {
+    "input": "I ate a classic tuna melt with a handful of blueberries",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "classic tuna melt"
+      },
+      {
+        "quantity": 1,
+        "unit": "handful",
+        "food": "blueberry"
+      }
+    ]
+  },
+  {
+    "input": "i munched on a bag of peanut M&Ms",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bag",
+        "food": "peanut M&M"
+      }
+    ]
+  },
+  {
+    "input": "I ate a bowl of grilled chicken salad with 1 peanut butter cookie",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "grilled chicken salad"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "peanut butter cookie"
+      }
+    ]
+  },
+  {
+    "input": "as per usual, two bagels and cream cheese",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "bagel"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "cream cheese"
+      }
+    ]
+  },
+  {
+    "input": "just some left over pasta and a cup of orange juice",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "some",
+        "food": "pasta"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "orange juice"
+      }
+    ]
+  },
+  {
+    "input": "made chicken breast myself and it wasn't too bad",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "chicken breast"
+      }
+    ]
+  },
+  {
+    "input": "I went to chipotle and had their burrito",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "burrito"
+      }
+    ]
+  },
+  {
+    "input": "I ordered some buffalo chicken wings with celery sticks",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "some",
+        "food": "buffalo chicken wing"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "celery stick"
+      }
+    ]
+  },
+  {
+    "input": "just a bowl of soba noodle and that's it. oh and also a bottle of coke",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "soba noodle"
+      },
+      {
+        "quantity": 1,
+        "unit": "bottle",
+        "food": "coke"
+      }
+    ]
+  },
+    {
+    "input": "I actually did not have time for lunch today, so I just grabbed a tuna sandwich from whitehall",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "",
+        "food": "tuna sandwich"
+      }
+    ]
+  },
+  {
+    "input": "spicy chicken tortilla soup and like two slices of rye bread",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "spicy chicken tortilla soup"
+      },
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "rye bread"
+      }
+    ]
+  },
+    {
+    "input": "2 bowls of cereal and an omlette with cheese and mushroom",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "bowls",
+        "food": "cereal"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "omlette"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "cheese"
+      },{
+        "quantity": -1,
+        "unit": "",
+        "food": "mushroom"
+      }
+    ]
+  },
+  {
+    "input": "I woke up super late today, so just had three slices of nutella toast and drank a cup of water",
+    "entities": [
+      {
+        "quantity": 3,
+        "unit": "slices",
+        "food": "nutella toast"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "some veggies like roasted red pepper, onion, poblano and soy sauce. Simple but satisfying",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "roasted red pepper"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "onion"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "poblano"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "soy sauce"
+      }
+    ]
+  },
+  {
+    "input": "unlike normal lunches, I picked a box of boca burgers",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "box",
+        "food": "burger"
+      }
+    ]
+  },
+  {
+    "input": "I woke up super late today, so just had three slices of nutella toast and drank a cup of water",
+    "entities": [
+      {
+        "quantity": 3,
+        "unit": "slices",
+        "food": "nutella toast"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "water"
+      }
+    ]
+  },
+  {
+    "input": "my friend and I went to high tea today, I ordered some cupcakes and it came with a cup of coffee",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "cupcake"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "coffee"
+      }
+    ]
+  },
+  {
+    "input": "went to golf course today, so packed my own lunch, just a slice of steamed cod",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "cod"
+      }
+    ]
+  },
+  {
+    "input": "starting a new diet today, made a bowl of chicken cobb salad with extra lettuce and drank a cup of orange juice",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "chicken cobb salad"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "orange juice"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "lettuce"
+      }
+    ]
+  },
+  {
+    "input": "a slice of cold pizza, a cup of milk, and an apple. Apples are nearly the only things I've been eating lately",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "pizza"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "milk"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "apple"
+      }
+    ]
+  },
+  {
+    "input": "went out to eat today, shared a plate of sweet and sour chicken with my husband. We also ordered pan-fried vegetables and two cups of tomato soup",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "plate",
+        "food": "sweet and sour chicken"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "pan fried vegetable"
+      },
+      {
+        "quantity": 2,
+        "unit": "cups",
+        "food": "tomato soup"
+      }
+    ]
+  },
+  {
+    "input": "from supermarket, I bought some potatoes and a piece steak and some asparagus. went home and made myself lunch",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "potato"
+      },
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "steak"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "asparagus"
+      }
+    ]
+  },
+  {
+    "input": "my kids don't like school lunch, so I had to pack their lunch. I cooked spaghetti with meatballs, made a slice of avocado toast for each of them, and packed a bottle of soy milk too",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "spaghetti with meatball"
+      },
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "avocado toast"
+      },
+      {
+        "quantity": 1,
+        "unit": "bottle",
+        "food": "soy milk"
+      }
+    ]
+  },
+  {
+    "input": "this thing called Jambalaya is soooo good, I had it with a glass of wine and a scoop of ice cream after",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "Jambalaya"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "wine"
+      },
+      {
+        "quantity": 1,
+        "unit": "scoop",
+        "food": "ice cream"
+      }
+    ]
+  },
+  {
+    "input": "good old cornbread, mainly because I was too lazy to cook. I also bought back some leftover fajitas and a can of soda",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "cornbread"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "fajita"
+      },
+      {
+        "quantity": 1,
+        "unit": "can",
+        "food": "soda"
+      }
+    ]
+  },
+  {
+    "input": "not much today but I did found this new banana split at the restaurant downstairs pretty good. I had a piece of salmon and about five small potatoes for main course",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "banana split"
+      },
+      {
+        "quantity": 1,
+        "unit": "piece",
+        "food": "salmon"
+      },
+      {
+        "quantity": 5,
+        "unit": "count",
+        "food": "potato"
+      }
+    ]
+  },
+  {
+    "input": "still hungover from last night, went to drive through and took out a chicken sandwich, a bottle of coke and a medium fries",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "chicken sandwich"
+      },
+      {
+        "quantity": 1,
+        "unit": "bottle",
+        "food": "coke"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "fry"
+      }
+    ]
+  },
+  {
+    "input": "the chinese place downstairs just opened, I went to have two pork buns, peking duck, and a bowl of pork congee",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "pork bun"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "peking duck"
+      },
+      {
+        "quantity": 1,
+        "unit": "bowl",
+        "food": "pork congee"
+      }
+    ]
+  },
+  {
+    "input": "went to get sushi today with an old friend, we got california rolls, salmon sashimi and drank a cup of hot tea",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "california roll"
+      },
+      {
+        "quantity": -1,
+        "unit": "cup",
+        "food": "salmon sashimi"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "hot tea"
+      }
+    ]
+  },
+  {
+    "input": "had brunch super late today, regular serving of shrimp and grits, also had a stack of pancakes, and a cup of latte",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "serving",
+        "food": "shrimp and grit"
+      },
+      {
+        "quantity": 1,
+        "unit": "stack",
+        "food": "pancake"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "latte"
+      }
+    ]
+  },
+  {
+    "input": "this delicious biscuits n gravy with a cup of jasmine tea",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "biscuits n gravy"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "jasmine tea"
+      }
+    ]
+  },
+  {
+    "input": "mom made some macaroni and cheese with her fav crabcakes, nothing too surprising",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "macaroni and cheese"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "crabcake"
+      }
+    ]
+  },
+  {
+    "input": "was craving for some sweets today so I made two peanut butter sandwich and ate it with a cup of milk",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "peanut butter sandwich"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "milk"
+      }
+    ]
+  },
+  {
+    "input": "was at the movies, just some popcorn and a bottle of coke",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "popcorn"
+      },
+      {
+        "quantity": 1,
+        "unit": "bottle",
+        "food": "coke"
+      }
+    ]
+  },
+  {
+    "input": "tried this new thing fried chicken and waffle, pretty okay",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "fried chicken"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "waffle"
+      }
+    ]
+  },
+  {
+    "input": "a lobster roll from luke's lobster with a cup of clam chowder",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "lobster roll"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "clam chowder"
+      }
+    ]
+  },
+  {
+    "input": "went to get mexican food today, ordered flat enchiladas and two tacos",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "enchilada"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "taco"
+      }
+    ]
+  },
+  {
+    "input": "invited some friends to make barbecue ribs. We also shared a whole apple pie",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "barbecue rib"
+      },
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "apple pie"
+      }
+    ]
+  },
+  {
+    "input": "my friend made me try this green chile stew, i didnt like it. I had some nachos after",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "green chile stew"
+      },
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "nacho"
+      }
+    ]
+  },
+  {
+    "input": "classic Philly cheese steak with a glass of beer, that's it",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "Philly cheese steak"
+      },
+      {
+        "quantity": 1,
+        "unit": "glass",
+        "food": "beer"
+      }
+    ]
+  },
+  {
+    "input": "campus had free hot dogs, so I had two. also grabbed two chocolate chip cookies",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "hot dog"
+      },
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "chocolate chip cookie"
+      }
+    ]
+  },
+  {
+    "input": "a reuben sandwich and a cup of coffee",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "reuben sandwich"
+      },
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "coffee"
+      }
+    ]
+  },
+  {
+    "input": "for lunch, just a plate of beef stroganoff",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "plate",
+        "food": "beef stroganoff"
+      }
+    ]
+  },
+  {
+    "input": "some leftover Waldorf salad from last night",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "Waldorf salad"
+      }
+    ]
+  },
+  {
+    "input": "gave up on my diet, had two large french fries",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "count",
+        "food": "french fry"
+      }
+    ]
+  },
+  {
+    "input": "tried this new dessert Baked Alaska, its really good",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "cup",
+        "food": "coffee"
+      }
+    ]
+  },
+  {
+    "input": "went to brunch with a friend and ordered an eggs benedict",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "count",
+        "food": "eggs benedict"
+      }
+    ]
+  },
+  {
+    "input": "this italian dish called carpaccio, it is made of raw fish and veggies",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "carpaccio"
+      }
+    ]
+  },
+  {
+    "input": "sushi, just california roll cuz I wasnt too hungry",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "california roll"
+      }
+    ]
+  },
+  {
+    "input": "stayed home and cooked some alfredo chicken pasta",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "alfredo chicken pasta"
+      }
+    ]
+  },
+  {
+    "input": "just a slice of pound cake because i ate a lot for breakfast",
+    "entities": [
+      {
+        "quantity": 1,
+        "unit": "slice",
+        "food": "pound cake"
+      }
+    ]
+  },
+  {
+    "input": "chinese food today. Kung Pao chicken",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "Kung Pao chicken"
+      }
+    ]
+  },
+  {
+    "input": "this really good margherita pizza from downstairs",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "margherita pizza"
+      }
+    ]
+  },
+  {
+    "input": "i had some dessert for lunch today, two slices of german chocolate cake",
+    "entities": [
+      {
+        "quantity": 2,
+        "unit": "slices",
+        "food": "german chocolate cake"
+      }
+    ]
+  },
+  {
+    "input": "had a lot of baked oysters. more than ten of them",
+    "entities": [
+      {
+        "quantity": 10,
+        "unit": "count",
+        "food": "oyster"
+      }
+    ]
+  },
+  {
+    "input": "went to Chopt and ordered their cobb salad with shrimp",
+    "entities": [
+      {
+        "quantity": -1,
+        "unit": "",
+        "food": "cobb salad with shrimp"
+      }
+    ]
+  }
+]
