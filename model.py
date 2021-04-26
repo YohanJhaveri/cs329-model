@@ -650,6 +650,6 @@ while True:
     print("============ TABLE OF NUTRIENTS ============")
     nutrients = calculate_nutrients(foods)
     nutrient_table = PrettyTable(['Nutrient', 'Quantity'])
-    for nutrient in nutrients: nutrient_table.add_row((nutrient.upper(), round(nutrients[nutrient], 3)))
+    for nutrient in nutrients: nutrient_table.add_row((nutrient.upper(), str(round(nutrients[nutrient], 3)) + "g"))
     print(nutrient_table)
     print()
