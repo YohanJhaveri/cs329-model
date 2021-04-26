@@ -21,7 +21,8 @@
     "kilogram": 1000,
     "ounce": 28.35,
     "pound": 453.59,
-    "ton": 907185
+    "ton": 907185,
+    "gram": 1
   },
 
   "alias": {

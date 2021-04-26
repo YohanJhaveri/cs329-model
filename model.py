@@ -556,6 +556,9 @@ def find_ratio(quantity_data, quantity_true, unit_data, unit_true, mass_weight):
   unit_data = clean_unit(unit_data)
   unit_true = clean_unit(unit_true)
 
+  if quantity_true == 0:
+    return 0
+
   if unit_true == unit_data:
       return quantity_true / quantity_data
 
