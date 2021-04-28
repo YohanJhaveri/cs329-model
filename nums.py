@@ -1,16 +1,76 @@
 import re
 
-def evaluate(buf):
-  while len(buf) > 1:
-    cur = int(buf[0])
-    nxt = int(buf[1])
+def find_ceil(n):
+  for multiple in [100, 1000, 1000000, 1000000000, 1000000000000]:
+    if n // multiple == 0:
+      return multiple
+  return 1
 
-    if cur < nxt: buf[0] = cur * nxt
-    else:         buf[0] = cur + nxt
+def evaluate(buf):
+  print(buf)
+  while len(buf) > 1:
+    cur = float(buf[0])
+    nxt = float(buf[1])
+
+    if 0 <= cur <= 9 and nxt % 1 != 0:
+      buf[0] = cur * nxt
+
+    if nxt in {100, 1000, 1000000, 1000000000, 1000000000000}:
+      if len(buf) > 3:
+        buf[2] = evaluate(buf[2:])
+        del buf[3:]
+
+
+    if cur < nxt:
+      if nxt not in {100, 1000, 1000000, 1000000000, 1000000000000}:
+        buf[0] = cur * find_ceil(nxt)
+        continue
+      else:
+        buf[0] = cur * nxt
+
+    else:
+      buf[0] = cur + nxt
 
     del buf[1]
 
-  return buf[0]
+  return int(buf[0])
+
+
+def combine_numbers(tokens):
+  buf = []
+  combined = []
+
+  for token in tokens:
+    if token.isdecimal() and int(token) > 0:
+      buf.append(token)
+      continue
+
+    elif buf:
+      combined.append(str(evaluate(buf)))
+      buf = []
+
+    combined.append(token)
+
+  if buf:
+    combined.append(str(evaluate(buf)))
+
+  return combined
+
+
+def combine_symbols(tokens):
+  combined = []
+
+  for token in tokens:
+    if m := re.match(r"([0-9]+)/([0-9]+)", token):
+        p = int(m.group(0))
+        q = int(m.group(1))
+        combined.append(str(p / q))
+        continue
+
+    combined.append(token)
+
+  return combined
+
 
 
 def convert_word_to_number(text):
@@ -60,68 +120,98 @@ def convert_word_to_number(text):
 
   # convert symbols to words so they don't get removed when cleaning sentence puntuation
   text = re.sub(r"(\d+?),(\d+?)", r"\1 comma \2", text)
-  text = re.sub(r"(\d+)\s*\.\s*(\d+)", r"\1 point \2", text)
+  text = re.sub(r"(\d+)\.(\d+)", r"\1 point \2", text)
+  text = re.sub(r"\.(\d+)", r" point \1", text)
   text = re.sub(r"(\d+)\s+/\s+(\d+)", r"\1 out of \2", text)
 
-  # remove non-numerical related punctuation
-  text = re.sub(r"[-./,]", r" ", text)
+  # split at hyphens
+  tokens = []
+  for token in text.split():
+    if "-" in token:
+      words = token.split("-")
+      numbers = [NUMBERS.get(re.sub(r"[-./,]", r"", word.lower()), False) for word in words]
+      if numbers.count(False) == 0:
+        tokens.extend(words)
+        continue
 
-  text = " ".join([str(NUMBERS[token.lower()]) if token.lower() in NUMBERS else token for token in text.split()])
+    tokens.append(token)
+
+  text = " ".join(tokens)
+
+  text = " ".join([str(NUMBERS.get(re.sub(r"[-./,]", r"", token.lower()), token)) for token in text.split()])
   text = re.sub(r"(\d+?)\s+comma\s+(\d+?)", r"\1\2", text)
   text = re.sub(r"(\d+)\s+and\s+(\d+)", r"\1 \2", text)
-  text = re.sub(r"(\d+)\s+of\s+(\d+)", r"\1 / \2", text)
-  text = re.sub(r"(\d+)\s+out of\s+(\d+)", r"\1 / \2", text)
-  text = re.sub(r"(\d+)\s+point\s+(\d+)", r"\1 . \2", text)
+  text = re.sub(r"(\d+)\s+of\s+(\d+)", r"\1/\2", text)
+  text = re.sub(r"(\d+)\s+out of\s+(\d+)", r"\1/\2", text)
+  text = re.sub(r"(\d+)\s+point\s+(\d+)", r"\1.\2", text)
+  text = re.sub(r"(?:\b|\s+)point\s+(\d+)", r"0.\1", text)
 
   tokens = text.split()
+  tokens = combine_numbers(tokens)
+  tokens = combine_symbols(tokens)
+  return " ".join(tokens)
 
-  buf = []
-  com = []
+# ======== TESTING ======== #
+word_to_num = convert_word_to_number
 
-  for token in tokens:
-    if token.isdecimal():
-      buf.append(token)
-      continue
+# Rules
 
-    elif buf:
-      combined = str(evaluate(buf))
-      com.append(combined)
-      buf = []
-
-    com.append(token)
-
-  if buf:
-    combined = str(evaluate(buf))
-    com.append(combined)
+# remove out of (\d+) for our input
 
 
-  # resolve decimal and fractions
 
-  res = []
-  i = 0
+# if "a" is before a multiple {100, 1000, 1000000, 1000000000, 1000000000000} or "couple", convert to 1
+# if unit {1, 2, 3, 4, 5, 6, 7, 8, 9} is before a fraction {1/2, 1/3, 1/4...}, multiply both
+# except for tens and ones, implicit
 
-  n = len(com)
-  while i < n:
-    curr = com[i]
-    nxt1 = i + 1 < n and com[i + 1]
-    nxt2 = i + 2 < n and com[i + 2]
+# four fifth => 0.8
+
+# a hundred => 100
+# one hundred => 100
+# hundred => 100
+
+# twenty three hundred => 2300
+
+# (hyphen)
+# sixty-five => 65
+
+# couple => 2
+# a couple => 2
+
+# tenth of a hundred => 10
+# 5,000,000 => 5000000
+# three sixty five => 365
+
+# DECIMALS
+# <num> point <num>
+# four point five => 4.5
+assert word_to_num("four point five") == "4.5"
+assert word_to_num("4 point five") == "4.5"
+assert word_to_num("four point 5") == "4.5"
+assert word_to_num("4 point 5") == "4.5"
+
+# point <num>
+# point three => 0.3
+assert word_to_num("point three") == "0.3"
+assert word_to_num("point 3") == "0.3"
+assert word_to_num(". three") == ". 3"
+assert word_to_num(". 3") == ". 3"
 
 
-    if nxt2 and nxt1 == ".":
-      if curr.isdecimal() and nxt2.isdecimal():
-        res.append(curr + nxt1 + nxt2)
-        i += 3
-        continue
+# HYPHEN
+assert word_to_num("I, along with my friend, went to Chick-Fil-A at two twenty-three") == "I, along with my friend, went to Chick-Fil-A at 223"
+assert word_to_num("two-hundred") == "200"
+assert word_to_num("twenty-five-hundred") == "2500"
+assert word_to_num("twenty-two-million, three-hundred-fifty-five") == "22000355"
 
-    if nxt2 and nxt1 == "/":
-      if curr.isdecimal() and nxt2.isdecimal():
-        res.append(str(int(curr)/int(nxt2)))
-        i += 3
-        continue
+# COMMAS
+assert word_to_num("5,000,000") == "5000000"
+assert word_to_num("500,000") == "500000"
+assert word_to_num("500, 40") == "500, 40"
+assert word_to_num("50, 100") == "50, 100"
+assert word_to_num("3,423") == "3423"
 
-    res.append(curr)
-    i += 1
-
-  return " ".join(res)
-
-print(convert_word_to_number("I have eaten 3 twenty three dumplings and 0.8 kiwis and 5.5 mangos and a 0.2 of an almond and 5,000,000 grapes"))
+# MISC
+print(word_to_num("four fifth"))
+assert word_to_num("five fifty five") == "555"
+assert word_to_num("four fifth") == "0.8"
