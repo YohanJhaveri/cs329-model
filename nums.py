@@ -1,5 +1,7 @@
 import re
 
+
+
 NUMBERS = {
   "couple": 2,
   "tenth": 1/10,
@@ -46,20 +48,28 @@ NUMBERS = {
   "trillion": 1000000000000
 }
 
+RE_NUMBER = r"((^[0-9]*\.[0-9]+)|[0-9]+)$"
+
+def get_number(token):
+  return NUMBERS.get(re.sub(r"[-./,]", r"", token.lower()))
+
+
+
 def remove_hyphens(text):
   tokens = []
 
   for token in text.split():
     if "-" in token:
       words = token.split("-")
-      numbers = [NUMBERS.get(re.sub(r"[-./,]", r"", word.lower()), False) for word in words]
-      if numbers.count(False) == 0:
+      numbers = [get_number(token) for word in words]
+      if numbers.count(None) == 0:
         tokens.extend(words)
         continue
 
     tokens.append(token)
 
   return tokens
+
 
 def convert_numeric_articles(old_tokens):
   new_tokens = []
@@ -70,7 +80,7 @@ def convert_numeric_articles(old_tokens):
     cur = old_tokens[i]
     nxt = old_tokens[i + 1]
 
-    if cur.lower() == "a" and NUMBERS.get(re.sub(r"[-./,]", r"", nxt.lower())):
+    if cur.lower() == "a" and get_number(nxt):
       continue
     else:
       new_tokens.append(cur)
@@ -80,7 +90,7 @@ def convert_numeric_articles(old_tokens):
   return new_tokens
 
 def remove_decimal(token):
-  if re.match(r"((^[0-9]*\.[0-9]+)|[0-9]+)$", token):
+  if re.match(RE_NUMBER, token):
     if float(token) % 1 == 0:
       return str(int(float(token)))
     else:
@@ -133,7 +143,7 @@ def combine_numbers(tokens):
   combined = []
 
   for token in tokens:
-    if re.match(r"(([0-9]*\.[0-9]+)|[0-9]+)$", token):
+    if re.match(RE_NUMBER, token):
       buf.append(token)
       continue
 
