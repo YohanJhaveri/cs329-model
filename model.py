@@ -1,228 +1,38 @@
 # IMPORTS
 import re
-import json
 import spacy
-import unicodedata
-import pandas as pd
-
-from spellchecker import SpellChecker
-from word2number import w2n
-from num2words import num2words
-from types import SimpleNamespace
 from spacy.tokenizer import Tokenizer
 from prettytable import PrettyTable
 
+# CORE DATA
+from datasets import FOODS, BRANDS, CONVERSIONS, NUTRIENTS
+from nums import convert_word_to_number
+from utils import convert_plural_to_singular, perform_spell_check, expand_contractions, remove_punctuation, remove_accents, handle_units
 
-# INITIALIZE
-spell = SpellChecker()
-nlp = spacy.load("en_core_web_sm")
-nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r'\S+').match)
-nlp2 = spacy.load("en_core_web_sm")
-
-# DATA
-food_file = open("foods.txt")
-brand_file = open("brands.txt")
-unit_file = open("conversions.json")
-cont_file = open('contractions.json')
-
-FOOD = set(food_file.read().split('\n'))
-BRAND = set(brand_file.read().split('\n'))
-BRAND_LOWER = set([brand.lower() for brand in BRAND])
-
-CONTRACTIONS = json.load(cont_file)
-CONVERSIONS = json.load(unit_file)
+# DERIVED DATA
 VOLUME = CONVERSIONS["volume_to_milliliter"]
 MASS = CONVERSIONS["mass_to_gram"]
 ALIAS = CONVERSIONS["alias"]
 EXTRA = CONVERSIONS["extra"]
 UNITS = list(VOLUME) + list(MASS) + list(ALIAS) + EXTRA
-NUTRIENTS = pd.read_csv("nutrients.csv")
+BRANDS_LOWER = [brand.lower() for brand in BRANDS]
 
-# CLEANING
-def remove_accents(text):
-  form = unicodedata.normalize('NFKD', text)
-  return u"".join([c for c in form if not unicodedata.combining(c)])
-
-
-def remove_punctuation(text):
-  # removes all non-alphanumeric characters except ( % | & | $ )
-  tokens = re.split(r"[^a-zA-Z0-9'%&./,]", text)
-  stripped = [token.strip() for token in tokens if token.strip()]
-  return " ".join(stripped)
-
-
-def expand_contractions(text):
-  tokens = text.split()
-
-  for token in tokens:
-    # if the token is an abbreviation, then we will change it to its contracted English words
-    exp = CONTRACTIONS.get(token.lower())
-    if exp:
-      # if the token was the beginning of a sentence, then we change the capitalization to match it
-      if token[0].isupper(): exp = exp[0].upper() + exp[1:]
-      text = text.replace(token, exp)
-
-  return text
-
-
-def perform_spell_check(doc):
-  checked = []
-
-  for token in doc:
-    updated = token.text
-
-    if token.pos_ != "PROPN" and len(token.text) > 4:
-      mispelled = spell.unknown(token.text)
-      if mispelled: updated = spell.correction(token.text)
-
-    checked.append(updated)
-
-  return " ".join(checked)
-
-
-def convert_plural_to_singular(doc):
-  tokens = []
-
-  for token in doc:
-    if token.tag_ == "NNS":
-      tokens.append(token.lemma_)
-      continue
-    tokens.append(token.text)
-
-  return " ".join(tokens)
-
-
-def convert_word_to_number(text):
-  def tokenize_regex(text):
-    # tokenize with . ! ? , : ; to segment sentences and clauses
-    RE_TOK = re.compile(r'([.,:]|\s+)')
-
-    prev_idx = 0
-    tokens = []
-    for m in RE_TOK.finditer(text):
-        t = text[prev_idx:m.start()].strip()
-        if t: tokens.append(t)
-        t = m.group().strip()
-        if t: tokens.append(t)
-        prev_idx = m.end()
-
-    t = text[prev_idx:].strip()
-
-    if t: tokens.append(t)
-    return tokens
-
-  try:
-    # regular expression to find written number words and digits
-    r = re.compile(r'(\d)|\b(zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|fourty|fifty|sixty|seventy|eight|ninety|hundred|thousand|million|billion|point)\b')
-    r_digits = re.compile(r'(\d)')
-
-    tokens = tokenize_regex(text)
-    for t in tokens:
-        if r_digits.match(t) and re.search('[a-zA-Z]', t):
-            for index in range(len(t)):
-                if re.search('[a-zA-Z]', t[index]) :
-                    new_token = t[0:index] + " " + t[index:]
-                    text = text.replace(t, new_token)
-                    break
-    result = text
-    tokens = tokenize_regex(text)
-
-    words = []
-
-    fraction = False
-    symbols_exist = False
-    mix = False
-    for index in range(len(tokens)):
-
-        # if we find a word that represents a number
-        if r.match(tokens[index].lower()):
-            words.append(tokens[index])
-
-        # if we find a fraction
-        elif index+1 < len(tokens) and tokens[index].lower() == 'out' and tokens[index+1].lower() == 'of':
-            words.append(tokens[index])
-            words.append(tokens[index+1])
-            fraction = True
-
-        # if we reach here, then tokens[index] is not a number word but our previous token(s) were number words
-        elif words:
-            old, replace = "", ""
-            for w in words:
-                if '/' in w or '%' in w: symbols_exist = True
-                elif r_digits.match(w):
-                    replace = old + num2words(w) + " "
-                    mix = True
-                elif mix: replace = replace + w + " "
-                old = old + w + " "
-
-            old = old[:-1]
-            if replace: replace = replace[:-1]
-            if symbols_exist:
-                continue
-                symbols_exist = False
-
-            # if old contains "out of", then we add a slash for the fraction
-            elif "out of" in old:
-                if r_digits.match(old): result = result.replace(" out of", "/")
-                else: result = result.replace(old, str(w2n.word_to_num(str(old))) + '/')
-
-            # if we didn't have this "six out of ten" would be converted to "6/ 10" instead of "6/10"
-            elif fraction:
-                result = result.replace(" " + old, str(w2n.word_to_num(old)))
-                fraction = False
-
-            # if the text we are converting has a mix of words and digits (eg. "fifty 4")
-            elif mix:
-                result = result.replace(old, str(w2n.word_to_num(replace)))
-                mix = False
-
-            # w2n.word_to_num() handles the conversion of the number words to number form
-            else: result = result.replace(old, str(w2n.word_to_num(old)))
-            words.clear()
-
-    return result
-  except:
-    return text
-
-
-def handle_unit_decimal_fraction(text):
-      # removes all non-alphanumeric characters except ( % | & | $ )
-    text = re.sub(r"(\d+)([a-zA-Z]+)", r"\1 \2", text) # handles units
-    text = re.sub(r"(\d+)\/(\d+)", r"\1F&R&A&C&T\2", text) #handles fractions
-    text = re.sub(r"(\d+)\,(\d+)", r"\1C&O&M&M&A\2", text) #handles commas
-    text = re.sub(r"(\d+)\.(\d+)", r"\1P&O&I&N&T\2", text) #handles decimals
-    tokens = re.split(r"[^a-zA-Z0-9'%&]", text)
-    stripped = [token.strip() for token in tokens if token.strip()]
-    text = " ".join(stripped)
-    text = re.sub("P&O&I&N&T", ".", text)
-    text = re.sub("C&O&M&M&A", "", text)
-    text = re.sub("F&R&A&C&T", "/", text)
-
-    print(text)
-
-    while True:
-        m = re.search("(\d+)\/(\d+)", text)
-        if m:
-            text = text[:m.span()[0]] + str(float(m.group(1)) / float(m.group(2))) + text[m.span()[1]:]
-        else:
-            break
-
-    return re.sub("P&O&I&N&T", ".", text)
+# INITIALIZE
+nlp = spacy.load("en_core_web_sm")
+nlp.tokenizer = Tokenizer(nlp.vocab, token_match=re.compile(r'\S+').match)
+nlp2 = spacy.load("en_core_web_sm")
 
 
 def clean(text):
-  text = re.sub(r"(\d+),(\d+)", r"\1\2", text)
   text = remove_accents(text)
   text = expand_contractions(text)
+  text = handle_units(text)
   text = convert_word_to_number(text)
   text = remove_punctuation(text)
-  text = handle_unit_decimal_fraction(text)
   doc = nlp(text)
   text = perform_spell_check(doc)
-
   doc = nlp(text)
   text = convert_plural_to_singular(doc)
-
 
   return text
 
@@ -242,27 +52,6 @@ def edit_distance(s, t):
   ])
 
 
-# MODEL
-def unit_extractor(tokens):
-  units = []
-  for token in tokens:
-    token = token.lemma_
-    if token in ALIAS: token = ALIAS[token]
-    elif token[-1] == "s" and token[:-1] in ALIAS.keys(): token = ALIAS[token[:-1]]
-    elif token[-1] == "." and token[:-1] in ALIAS.keys(): token = ALIAS[token[:-1]]
-    elif token[-2:] == "s." and token[:-2] in ALIAS.keys(): token = ALIAS[token[:-2]]
-
-    if token in VOLUME:
-      units.append((token, "VOLUME", VOLUME[token]))
-
-    if token in MASS:
-      units.append((token, "MASS", MASS[token]))
-
-    if token in EXTRA:
-      units.append((token, "EXTRA", "???"))
-  return units
-
-
 def is_unit(token):
   token = token.lemma_.lower()
   if token in UNITS: return True
@@ -278,10 +67,10 @@ def is_brand(text):
   # return not not brand
   without_punct = " ".join(re.split(r"[^a-zA-Z0-9]", text))
   return (
-    text in BRAND
-    or text.lower() in BRAND_LOWER
-    or without_punct in BRAND
-    or without_punct.lower() in BRAND_LOWER
+    text in BRANDS
+    or text.lower() in BRANDS_LOWER
+    or without_punct in BRANDS
+    or without_punct.lower() in BRANDS_LOWER
   )
 
 
@@ -289,8 +78,8 @@ def read_gazetteers():
   data = {}
   sets = {
     "UNIT": list(VOLUME) + list(MASS) + list(ALIAS) + EXTRA,
-    "FOOD": FOOD,
-    "BRAND": BRAND
+    "FOOD": FOODS,
+    "BRAND": BRANDS
   }
 
   for s in sets:
@@ -494,9 +283,6 @@ def parse_entities(text):
 
   return items
 
-
-file = open("generated.json")
-data = json.load(file)
 
 def f1_score():
   correct = 0

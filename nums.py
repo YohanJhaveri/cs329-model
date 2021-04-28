@@ -1,7 +1,5 @@
 import re
 
-
-
 NUMBERS = {
   "couple": 2,
   "tenth": 1/10,
@@ -11,6 +9,7 @@ NUMBERS = {
   "sixth": 1/6,
   "fifth": 1/5,
   "quarter": 1/4,
+  "fourth": 1/4,
   "third": 1/3,
   "half": 1/2,
   "zero": 0,
@@ -35,7 +34,7 @@ NUMBERS = {
   "nineteen": 19,
   "twenty": 20,
   "thirty": 30,
-  "fourty": 40,
+  "forty": 40,
   "fifty": 50,
   "sixty": 60,
   "seventy": 70,
@@ -50,9 +49,9 @@ NUMBERS = {
 
 RE_NUMBER = r"((^[0-9]*\.[0-9]+)|[0-9]+)$"
 
-def get_number(token):
-  return NUMBERS.get(re.sub(r"[-./,]", r"", token.lower()))
 
+def get_number(token, default=None):
+  return NUMBERS.get(re.sub(r"[-./,]", "", token.lower()), default)
 
 
 def remove_hyphens(text):
@@ -61,7 +60,7 @@ def remove_hyphens(text):
   for token in text.split():
     if "-" in token:
       words = token.split("-")
-      numbers = [get_number(token) for word in words]
+      numbers = [get_number(word) for word in words]
       if numbers.count(None) == 0:
         tokens.extend(words)
         continue
@@ -89,6 +88,7 @@ def convert_numeric_articles(old_tokens):
 
   return new_tokens
 
+
 def remove_decimal(token):
   if re.match(RE_NUMBER, token):
     if float(token) % 1 == 0:
@@ -98,16 +98,62 @@ def remove_decimal(token):
 
   return token
 
+
 def find_ceil(n):
-  for multiple in [10, 100, 1000, 1000000, 1000000000, 1000000000000]:
+  for multiple in [100, 1000, 1000000, 1000000000, 1000000000000]:
     if n // multiple == 0:
       return multiple
   return 1
 
+# def text2int(tokens):
+#     current = result = 0
+#     n = len(tokens)
+#     i = 0
+#     implicit = False
+
+#     while i < n:
+#       tmpnum = float(tokens[i])
+#       curnum = float(tokens[i])
+#       nxtnum = i + 1 < n and float(tokens[i + 1])
+
+#       power = 0
+#       increment = 0
+
+
+#       if tmpnum >= 100:
+#         increment = 0
+#         while tmpnum:
+#           tmpnum //= 10
+#           power += 1
+#         power -= 1
+#       else:
+#         increment = tmpnum
+
+#       scale = 10 ** power
+
+#       if not implicit and curnum < nxtnum and nxtnum not in {100, 1000, 1000000, 1000000000, 1000000000000}:
+#         current += curnum * find_ceil(nxtnum)
+#         implicit = True
+
+#       else:
+#         current = current * scale + increment
+#         implicit = False
+
+#       if scale > 100:
+#           result += current
+#           current = 0
+
+#       i += 1
+
+#     return result + current
+
 def evaluate(buf):
+  multiples = {1000, 1000000, 1000000000, 1000000000000}
+
   while len(buf) > 1:
     cur = float(buf[0])
     nxt = float(buf[1])
+    nxt2 = len(buf) > 2 and float(buf[2])
 
     # "three fourth"
     if 0 <= cur <= 9 and nxt % 1 != 0:
@@ -116,10 +162,11 @@ def evaluate(buf):
       continue
 
     # "twenty-two-million, three-hundred-fifty-five"
-    if nxt in {100, 1000, 1000000, 1000000000, 1000000000000}:
+    if nxt in multiples and nxt2 not in multiples:
       if len(buf) > 3:
         buf[2] = evaluate(buf[2:])
         del buf[3:]
+        continue
 
 
     # "five ninety eight"
@@ -147,7 +194,7 @@ def combine_numbers(tokens):
       buf.append(token)
       continue
 
-    elif buf:
+    if buf:
       combined.append(str(evaluate(buf)))
       buf = []
 
@@ -176,31 +223,24 @@ def combine_symbols(tokens):
 
 
 def convert_word_to_number(text):
-  # convert symbols to words so they don't get removed when cleaning sentence puntuation
-  text = re.sub(r"(\d+?),(\d+?)", r"\1 comma \2", text)
-  text = re.sub(r"(\d+)\.(\d+)", r"\1 point \2", text)
-  text = re.sub(r"\.(\d+)", r" point \1", text)
-  text = re.sub(r"(\d+)\s+/\s+(\d+)", r"\1 out of \2", text)
-
   # split at hyphens
   tokens = remove_hyphens(text)
 
   # remove "a" when followed by a number word
   tokens = convert_numeric_articles(tokens)
 
-
-  text = " ".join([str(NUMBERS.get(re.sub(r"[-./,]", r"", token.lower()), token)) for token in tokens])
-  text = re.sub(r"(\d+?)\s+comma\s+(\d+?)", r"\1\2", text)
+  text = " ".join([str(get_number(token, token)) for token in tokens])
+  text = re.sub(r"(\d+?),(\d+?)", r"\1\2", text)
   text = re.sub(r"(\d+)\s+and\s+(\d+)", r"\1 \2", text)
   text = re.sub(r"(\d+)\s+of\s+(\d+)", r"\1/\2", text)
   text = re.sub(r"(\d+)\s+out of\s+(\d+)", r"\1/\2", text)
   text = re.sub(r"(\d+)\s+point\s+(\d+)", r"\1.\2", text)
   text = re.sub(r"(?:\b|\s+)point\s+(\d+)", r"0.\1", text)
 
-
   tokens = text.split()
   tokens = combine_numbers(tokens)
   tokens = combine_symbols(tokens)
+
   return " ".join([remove_decimal(token) for token in tokens])
 
 # ======== TESTING ======== #
@@ -218,13 +258,15 @@ assert word_to_num("4 point 5") == "4.5"
 # point three => 0.3
 assert word_to_num("zero point three") == "0.3"
 assert word_to_num("point three") == "0.3"
+assert word_to_num("two hundred and 5 point three") == "205.3"
+assert word_to_num("nine million three forty 5 point three") == "9000345.3"
 assert word_to_num("point 3") == "0.3"
 assert word_to_num(". three") == ". 3"
 assert word_to_num(". 3") == ". 3"
 
 
 # HYPHEN
-assert word_to_num("I, along with my friend, went to Chick-Fil-A at two twenty-three") == "I, along with my friend, went to Chick-Fil-A at 223"
+assert word_to_num("I, along with my friend, went to Chick-Fil-A and ordered two twenty-three burgers") == "I, along with my friend, went to Chick-Fil-A and ordered 223 burgers"
 assert word_to_num("two-hundred") == "200"
 assert word_to_num("twenty-five-hundred") == "2500"
 assert word_to_num("twenty-two-million, three-hundred-fifty-five") == "22000355"
@@ -233,8 +275,9 @@ assert word_to_num("twenty-two-million, three-hundred-fifty-five") == "22000355"
 assert word_to_num("5,000,000") == "5000000"
 assert word_to_num("500,000") == "500000"
 assert word_to_num("500, 40") == "500, 40"
-assert word_to_num("50, 100") == "50, 100"
+assert word_to_num("50, 100.4") == "50, 100.4"
 assert word_to_num("3,423") == "3423"
+assert word_to_num("342,3") == "3423" # ????
 
 # MISC
 assert word_to_num("twenty three hundred") == "2300"
@@ -244,3 +287,5 @@ assert word_to_num("a hundred") == "100"
 assert word_to_num("a couple") == "2"
 assert word_to_num("a couple donuts") == "2 donuts"
 assert word_to_num("a couple thousand donuts") == "2000 donuts"
+assert word_to_num("two million three hundred thousand and four") == "2300004"
+assert word_to_num("seven billion three hundred and seventy seven million five hundred thousand eight thirty four") == "7377500834"
