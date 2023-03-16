@@ -2,12 +2,12 @@ import json
 import pandas as pd
 
 # PATHS
-path_foods = "../data/foods.txt"
-path_brands = "../data/brands.txt"
-path_conversions = "../data/conversions.json"
-path_contractions = "../data/contractions.json"
-path_generated = "../data/generated.json"
-path_nutrients = "../data/nutrients.csv"
+path_foods = "./data/foods.txt"
+path_brands = "./data/brands.txt"
+path_conversions = "./data/conversions.json"
+path_contractions = "./data/contractions.json"
+path_generated = "./data/generated.json"
+path_nutrients = "./data/nutrients.csv"
 
 # FILES
 file_foods = open(path_foods)
