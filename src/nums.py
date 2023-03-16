@@ -104,48 +104,7 @@ def find_ceil(n):
     if n // multiple == 0:
       return multiple
   return 1
-
-# def text2int(tokens):
-#     current = result = 0
-#     n = len(tokens)
-#     i = 0
-#     implicit = False
-
-#     while i < n:
-#       tmpnum = float(tokens[i])
-#       curnum = float(tokens[i])
-#       nxtnum = i + 1 < n and float(tokens[i + 1])
-
-#       power = 0
-#       increment = 0
-
-
-#       if tmpnum >= 100:
-#         increment = 0
-#         while tmpnum:
-#           tmpnum //= 10
-#           power += 1
-#         power -= 1
-#       else:
-#         increment = tmpnum
-
-#       scale = 10 ** power
-
-#       if not implicit and curnum < nxtnum and nxtnum not in {100, 1000, 1000000, 1000000000, 1000000000000}:
-#         current += curnum * find_ceil(nxtnum)
-#         implicit = True
-
-#       else:
-#         current = current * scale + increment
-#         implicit = False
-
-#       if scale > 100:
-#           result += current
-#           current = 0
-
-#       i += 1
-
-#     return result + current
+  
 
 def evaluate(buf):
   multiples = {1000, 1000000, 1000000000, 1000000000000}

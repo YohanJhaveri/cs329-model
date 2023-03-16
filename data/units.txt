@@ -48,7 +48,6 @@ tablespoon
 tablespoons
 teaspoon
 teaspoons
-
 bottle
 cup
 liter
@@ -67,7 +66,6 @@ kilogram
 ounce
 pound
 ton
-
 glass
 c
 spoon
@@ -93,7 +91,6 @@ lb
 lbs
 qt
 pt
-
 box
 boxes
 packet

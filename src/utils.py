@@ -25,7 +25,7 @@ def remove_punctuation(text):
   # removes all non-alphanumeric characters except ( % | & | $ | . | / | , )
   tokens = re.split(r"[^a-zA-Z0-9'%&./,]", text)
   stripped = [token.strip() for token in tokens]
-  filtered = [token for token in tokens if token]
+  filtered = [token for token in stripped if token]
   return " ".join(filtered)
 
 
@@ -74,10 +74,5 @@ def convert_plural_to_singular(doc):
 
 
 def handle_units(text):
-  return re.sub(r"([\d.]+)([a-zA-Z]+)", r"\1 \2", text) # handles units
-
-
-# I had 100 mL of milk
-# i had a hundred ml of milk
-# I had a couple cups of coffee
-# I had a fifth of a watermelon
+  # handles units
+  return re.sub(r"([\d.]+)([a-zA-Z]+)", r"\1 \2", text)
