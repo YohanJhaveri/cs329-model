@@ -1,6 +1,8 @@
 # HealthBot
 
-HealthBot is a rule-based NLP model which takes food consumption input from the user in the form of naturally constructed sentences and provides the relevant nutrient information back to the user. It was developed as a part of the final project for my Computational Linguistics (CS329) course at Emory University. If you would like to see the bot in action, you can watch the [demo video](https://www.youtube.com/watch?v=TbHb3VGr1sY).
+HealthBot is a rule-based NLP model which takes food consumption input from the user in the form of naturally constructed sentences and provides the relevant nutrient information back to the user. It was developed as a part of the final project for my Computational Linguistics (CS329) course at Emory University. 
+
+If you would like to see the bot in action, you can watch the [demo video](https://www.youtube.com/watch?v=TbHb3VGr1sY).
 
 
 ### Example
