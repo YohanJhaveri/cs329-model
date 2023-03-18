@@ -8,7 +8,7 @@ HealthBot is a rule-based NLP model which takes food consumption input from the 
 
 ## Local setup
 
-- Clone the repository to your local machine
+Clone the repository to your local machine
 ```
 $ git clone https://github.com/yohanjhaveri/healthbot
 ```
