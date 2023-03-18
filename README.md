@@ -13,7 +13,7 @@ Clone the repository to your local machine
 $ git clone https://github.com/yohanjhaveri/healthbot
 ```
 
-Enter the project directory
+Enter the repository directory
 ```
 $ cd healthbot
 ```
