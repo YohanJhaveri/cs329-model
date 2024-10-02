@@ -105,7 +105,7 @@ def recognize_ngram(tokens, gazetteer):
         continue
 
 
-      quantity = ((j - i) == 1) and re.match("^[0-9\.]+$", key)
+      quantity = ((j - i) == 1) and re.match("^[0-9.]+$", key)
       if quantity:
         entities.append((key, i, j, {"QUANTITY"}))
         continue
