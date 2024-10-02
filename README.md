@@ -1,6 +1,8 @@
 # HealthBot
 
-HealthBot is a rule-based NLP model which takes food consumption input from the user in the form of naturally constructed sentences and provides the relevant nutrient information back to the user. It was developed as a part of the final project for my Computational Linguistics (CS329) course at Emory University. 
+HealthBot is a rule-based NLP model which takes food consumption input from the user in the form of naturally constructed sentences and provides the relevant nutrient information back to the user.
+
+Developed as a part of the final project for my Computational Linguistics (CS329) course at Emory University.
 
 ## Example
 
@@ -9,21 +11,25 @@ HealthBot is a rule-based NLP model which takes food consumption input from the 
 ## Local setup
 
 Clone the repository to your local machine
+
 ```
 $ git clone https://github.com/yohanjhaveri/healthbot
 ```
 
 Enter the repository directory
+
 ```
 $ cd healthbot
 ```
 
 Create a virtual environment and install the dependencies in requirements.txt
+
 ```
 $ make setup
 ```
 
 Build the model and interact with the bot
+
 ```
 $ make start
 ```
