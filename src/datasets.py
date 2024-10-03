@@ -26,6 +26,7 @@ def get_file_path(name: str) -> str:
 paths = {
     "foods": get_file_path("foods.txt"),
     "brands": get_file_path("brands.txt"),
+    "numbers": get_file_path("numbers.json"),
     "generated": get_file_path("generated.json"),
     "conversions": get_file_path("conversions.json"),
     "contractions": get_file_path("contractions.json"),
@@ -35,6 +36,7 @@ paths = {
 
 with open(paths["foods"]) as file_foods, \
      open(paths["brands"]) as file_brands, \
+     open(paths["numbers"]) as file_numbers, \
      open(paths["generated"]) as file_generated, \
      open(paths["conversions"]) as file_conversions, \
      open(paths["contractions"]) as file_contractions:
@@ -44,9 +46,10 @@ with open(paths["foods"]) as file_foods, \
     BRANDS: Set[str] = FileReader.import_txt(file_brands)
     
     # Import JSON files
+    NUMBERS: Dict[str, Any] = FileReader.import_json(file_numbers)
     GENERATED: Dict[str, Any] = FileReader.import_json(file_generated)
     CONVERSIONS: Dict[str, Any] = FileReader.import_json(file_conversions)
     CONTRACTIONS: Dict[str, Any] = FileReader.import_json(file_contractions)
 
-# Import CSV file (no need for a context manager since pandas handles it internally)
+# Import CSV file
 NUTRIENTS: DataFrame = FileReader.import_csv(paths["nutrients"])
