@@ -1,29 +1,52 @@
 import json
 import pandas as pd
+from typing import Set, Dict, TextIO, Any
+from pandas import DataFrame
+
+class FileReader:
+    @staticmethod
+    def import_txt(file: TextIO) -> Set[str]:
+        return set(file.read().split('\n'))
+    
+    @staticmethod
+    def import_json(file: TextIO) -> Dict[str, Any]:
+        return json.load(file)
+    
+    @staticmethod
+    def import_csv(path: str) -> DataFrame:
+        return pd.read_csv(path)
+    
 
 # PATHS
-path_foods = "./data/foods.txt"
-path_brands = "./data/brands.txt"
-path_conversions = "./data/conversions.json"
-path_contractions = "./data/contractions.json"
-path_generated = "./data/generated.json"
-path_nutrients = "./data/nutrients.csv"
+directory = "./data"
 
-# FILES
-file_foods = open(path_foods)
-file_brands = open(path_brands)
-file_conversions = open(path_conversions)
-file_contractions = open(path_contractions)
-file_generated = open(path_generated)
+def get_file_path(name: str) -> str:
+    return f"{directory}/{name}"
 
-# .txt files
-FOODS = set(file_foods.read().split('\n'))
-BRANDS = set(file_brands.read().split('\n'))
+paths = {
+    "foods": get_file_path("foods.txt"),
+    "brands": get_file_path("brands.txt"),
+    "generated": get_file_path("generated.json"),
+    "conversions": get_file_path("conversions.json"),
+    "contractions": get_file_path("contractions.json"),
+    "nutrients":  get_file_path("nutrients.csv")
+}
 
-# .json files
-GENERATED = json.load(file_generated)
-CONVERSIONS = json.load(file_conversions)
-CONTRACTIONS = json.load(file_contractions)
 
-# .csv files
-NUTRIENTS = pd.read_csv(path_nutrients)
+with open(paths["foods"]) as file_foods, \
+     open(paths["brands"]) as file_brands, \
+     open(paths["generated"]) as file_generated, \
+     open(paths["conversions"]) as file_conversions, \
+     open(paths["contractions"]) as file_contractions:
+
+    # Import text files
+    FOODS: Set[str] = FileReader.import_txt(file_foods)
+    BRANDS: Set[str] = FileReader.import_txt(file_brands)
+    
+    # Import JSON files
+    GENERATED: Dict[str, Any] = FileReader.import_json(file_generated)
+    CONVERSIONS: Dict[str, Any] = FileReader.import_json(file_conversions)
+    CONTRACTIONS: Dict[str, Any] = FileReader.import_json(file_contractions)
+
+# Import CSV file (no need for a context manager since pandas handles it internally)
+NUTRIENTS: DataFrame = FileReader.import_csv(paths["nutrients"])
